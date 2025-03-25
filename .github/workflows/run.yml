@@ -1,5 +1,35 @@
 name: get sub file
 
+on: [push]
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Make changes
+        run: |
+          # Your commands to make changes
+          echo "Making changes"
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto commit changes"
+          branch: main
+          commit_user_name: github-actions
+          commit_user_email: github-actions@github.com
+
+      - name: Push changes
+        run: |
+          git push origin main
+
 on:
   push:
     branches:
