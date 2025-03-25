@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: "latest"
 
-      - name: Clone BPB workjs
+      - name: Clone Sub File
         run: |
           wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?sub 
           wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?clash
