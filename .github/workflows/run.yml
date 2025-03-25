@@ -26,12 +26,13 @@ jobs:
 
       - name: Clone BPB workjs
         run: |
-          wget -O PUBSUB.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?sub      
+          wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?sub 
+          wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?clash
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
-          commit_message: ':arrow_up: update latest bpb panel'
+          commit_message: ':arrow_up: 更新订阅文件'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
