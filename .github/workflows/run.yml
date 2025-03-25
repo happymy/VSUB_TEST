@@ -25,22 +25,8 @@ jobs:
       - name: Pull latest changes
         run: git pull origin main
 
-      - name: Make changes
-        run: |
-          # Your commands to make changes
-          echo "Making changes"
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto commit changes"
-          branch: main
-          commit_user_name: github-actions
-          commit_user_email: github-actions@github.com
 
-      - name: Push changes
-        run: |
-          git push origin main
 
 
           ###
@@ -57,7 +43,10 @@ jobs:
           wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?sub 
           wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?clash
           wget -O BPBv3.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
-          wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal
+          wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal             
+
+
+    
           
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -66,3 +55,8 @@ jobs:
           commit_message: ':arrow_up: 更新订阅文件'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
+
+
+      - name: Push changes
+        run: |
+          git push origin main      
