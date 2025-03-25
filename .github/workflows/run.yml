@@ -1,9 +1,21 @@
 name: get sub file
 
-on: [push]
+
+
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+        # Runs everyday at 2:00 AM
+        - cron: "0 2 * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  update-files:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,22 +42,8 @@ jobs:
         run: |
           git push origin main
 
-on:
-  push:
-    branches:
-      - main
-  schedule:
-        # Runs everyday at 2:00 AM
-        - cron: "0 2 * * *"
 
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
+          ###
       - name: Check out the code
         uses: actions/checkout@v4
 
