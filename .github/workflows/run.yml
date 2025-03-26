@@ -42,6 +42,10 @@ jobs:
           wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?clash
           wget -O BPBv3.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
           wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal 
+          wget -O Edge.txt https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/ty
+          wget -O EdgeFastClash.txt https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/cl
+          wget -O EdgeFast.txt https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/ty
+          wget -O EdgeFastClash.txt https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/cl
 
 # echo "当前时间：$(date +'%F %T')" >> PubSub.txt
 # echo "当前时间：$(date +'%F %T')" >> PubSubClash.txt
