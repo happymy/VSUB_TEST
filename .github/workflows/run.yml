@@ -43,10 +43,10 @@ jobs:
           wget -O BPBv3.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
           wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal 
 
-          echo "当前时间：$(date +'%F %T')" >> PubSub.txt
-          echo "当前时间：$(date +'%F %T')" >> PubSubClash.txt
-          echo "当前时间：$(date +'%F %T')" >> BPBv3.txt
-          echo "当前时间：$(date +'%F %T')" >> BPBv3Clash.txt
+# echo "当前时间：$(date +'%F %T')" >> PubSub.txt
+# echo "当前时间：$(date +'%F %T')" >> PubSubClash.txt
+# echo "当前时间：$(date +'%F %T')" >> BPBv3.txt
+# echo "当前时间：$(date +'%F %T')" >> BPBv3Clash.txt
 
           
 
