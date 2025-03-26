@@ -24,12 +24,12 @@ jobs:
 
       - name: Pull latest changes
         run: git pull origin main
+        
+      - name: Push changes
+        run: |
+          git push origin main
 
-
-
-
-
-          ###
+###
       - name: Check out the code
         uses: actions/checkout@v4
 
@@ -46,9 +46,7 @@ jobs:
           wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal 
 
           
-      - name: Push changes
-        run: |
-          git push origin main
+
 
 
     
