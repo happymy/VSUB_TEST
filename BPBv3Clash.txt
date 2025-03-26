@@ -93,14 +93,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/0llg2dnsVrJ5E6kE",
+                "path": "/YqsWitOP74RChCKj/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "bv3-teSt.pAgES.DEv",
+            "servername": "bV3-TeSt.pAgeS.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -119,14 +119,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Ekz4V26sHI1XR67q",
+                "path": "/pRIOBCUaYKorjhr0/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "BV3-TESt.pagEs.DeV",
+            "servername": "bV3-TesT.pAGes.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -145,14 +145,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/pNvtalv8VjJIjWt8",
+                "path": "/hL3G6r3qLrnE9fpq/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "bv3-TESt.PaGeS.DeV",
+            "servername": "bV3-TEsT.pAgES.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -171,14 +171,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/631SVg3eTGyt4gjQ",
+                "path": "/UBLkfnQx2gc4VEGq/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "Bv3-TEsT.PAGES.Dev",
+            "servername": "BV3-TESt.PAgES.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -189,7 +189,7 @@
         {
             "name": "💦 5 - VLESS - IPv6 - 443",
             "type": "vless",
-            "server": "2606:4700:310c::ac42:2d2e",
+            "server": "2606:4700:310c::ac42:2ed2",
             "port": 443,
             "uuid": "0aa47865-9097-4814-8a4b-1961310c296e",
             "packet-encoding": "",
@@ -197,14 +197,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/d7oCW1VLPgOxNRTZ",
+                "path": "/UNfSjjXTJdAAUCNB/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "Bv3-test.paGEs.Dev",
+            "servername": "BV3-teSt.pAGES.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -215,7 +215,7 @@
         {
             "name": "💦 6 - VLESS - IPv6 - 443",
             "type": "vless",
-            "server": "2606:4700:310c::ac42:2ed2",
+            "server": "2606:4700:310c::ac42:2d2e",
             "port": 443,
             "uuid": "0aa47865-9097-4814-8a4b-1961310c296e",
             "packet-encoding": "",
@@ -223,14 +223,40 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/5hxYeC2MUhrWLisg",
+                "path": "/7IMOKVCcf1bfOklk/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "bV3-Test.PAGEs.dEV",
+            "servername": "Bv3-TEST.PaGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 7 - VLESS - Clean IP - 443",
+            "type": "vless",
+            "server": "108.162.193.64",
+            "port": 443,
+            "uuid": "0aa47865-9097-4814-8a4b-1961310c296e",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/S6lbXaHrLnBSTYhT/MTg0LjE2OS4xODEuMjE3",
+                "headers": {
+                    "host": "bv3-test.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "bv3-TesT.paGES.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -247,14 +273,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trV8d4DouSBPlLp8He",
+                "path": "/trZrJ5uoXeIlaOhnAS/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "BV3-Test.pAges.deV",
+            "sni": "BV3-TeST.pAGEs.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -271,14 +297,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr5Uu2P8CYIlpwh13p",
+                "path": "/trVzX2hJDRhVdl4cmw/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "bv3-Test.pAgES.dev",
+            "sni": "bV3-tEST.PaGEs.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -295,14 +321,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr44sMK2vMVDRBCk2a",
+                "path": "/tr6Xbxg6boNudIKYeC/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "BV3-tEST.pAGes.Dev",
+            "sni": "bv3-teST.pAgeS.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -319,14 +345,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr2alHEG5kkbnVRxKf",
+                "path": "/trgzowYAuZVoJmV5TT/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "bv3-test.pAges.dEv",
+            "sni": "bv3-teST.PaGeS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -337,20 +363,20 @@
         {
             "name": "💦 5 - Trojan - IPv6 - 443",
             "type": "trojan",
-            "server": "2606:4700:310c::ac42:2d2e",
+            "server": "2606:4700:310c::ac42:2ed2",
             "port": 443,
             "password": "qYOB3KN89T.v)T9T",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trEapmaWFtAuWJrUcH",
+                "path": "/trwtNaQH2OyW1Sqgs8/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "Bv3-test.pages.DEv",
+            "sni": "Bv3-TesT.pagEs.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -361,20 +387,44 @@
         {
             "name": "💦 6 - Trojan - IPv6 - 443",
             "type": "trojan",
-            "server": "2606:4700:310c::ac42:2ed2",
+            "server": "2606:4700:310c::ac42:2d2e",
             "port": 443,
             "password": "qYOB3KN89T.v)T9T",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trnlo1XSu9MnXst6Sc",
+                "path": "/trEfgPwMqbiqUWf2Fp/MTg0LjE2OS4xODEuMjE3",
                 "headers": {
                     "host": "bv3-test.pages.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "Bv3-TESt.pages.DEV",
+            "sni": "Bv3-TesT.PagES.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 7 - Trojan - Clean IP - 443",
+            "type": "trojan",
+            "server": "108.162.193.64",
+            "port": 443,
+            "password": "qYOB3KN89T.v)T9T",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trEZeNExHjkXgQ0yYH/MTg0LjE2OS4xODEuMjE3",
+                "headers": {
+                    "host": "bv3-test.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "BV3-TEst.PaGES.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -395,12 +445,14 @@
                 "💦 4 - VLESS - IPv4 - 443",
                 "💦 5 - VLESS - IPv6 - 443",
                 "💦 6 - VLESS - IPv6 - 443",
+                "💦 7 - VLESS - Clean IP - 443",
                 "💦 1 - Trojan - Domain - 443",
                 "💦 2 - Trojan - Domain - 443",
                 "💦 3 - Trojan - IPv4 - 443",
                 "💦 4 - Trojan - IPv4 - 443",
                 "💦 5 - Trojan - IPv6 - 443",
-                "💦 6 - Trojan - IPv6 - 443"
+                "💦 6 - Trojan - IPv6 - 443",
+                "💦 7 - Trojan - Clean IP - 443"
             ]
         },
         {
@@ -416,12 +468,14 @@
                 "💦 4 - VLESS - IPv4 - 443",
                 "💦 5 - VLESS - IPv6 - 443",
                 "💦 6 - VLESS - IPv6 - 443",
+                "💦 7 - VLESS - Clean IP - 443",
                 "💦 1 - Trojan - Domain - 443",
                 "💦 2 - Trojan - Domain - 443",
                 "💦 3 - Trojan - IPv4 - 443",
                 "💦 4 - Trojan - IPv4 - 443",
                 "💦 5 - Trojan - IPv6 - 443",
-                "💦 6 - Trojan - IPv6 - 443"
+                "💦 6 - Trojan - IPv6 - 443",
+                "💦 7 - Trojan - Clean IP - 443"
             ]
         }
     ],
