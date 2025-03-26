@@ -43,7 +43,12 @@ jobs:
           wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?sub 
           wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/siyanshineigui?clash
           wget -O BPBv3.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
-          wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal             
+          wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal 
+
+          
+      - name: Push changes
+        run: |
+          git push origin main
 
 
     
@@ -57,6 +62,4 @@ jobs:
           push_options: '--set-upstream'
 
 
-      - name: Push changes
-        run: |
-          git push origin main      
+      
