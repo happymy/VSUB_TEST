@@ -38,7 +38,7 @@ jobs:
 
       - name: Clone Sub File
         run: |
-          wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&b64
+          wget -O PubSub.txt "https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&b64"
           wget -O PubSubClash.txt "https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&clash"
           wget -O BPBv3.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
           wget -O BPBv3Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal 
