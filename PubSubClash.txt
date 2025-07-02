@@ -14,128 +14,119 @@ proxies:
   - {name: 🇩🇪 SS-斯洛文尼亚-NF解锁德国地区非自制剧-ChatGPT-TikTok-YouTube-45.144.54.33:34803, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ}
   - {name: 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}}
   - {name: 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: EeR4567.999824.xYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9dZlJLjHHrL0VwSolbqFpg, headers: {Host: EeR4567.999824.xYz}}}
-  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: d1.cloudtaste.xyz, port: 52743, type: ss, cipher: aes-128-gcm, password: 195dcfef-1469-4731-b53d-e5c03ce9aa77}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 9f758225-8ffa-4ad4-9b0d-5bf8c7fb92e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.21.96.1, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?TM-@AZARBAYJAB1,TM-@AZARBAYJAB1,TM-@AZARBAYJAB1,TM-@AZARBAYJAB1", headers: {Host: cs.flha.ru}}}
-  - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 吉林省 移动(全省通用) 2, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: xcvBnMjKi.999824.xyZ, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: xcvBnMjKi.999824.xyZ}}}
-  - {name: 如有需要，自行搭建, server: 0.0.0.0, port: 2, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 电报群：https://t.me/vvkj11, server: www.ddwhm.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇸🇬 每天更新，请加电报群防止失联, server: 172.67.243.218, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 日期：07-01, server: 104.17.71.31, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 免费VPN：https://tt.vg/gwaAy, server: 104.17.128.1, port: 2096, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国, server: otto.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 2, server: 104.17.68.85, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 3, server: sullivan.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 4, server: 162.159.129.67, port: 8443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 5, server: bowen.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 6, server: whatismyipaddress.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 7, server: 172.67.110.232, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 8, server: icook.tw, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 9, server: 162.159.36.104, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 10, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 11, server: shopify.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: ️_未知, server: 103.160.204.59, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 12, server: ip.sb, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: jk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 13, server: nikon.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: vk.ylka.dpdns.org, skip-cert-verify: true}
-  - {name: 🇩🇪 _德国, server: 18.193.51.241, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
-  - {name: _中国, server: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, port: 15229, type: trojan, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, sni: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, skip-cert-verify: true}
-  - {name: 🇳🇱 _荷兰, server: 158.101.201.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国, server: 49.1.224.28, port: 10201, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯, server: 5.35.68.249, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 2, server: 27.50.49.231, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚, server: 188.164.159.98, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 3, server: 27.50.48.21, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: ️_未知 2, server: 209.94.90.87, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 14, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 2, server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 15, server: 135.84.76.152, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 16, server: 167.68.4.58, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 _日本, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 _日本 2, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 4, server: 154.197.64.206, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 17, server: 167.68.4.10, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 _日本 3, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇦 _乌克兰, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 _日本 4, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 3, server: 46.254.92.142, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 18, server: 108.165.152.82, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 19, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇫🇷 _法国, server: 141.11.203.191, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚 2, server: 188.164.159.234, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 20, server: 199.34.228.178, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇬🇧 _英国, server: 176.53.144.206, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 4, server: 92.243.74.115, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 21, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 22, server: 167.68.4.223, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 5, server: 154.197.64.104, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 _荷兰 2, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 23, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 6, server: 154.219.5.44, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇫🇷 _法国 2, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 7, server: 27.50.48.115, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 5, server: 92.243.74.23, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 6, server: 46.254.93.243, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇦 _乌克兰 2, server: 31.43.179.60, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 24, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚 3, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚 4, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 7, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇦 _乌克兰 3, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚 5, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 _俄罗斯 8, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 25, server: 192.9.137.193, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 _荷兰 3, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _亚美尼亚 6, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 26, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 27, server: 154.21.83.154, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 28, server: 67.226.221.12, port: 80, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 29, server: 154.26.181.30, port: 45956, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 30, server: 67.226.221.208, port: 80, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 2, server: 125.136.221.63, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 3, server: 121.167.230.98, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 4, server: 220.80.8.223, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 5, server: 210.178.96.12, port: 50003, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 6, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 7, server: 112.162.203.5, port: 50000, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: _中国 8, server: 8.219.53.202, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 _韩国 8, server: 121.149.228.125, port: 12315, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 31, server: ignacio.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 32, server: kip.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 33, server: thaddeus.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 34, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 35, server: damien.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 36, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 37, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 38, server: theo.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 39, server: sage.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 40, server: arvind.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国 41, server: 104.19.173.68, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkz7hea3xiaco2j/ca1, headers: {Host: bpca1.catimecsgo.xyz}}}
-  - {name: _中国 9, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: _中国 10, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v7.heduian.link}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: eERRRty6.999824.xyz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: eerrrty6.999824.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.17.176.171, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: ke7hz36ewz-4515017473.mashallahbet.com}}}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.200, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560%26PROT_TYPE%3Dtrojan", headers: {Host: vle.amclubdns.dpdns.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: SDFGhyJu.999824.XYz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: SDFGhyJu.999824.XYz}}}
+  - {name: 🇨🇳 吉林省 移动(全省通用), server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}}
+  - {name: 🇨🇳 广东省广州市 电信, server: fg.fxlcn.com, port: 45407, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省汕头市 移动, server: f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, sni: f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省汕头市 移动 2, server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 3549abda-3854-11ef-b71e-f23c9164ca5d, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省 联通, server: a34b6d89-sytz40-ta64ri-1qzi1.cu2.plebai.net, port: 15229, type: trojan, password: 8f99107c-f091-11ee-9935-f23c9164ca5d, sni: a34b6d89-sytz40-ta64ri-1qzi1.cu2.plebai.net, skip-cert-verify: true}
+  - {name: 3-SK |  5.0MB/s|0%|Youtube|Op..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 45 |  2.5MB/s|46%|Openai|Gem..., server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: true}
+  - {name: 4-TH |  2.6MB/s|55%|Netflix|O..., server: 38.47.96.30, port: 443, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
+  - {name: 2 |  1.5MB/s|44%|Openai, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 5 |  1.4MB/s|0%|Youtube|Open..., server: de.vmess.comnpmjs.com, port: 443, type: vmess, uuid: ceaaf653-9874-58c6-b100-092c01a1f73d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: de.vmess.comnpmjs.com, grpc-opts: {grpc-service-name: vmess-grpc}}
+  - {name: 1 |  1.8MB/s|15%|Disney|Yout..., server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 63 |  2.1MB/s|46%|Openai|Gem..., server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, port: 15229, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net, skip-cert-verify: true}
+  - {name: 64 |  1.3MB/s|46%|Openai|Gem..., server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true}
+  - {name: tg频道:@ripaojiedian, server: 18.143.181.137, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 121.127.231.213, port: 636, type: ss, cipher: aes-256-gcm, password: f917888c6f39, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hkxwv1-5.dsjsapi.com, path: /rxoasyex, tls: true, mux: true, skip-cert-verify: true}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.139, port: 636, type: ss, cipher: aes-256-gcm, password: 0b191076d18f}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.201, port: 59149, type: vmess, uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.236.51.37, port: 41911, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 156.226.173.104, port: 443, type: ss, cipher: aes-128-gcm, password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-EWzC7QCi0k.download.microsoft.com}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.192.60, port: 2001, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.192.60, port: 53248, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 111.246.1.198, port: 636, type: ss, cipher: aes-256-gcm, password: a9febce8f14c, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: tw42v1.dsjsapp.com, path: /jnqsuxfmnog, tls: true, mux: true, skip-cert-verify: true}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.61, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 36.151.192.58, port: 51083, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.192.60, port: 2176, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.192.61, port: 4445, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.38, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103}
+  - {name: 🇯🇵 日本5|@ripaojiedian, server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国|@ripaojiedian, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 222.112.15.140, port: 56780, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国3|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.192.60, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.192.60, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-EWzC7QCi0k.download.microsoft.com}}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 36.151.192.61, port: 4448, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.192.60, port: 5975, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.192.60, port: 15821, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: admin.kasrax.ir}}}
+  - {name: 🇰🇷 韩国4|@ripaojiedian, server: 3.36.117.121, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.192.60, port: 7571, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.192.60, port: 40621, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.192.61, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.251.56, port: 5975, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇻🇳 越南|@ripaojiedian, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 敏感时期，更新暂停, server: 0.0.0.0, port: 1, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: "tg频道:@ripaojiedian #1", server: 18.143.181.137, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw}
+  - {name: 🇯🇵 日本5|@ripaojiedian 2, server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian 2, server: 103.163.218.2, port: 989, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw}
+  - {name: US_speednode_0215, server: 172.66.46.221, port: 443, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: juzi8186-sr1.pages.dev}}}
+  - {name: US_speednode_0217, server: 172.66.45.35, port: 443, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: juzi8186-sr1.pages.dev}}}
+  - {name: 🇭🇰 香港2|@ripaojiedian 2, server: 156.251.179.139, port: 636, type: ss, cipher: aes-256-gcm, password: 0b191076d18f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /ugiibpkbca, tls: true, mux: true, skip-cert-verify: true}}
+  - {name: 🇯🇵 日本2|@ripaojiedian 2, server: 137.220.191.38, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
+  - {name: 🇯🇵 日本|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507020089439-ZZW4Z8jpet.download.microsoft.com}}
+  - {name: 🇺🇸 美国2|@ripaojiedian 2, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507020089439-ZZW4Z8jpet.download.microsoft.com}}
+  - {name: 电报群：https://t.me/vvkj11, server: 220.80.8.223, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇸🇬 每天更新，请加电报群防止失联, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 日期：07-02, server: 210.178.96.12, port: 50003, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 免费VPN：https://tt.vg/gwaAy, server: 67.226.221.12, port: 80, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇰🇷 _韩国, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 2, server: ignacio.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 3, server: 192.9.137.193, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 4, server: 167.68.4.223, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇰🇷 _韩国 2, server: 112.162.203.5, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 5, server: damien.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇫🇷 _法国, server: 141.11.203.191, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇦 _乌克兰, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _亚美尼亚, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 6, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇳🇱 _荷兰, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国, server: 154.197.64.206, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 7, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国 2, server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 3549abda-3854-11ef-b71e-f23c9164ca5d, skip-cert-verify: true}
+  - {name: _中国 3, server: 0bdf3a95-sytz40-t09t13-z7a1.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true}
+  - {name: _中国 4, server: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 8, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, sni: ZZzzzZZ.890601.XYZ, skip-cert-verify: true}
+  - {name: _中国 5, server: 864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true}
+  - {name: 🇺🇸 _亚美尼亚 2, server: 188.164.159.98, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯 2, server: 46.254.92.142, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇯🇵 _日本, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 9, server: 167.68.4.10, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 10, server: 154.26.181.30, port: 45956, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 11, server: sage.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 12, server: 199.34.228.178, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 13, server: arvind.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _亚美尼亚 3, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 14, server: thaddeus.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 15, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国 6, server: 27.50.49.231, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇦 _乌克兰 2, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 16, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇳🇱 _荷兰 2, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇯🇵 _日本 2, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯 3, server: 92.243.74.115, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 17, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _亚美尼亚 4, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇯🇵 _日本 3, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国 7, server: 154.219.5.44, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: ️_未知, server: 209.94.90.87, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯 4, server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _亚美尼亚 5, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇦 _乌克兰 3, server: 31.43.179.60, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯 5, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇷🇺 _俄罗斯 6, server: 5.35.68.249, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇬🇧 _英国, server: 176.53.144.206, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇫🇷 _法国 2, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 18, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇯🇵 _日本 4, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇺🇸 _美国 19, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国 8, server: 154.197.64.104, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇰🇷 _韩国 3, server: 121.149.228.125, port: 12315, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: 🇰🇷 _韩国 4, server: 49.1.224.28, port: 10201, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true}
+  - {name: _中国 9, server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}}
+  - {name: 🇭🇰 香港3|@ripaojiedian 2, server: 43.247.134.201, port: 59149, type: vmess, uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国3|@ripaojiedian, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 1 |  1.8MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -158,127 +149,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -295,127 +277,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 📹 油管视频
     type: select
     proxies:
@@ -438,6 +411,8 @@ proxy-groups:
       - 🇩🇪 SS-斯洛文尼亚-NF解锁德国地区非自制剧-ChatGPT-TikTok-YouTube-45.144.54.33:34803
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -454,127 +429,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 📲 电报信息
     type: select
     proxies:
@@ -590,127 +556,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -734,127 +691,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -870,127 +818,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1007,127 +946,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1160,127 +1090,118 @@ proxy-groups:
       - 🇬🇧 VMESS-未知>英国-NF解锁波兰地区非自制剧-ChatGPT-TikTok-b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443
       - 🇳🇱 SS-荷兰-NF解锁荷兰地区非自制剧-ChatGPT-TikTok-YouTube-213.109.147.242:62685
       - 🇺🇸 美国 CloudFlare节点
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇳 吉林省 移动(全省通用)
-      - 🇨🇳 吉林省 移动(全省通用) 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 如有需要，自行搭建
-      - 电报群：https://t.me/vvkj11
-      - 🇸🇬 每天更新，请加电报群防止失联
-      - 日期：07-01
-      - 免费VPN：https://tt.vg/gwaAy
-      - 🇺🇸 _美国
-      - 🇺🇸 _美国 2
-      - 🇺🇸 _美国 3
-      - 🇺🇸 _美国 4
-      - 🇺🇸 _美国 5
-      - 🇺🇸 _美国 6
-      - 🇺🇸 _美国 7
-      - 🇺🇸 _美国 8
-      - 🇺🇸 _美国 9
-      - 🇺🇸 _美国 10
-      - 🇺🇸 _美国 11
-      - ️_未知
-      - 🇺🇸 _美国 12
-      - 🇺🇸 _美国 13
-      - 🇩🇪 _德国
-      - _中国
-      - 🇳🇱 _荷兰
-      - 🇰🇷 _韩国
-      - 🇷🇺 _俄罗斯
-      - _中国 2
-      - 🇺🇸 _亚美尼亚
-      - _中国 3
-      - ️_未知 2
-      - 🇺🇸 _美国 14
-      - 🇷🇺 _俄罗斯 2
-      - 🇺🇸 _美国 15
-      - 🇺🇸 _美国 16
-      - 🇯🇵 _日本
-      - 🇯🇵 _日本 2
-      - _中国 4
-      - 🇺🇸 _美国 17
-      - 🇯🇵 _日本 3
-      - 🇺🇦 _乌克兰
-      - 🇯🇵 _日本 4
-      - 🇷🇺 _俄罗斯 3
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇫🇷 _法国
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇬🇧 _英国
-      - 🇷🇺 _俄罗斯 4
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - _中国 5
-      - 🇳🇱 _荷兰 2
-      - 🇺🇸 _美国 23
-      - _中国 6
-      - 🇫🇷 _法国 2
-      - _中国 7
-      - 🇷🇺 _俄罗斯 5
-      - 🇷🇺 _俄罗斯 6
-      - 🇺🇦 _乌克兰 2
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
-      - 🇺🇸 _亚美尼亚 4
-      - 🇷🇺 _俄罗斯 7
-      - 🇺🇦 _乌克兰 3
-      - 🇺🇸 _亚美尼亚 5
-      - 🇷🇺 _俄罗斯 8
-      - 🇺🇸 _美国 25
-      - 🇳🇱 _荷兰 3
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇰🇷 _韩国 2
-      - 🇰🇷 _韩国 3
-      - 🇰🇷 _韩国 4
-      - 🇰🇷 _韩国 5
-      - 🇰🇷 _韩国 6
-      - 🇰🇷 _韩国 7
-      - _中国 8
-      - 🇰🇷 _韩国 8
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - _中国 9
-      - _中国 10
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省汕头市 移动
+      - 🇨🇳 广东省汕头市 移动 2
+      - 🇨🇳 广东省 联通
+      - 3-SK |  5.0MB/s|0%|Youtube|Op...
+      - 1 |  1.0MB/s|0%|Netflix|Disn...
+      - 45 |  2.5MB/s|46%|Openai|Gem...
+      - 4-TH |  2.6MB/s|55%|Netflix|O...
+      - 2 |  1.5MB/s|44%|Openai
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 5 |  1.4MB/s|0%|Youtube|Open...
+      - 1 |  1.8MB/s|15%|Disney|Yout...
+      - 63 |  2.1MB/s|46%|Openai|Gem...
+      - 64 |  1.3MB/s|46%|Openai|Gem...
+      - tg频道:@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇰🇷 韩国4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇸🇬 敏感时期，更新暂停
+      - "tg频道:@ripaojiedian #1"
+      - 🇯🇵 日本5|@ripaojiedian 2
+      - 🇻🇳 越南|@ripaojiedian 2
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇯🇵 日本2|@ripaojiedian 2
+      - 🇯🇵 日本|@ripaojiedian 2
+      - 🇺🇸 美国2|@ripaojiedian 2
+      - 电报群：https://t.me/vvkj11
+      - 🇸🇬 每天更新，请加电报群防止失联
+      - 日期：07-02
+      - 免费VPN：https://tt.vg/gwaAy
+      - 🇰🇷 _韩国
+      - 🇺🇸 _美国
+      - 🇺🇸 _美国 2
+      - 🇺🇸 _美国 3
+      - 🇺🇸 _美国 4
+      - 🇰🇷 _韩国 2
+      - 🇺🇸 _美国 5
+      - 🇫🇷 _法国
+      - 🇺🇦 _乌克兰
+      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _美国 6
+      - 🇳🇱 _荷兰
+      - _中国
+      - 🇷🇺 _俄罗斯
+      - 🇺🇸 _美国 7
+      - _中国 2
+      - _中国 3
+      - _中国 4
+      - 🇺🇸 _美国 8
+      - _中国 5
+      - 🇺🇸 _亚美尼亚 2
+      - 🇷🇺 _俄罗斯 2
+      - 🇯🇵 _日本
+      - 🇺🇸 _美国 9
+      - 🇺🇸 _美国 10
+      - 🇺🇸 _美国 11
+      - 🇺🇸 _美国 12
+      - 🇺🇸 _美国 13
+      - 🇺🇸 _亚美尼亚 3
+      - 🇺🇸 _美国 14
+      - 🇺🇸 _美国 15
+      - _中国 6
+      - 🇺🇦 _乌克兰 2
+      - 🇺🇸 _美国 16
+      - 🇳🇱 _荷兰 2
+      - 🇯🇵 _日本 2
+      - 🇷🇺 _俄罗斯 3
+      - 🇺🇸 _美国 17
+      - 🇺🇸 _亚美尼亚 4
+      - 🇯🇵 _日本 3
+      - _中国 7
+      - ️_未知
+      - 🇷🇺 _俄罗斯 4
+      - 🇺🇸 _亚美尼亚 5
+      - 🇺🇦 _乌克兰 3
+      - 🇷🇺 _俄罗斯 5
+      - 🇷🇺 _俄罗斯 6
+      - 🇬🇧 _英国
+      - 🇫🇷 _法国 2
+      - 🇺🇸 _美国 18
+      - 🇯🇵 _日本 4
+      - 🇺🇸 _美国 19
+      - _中国 8
+      - 🇰🇷 _韩国 3
+      - 🇰🇷 _韩国 4
+      - _中国 9
+      - 🇭🇰 香港3|@ripaojiedian 2
+      - 🇰🇷 韩国3|@ripaojiedian
+      - 1 |  1.8MB/s|54%|Youtube|Ope...
   - name: 🇭🇰 香港节点
     type: load-balance
     strategy: consistent-hashing
@@ -1293,6 +1214,9 @@ proxy-groups:
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian 2
+      - 🇭🇰 香港3|@ripaojiedian 2
   - name: 🇺🇲 美国节点
     type: load-balance
     strategy: consistent-hashing
@@ -1304,60 +1228,39 @@ proxy-groups:
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-172.233.128.126:1866
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
+      - US_speednode_0215
+      - US_speednode_0217
+      - 🇺🇸 美国2|@ripaojiedian 2
       - 🇺🇸 _美国
       - 🇺🇸 _美国 2
       - 🇺🇸 _美国 3
       - 🇺🇸 _美国 4
       - 🇺🇸 _美国 5
+      - 🇺🇸 _亚美尼亚
       - 🇺🇸 _美国 6
       - 🇺🇸 _美国 7
       - 🇺🇸 _美国 8
+      - 🇺🇸 _亚美尼亚 2
       - 🇺🇸 _美国 9
       - 🇺🇸 _美国 10
       - 🇺🇸 _美国 11
       - 🇺🇸 _美国 12
       - 🇺🇸 _美国 13
-      - 🇺🇸 _亚美尼亚
+      - 🇺🇸 _亚美尼亚 3
       - 🇺🇸 _美国 14
       - 🇺🇸 _美国 15
       - 🇺🇸 _美国 16
       - 🇺🇸 _美国 17
-      - 🇺🇸 _美国 18
-      - 🇺🇸 _美国 19
-      - 🇺🇸 _亚美尼亚 2
-      - 🇺🇸 _美国 20
-      - 🇺🇸 _美国 21
-      - 🇺🇸 _美国 22
-      - 🇺🇸 _美国 23
-      - 🇺🇸 _美国 24
-      - 🇺🇸 _亚美尼亚 3
       - 🇺🇸 _亚美尼亚 4
       - 🇺🇸 _亚美尼亚 5
-      - 🇺🇸 _美国 25
-      - 🇺🇸 _亚美尼亚 6
-      - 🇺🇸 _美国 26
-      - 🇺🇸 _美国 27
-      - 🇺🇸 _美国 28
-      - 🇺🇸 _美国 29
-      - 🇺🇸 _美国 30
-      - 🇺🇸 _美国 31
-      - 🇺🇸 _美国 32
-      - 🇺🇸 _美国 33
-      - 🇺🇸 _美国 34
-      - 🇺🇸 _美国 35
-      - 🇺🇸 _美国 36
-      - 🇺🇸 _美国 37
-      - 🇺🇸 _美国 38
-      - 🇺🇸 _美国 39
-      - 🇺🇸 _美国 40
-      - 🇺🇸 _美国 41
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 _美国 18
+      - 🇺🇸 _美国 19
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
