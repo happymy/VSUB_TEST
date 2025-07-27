@@ -34,68 +34,130 @@ proxies:
   - {name: 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
   - {name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇨🇳 江苏省 移动, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: 🇨🇳 广东省广州市 电信, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
-  - {name: 🇨🇳 江苏省 移动 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 福建省厦门市 电信, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: d1ef6a4e-sv2sg0-svr00o-1oxz4.hk3.p5pv.com, port: 80, type: vmess, uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: acbd7ff2-sv6hs0-szj6wo-8f7h.hk.p5pv.com, port: 80, type: vmess, uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 3819b9cb-sv2sg0-tbvl5i-1mebs.hk3.p5pv.com, port: 80, type: vmess, uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: e1d5ad80-svc1s0-sxv7gp-8rja.hk3.p5pv.com, port: 80, type: vmess, uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: 9984b70d-sv4n40-sx16xo-1j3zm.hk3.p5pv.com, port: 80, type: vmess, uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 6, server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 7, server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com, port: 80, type: vmess, uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 8, server: 2071ea61-sv0xs0-sylfil-1gcq2.hk3.p5pv.com, port: 80, type: vmess, uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 9, server: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 10, server: bed31eab-sv0xs0-t2hqlr-1s3mx.hk.p5pv.com, port: 80, type: vmess, uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 11, server: a600f817-szt5s0-t167d0-ggww.hkt.tcpbbr.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 12, server: 248f33f5-szi1s0-tiaexf-ufc0.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 13, server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com, port: 80, type: vmess, uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 江苏省 移动, server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 14, server: 9baf7b79-sv0xs0-td5fm5-4dl0.hk3.p5pv.com, port: 80, type: vmess, uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 15, server: ccc83925-sv2sg0-t917sa-12ach.hk.p5pv.com, port: 80, type: vmess, uuid: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 16, server: be944a17-sv4n40-t4qa9y-g43g.hk3.p5pv.com, port: 80, type: vmess, uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 17, server: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 18, server: 12988683-sv2sg0-t2whio-1jcwu.hk3.p5pv.com, port: 80, type: vmess, uuid: f93486ce-cc84-11ed-9e98-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 19, server: 6bdf8f31-sv2sg0-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 20, server: c2e49eac-sv6hs0-sz578n-1pw2y.hk3.p5pv.com, port: 80, type: vmess, uuid: 8815622e-7598-11ef-a01c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 21, server: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com, port: 80, type: vmess, uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 22, server: 825ae1e5-sv2sg0-t30eih-jm0w.hk.p5pv.com, port: 80, type: vmess, uuid: e3004917-ad9d-b8a2-a2ee-65a54830e020, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 23, server: 9818edd4-sv2sg0-td5fm5-4dl0.hk3.p5pv.com, port: 80, type: vmess, uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 24, server: 04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com, port: 80, type: vmess, uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 25, server: ac3105fa-sv2sg0-t30eih-jm0w.hk3.p5pv.com, port: 80, type: vmess, uuid: e3004917-ad9d-b8a2-a2ee-65a54830e020, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 26, server: 3ab9dc0e-sub0g0-tax87j-fxtw.hk.p5pv.com, port: 80, type: vmess, uuid: c5437726-aa85-3ab0-f5ed-a62156a904f9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 27, server: 1554dc02-sv2sg0-syu0n5-1hd7v.hk.p5pv.com, port: 80, type: vmess, uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 28, server: ab01eb81-sv2sg0-tcsjnd-1tff5.hk.p5pv.com, port: 80, type: vmess, uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 29, server: 61fc54d4-sv4n40-ta5i1s-1j61y.hk3.p5pv.com, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 108.162.192.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 30, server: 7f074f62-sv6hs0-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 31, server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com, port: 80, type: vmess, uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 32, server: 49aa3fd4-sv2sg0-tbcla6-194tt.hk.p5pv.com, port: 80, type: vmess, uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 33, server: 2179d543-sv2sg0-sypj6z-1rk9y.hk.p5pv.com, port: 80, type: vmess, uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 34, server: af4e4239-sv2sg0-svpmdc-nx3b.hk.p5pv.com, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 江苏省 移动 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 35, server: bb9bfc22-svc1s0-szegoe-12hj8.hk3.p5pv.com, port: 80, type: vmess, uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 36, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 37, server: e9ba756a-svdwg0-swd5ff-f1v1.hk.p5pv.com, port: 80, type: vmess, uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
   - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 38, server: f8579e49-sv4n40-t9hghw-1sdoq.hk3.p5pv.com, port: 80, type: vmess, uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 39, server: 60cd512f-sv2sg0-swbdgq-1iddy.hk.p5pv.com, port: 80, type: vmess, uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 40, server: 1c4a9afd-sv2sg0-t1k8ya-1erqr.hk.p5pv.com, port: 80, type: vmess, uuid: f3961816-505d-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 41, server: d7c3c2f4-sv0xs0-swskl4-1rh01.hk3.p5pv.com, port: 80, type: vmess, uuid: 4c0ba4a2-1510-11ef-ba65-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 42, server: b1601217-sv2sg0-tcdlur-1qwom.hk3.p5pv.com, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 43, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 44, server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇩🇰 丹麦 V2CROSS.COM, server: fastcup.net, port: 80, type: vmess, uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 45, server: 0469094f-sv6hs0-t5qfe2-1khwf.hk.p5pv.com, port: 80, type: vmess, uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 46, server: a4f2978e-sva740-t48iy7-gydh.hk3.p5pv.com, port: 80, type: vmess, uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 47, server: 8afb0240-sv0xs0-sxi4nd-1o6fm.hk3.p5pv.com, port: 80, type: vmess, uuid: e03df6fc-97e8-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 48, server: 659ce73e-sv2sg0-tcsjnd-1tff5.hk3.p5pv.com, port: 80, type: vmess, uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 102.177.189.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 49, server: 5dd4a396-sv4n40-svv72o-1e0ty.hk3.p5pv.com, port: 80, type: vmess, uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 50, server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com, port: 80, type: vmess, uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 51, server: ee67d72b-sv2sg0-t76x2i-wj6v.hk3.p5pv.com, port: 80, type: vmess, uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 52, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 53, server: 6e1d5f2b-sv0xs0-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 54, server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com, port: 80, type: vmess, uuid: 1b13e20c-e778-11ef-907f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 55, server: 8e42f8d1-sv0xs0-szxh9w-46gc.hk3.p5pv.com, port: 80, type: vmess, uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 56, server: d5542df0-sv0xs0-sw2c3o-1thts.hk.p5pv.com, port: 80, type: vmess, uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 57, server: b1d0b8c3-swkhs0-syfwbx-1k0yf.hk.p5pv.com, port: 80, type: vmess, uuid: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b1d0b8c3-swkhs0-syfwbx-1k0yf.hk.p5pv.com}}}
+  - {name: 🇨🇳 江苏省 移动 3, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 58, server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 59, server: 76d9dbf9-sva740-szegoe-12hj8.hk3.p5pv.com, port: 80, type: vmess, uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 60, server: d6855ca1-sv0xs0-tct1rd-1o0ch.hk.p5pv.com, port: 80, type: vmess, uuid: d49e545e-0daf-11ee-a91f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 61, server: 34916b18-sv0xs0-taj9mo-1tco3.hk3.p5pv.com, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 62, server: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com, port: 80, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 63, server: ae709d15-sv0xs0-svim0o-1slop.hk3.p5pv.com, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 38.147.188.87, port: 12425, type: vmess, uuid: 2f927b33-021b-4d45-9d4e-9a3592aef502, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-8Na8oPBuci.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507232129723-vNgaz226QA.download.microsoft.com}}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国|@ripaojiedian, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507232129723-vNgaz226QA.download.microsoft.com}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-8Na8oPBuci.download.microsoft.com}}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
-  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 🇺🇸 _US_美国, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国, server: csgo.com, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2, server: fastcup.net, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
-  - {name: 🇺🇸 _US_美国 2, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇬🇧 _GB_英国, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3, server: pubg.ac, port: 80, type: vmess, uuid: dac2d4dd-9a4d-4eb0-92a6-028532caed52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: 未知, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: 🇺🇸 _US_美国, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
+  - {name: 未知, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
+  - {name: 🇺🇸 _US_美国 2, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
   - {name: 🇯🇵 _JP_日本->🇺🇸_US_美国, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
   - {name: 未知 2, server: 103.169.142.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}}
-  - {name: 6元高速机场：cczzuu.top, server: 3.38.186.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
+  - {name: 🇺🇸 _US_美国 3, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 6元高速机场：cczzuu.top, server: 15.165.12.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港3|@stairnode, server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港3|@stairnode, server: 38.147.188.87, port: 12425, type: vmess, uuid: 2f927b33-021b-4d45-9d4e-9a3592aef502, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇭🇰 香港4|@stairnode, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@stairnode, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@stairnode, server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-8Na8oPBuci.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@stairnode, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507232129723-vNgaz226QA.download.microsoft.com}}
   - {name: 🇯🇵 日本3|@stairnode, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本4|@stairnode, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国|@stairnode, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇸🇬 新加坡|@stairnode, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@stairnode, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国|@stairnode, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507232129723-vNgaz226QA.download.microsoft.com}}
+  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-8Na8oPBuci.download.microsoft.com}}
   - {name: 🇺🇸 美国3|@stairnode, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@stairnode, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国5|@stairnode, server: iepl.huli168.com, port: 17273, type: ss, cipher: aes-256-gcm, password: Gjv3t0WDY17HUakw+2DpeA==}
-  - {name: 🇻🇳 越南|@stairnode, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南|@stairnode, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -137,21 +199,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -162,31 +290,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -197,7 +322,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: ♻️ 自动选择
     type: url-test
@@ -234,21 +358,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -259,31 +449,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -294,7 +481,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 📹 油管视频
     type: select
@@ -372,21 +558,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -397,31 +649,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -432,7 +681,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 📲 电报信息
     type: select
@@ -468,21 +716,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -493,31 +807,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -528,7 +839,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 🤖 OpenAi
     type: select
@@ -572,21 +882,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -597,31 +973,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -632,7 +1005,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 🍎 苹果服务
     type: select
@@ -668,21 +1040,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -693,31 +1131,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -728,7 +1163,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 📢 谷歌FCM
     type: select
@@ -765,21 +1199,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -790,31 +1290,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -825,7 +1322,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 🎯 全球直连
     type: select
@@ -878,21 +1374,87 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇺🇸 美国 V2CROSS.COM
-      - 亚太地区 V2CROSS.COM
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 广东省广州市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
       - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 福建省厦门市 电信
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
       - 🇮🇳 印度 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇨🇳 江苏省 移动 3
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
       - 🇰🇷 韩国|@ripaojiedian
@@ -903,31 +1465,28 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇬🇧 _GB_英国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 未知
-      - 🇮🇹 _IT_意大利->🇲🇩_MD_摩尔多瓦
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 未知
+      - 🇺🇸 _US_美国 2
       - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 未知 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 3
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇯🇵 日本2|@stairnode
+      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
+      - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
       - 🇰🇷 韩国|@stairnode
@@ -938,7 +1497,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
       - 🇻🇳 越南|@stairnode
   - name: 🇭🇰 香港节点
     type: load-balance
@@ -948,16 +1506,80 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇭🇰 香港 电讯盈科有限公司 5
+      - 🇭🇰 香港 电讯盈科有限公司 6
+      - 🇭🇰 香港 电讯盈科有限公司 7
+      - 🇭🇰 香港 电讯盈科有限公司 8
+      - 🇭🇰 香港 电讯盈科有限公司 9
+      - 🇭🇰 香港 电讯盈科有限公司 10
+      - 🇭🇰 香港 电讯盈科有限公司 11
+      - 🇭🇰 香港 电讯盈科有限公司 12
+      - 🇭🇰 香港 电讯盈科有限公司 13
+      - 🇭🇰 香港 电讯盈科有限公司 14
+      - 🇭🇰 香港 电讯盈科有限公司 15
+      - 🇭🇰 香港 电讯盈科有限公司 16
+      - 🇭🇰 香港 电讯盈科有限公司 17
+      - 🇭🇰 香港 电讯盈科有限公司 18
+      - 🇭🇰 香港 电讯盈科有限公司 19
+      - 🇭🇰 香港 电讯盈科有限公司 20
+      - 🇭🇰 香港 电讯盈科有限公司 21
+      - 🇭🇰 香港 电讯盈科有限公司 22
+      - 🇭🇰 香港 电讯盈科有限公司 23
+      - 🇭🇰 香港 电讯盈科有限公司 24
+      - 🇭🇰 香港 电讯盈科有限公司 25
+      - 🇭🇰 香港 电讯盈科有限公司 26
+      - 🇭🇰 香港 电讯盈科有限公司 27
+      - 🇭🇰 香港 电讯盈科有限公司 28
+      - 🇭🇰 香港 电讯盈科有限公司 29
+      - 🇭🇰 香港 电讯盈科有限公司 30
+      - 🇭🇰 香港 电讯盈科有限公司 31
+      - 🇭🇰 香港 电讯盈科有限公司 32
+      - 🇭🇰 香港 电讯盈科有限公司 33
+      - 🇭🇰 香港 电讯盈科有限公司 34
+      - 🇭🇰 香港 电讯盈科有限公司 35
+      - 🇭🇰 香港 电讯盈科有限公司 36
+      - 🇭🇰 香港 电讯盈科有限公司 37
+      - 🇭🇰 香港 电讯盈科有限公司 38
+      - 🇭🇰 香港 电讯盈科有限公司 39
+      - 🇭🇰 香港 电讯盈科有限公司 40
+      - 🇭🇰 香港 电讯盈科有限公司 41
+      - 🇭🇰 香港 电讯盈科有限公司 42
+      - 🇭🇰 香港 电讯盈科有限公司 43
+      - 🇭🇰 香港 电讯盈科有限公司 44
+      - 🇭🇰 香港 电讯盈科有限公司 45
+      - 🇭🇰 香港 电讯盈科有限公司 46
+      - 🇭🇰 香港 电讯盈科有限公司 47
+      - 🇭🇰 香港 电讯盈科有限公司 48
+      - 🇭🇰 香港 电讯盈科有限公司 49
+      - 🇭🇰 香港 电讯盈科有限公司 50
+      - 🇭🇰 香港 电讯盈科有限公司 51
+      - 🇭🇰 香港 电讯盈科有限公司 52
+      - 🇭🇰 香港 电讯盈科有限公司 53
+      - 🇭🇰 香港 电讯盈科有限公司 54
+      - 🇭🇰 香港 电讯盈科有限公司 55
+      - 🇭🇰 香港 电讯盈科有限公司 56
+      - 🇭🇰 香港 电讯盈科有限公司 57
+      - 🇭🇰 香港 电讯盈科有限公司 58
+      - 🇭🇰 香港 电讯盈科有限公司 59
+      - 🇭🇰 香港 电讯盈科有限公司 60
+      - 🇭🇰 香港 电讯盈科有限公司 61
+      - 🇭🇰 香港 电讯盈科有限公司 62
+      - 🇭🇰 香港 电讯盈科有限公司 63
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
   - name: 🇺🇲 美国节点
     type: load-balance
     strategy: consistent-hashing
@@ -973,27 +1595,25 @@ proxy-groups:
       - 🇺🇸 SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.151.182.253:8080
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-104.167.197.25:57456
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国 2
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 3
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 美国5|@stairnode
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
