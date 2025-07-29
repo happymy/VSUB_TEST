@@ -34,72 +34,58 @@ proxies:
   - {name: 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
   - {name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: c212722e-szecg0-t0uprz-1th8j.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 527cb2.827a4c39.shop, port: 80, type: vmess, uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg02s.827a4c39.shop}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2d3.89060004.xyz}}}
   - {name: 亚太地区 V2CROSS.COM, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 4b9d07b6-sz8sg0-t0o6k2-6gn6.hkt.tcpbbr.net, port: 80, type: vmess, uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 248f33f5-szi1s0-tiaexf-ufc0.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak2d4.89060004.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.17.121.140, port: 8443, type: vmess, uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mg-innocent-adjust-shape.trycloudflare.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 91c85a27-t07z40-t0r7l4-1ruih.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 3549abda-3854-11ef-b71e-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: c212722e-szecg0-t0uprz-1th8j.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 7d7c111e-fbc1-11ef-ab5f-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c212722e-szecg0-t0uprz-1th8j.hkt.tcpbbr.net}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 4b9d07b6-sz8sg0-t0o6k2-6gn6.hkt.tcpbbr.net, port: 80, type: vmess, uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4b9d07b6-sz8sg0-t0o6k2-6gn6.hkt.tcpbbr.net}}}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 103.224.80.29, port: 42203, type: vmess, uuid: 89e3bb59-bf63-4346-9864-cbc79cee58a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 103.181.165.26, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507022251291-d01YttPsbj.download.microsoft.com}}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 38.147.188.250, port: 11745, type: vmess, uuid: aee65b36-ac1a-428b-8da3-dae88195e47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.192.243, port: 3221, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 36.151.192.243, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-JtmNFkb3wi.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本5|@ripaojiedian, server: 47.79.94.25, port: 8080, type: vmess, uuid: b36d992c-786b-4136-96d6-c37641207d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: 36.151.251.7, port: 16012, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 172.238.14.135, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 172.237.27.220, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本5|@ripaojiedian, server: jp006.421421.xyz, port: 20230, type: trojan, password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: www.alibaba.com}}}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 36.151.195.111, port: 16003, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.151.195.111, port: 811, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 178.128.106.216, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: jpiplc.deuen.com, port: 36529, type: ss, cipher: aes-256-gcm, password: vGCBLG1SUe7YdXI1fPhdsA==}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507022251291-d01YttPsbj.download.microsoft.com}}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: _CN_中国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 未知, server: 103.169.142.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0}
-  - {name: 🇲🇩 _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇮🇷 _IR_伊朗, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇺🇸 _US_美国, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FctdmgeIg3NII3ibrzzKXJGy3S1", headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-JtmNFkb3wi.download.microsoft.com}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.195.111, port: 1582, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 174.138.85.53, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇰🇷 _KR_韩国, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇷🇺 _RU_俄罗斯 2, server: tr.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 未知 2, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇷🇺 _RU_俄罗斯 3, server: 62.133.63.212, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: 🇯🇵 _JP_日本->🇺🇸_US_美国, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: TG.WangCai2.s2.db-link02.top}}}
-  - {name: 🇮🇷 _IR_伊朗 2, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇮🇷 _IR_伊朗 3, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
-  - {name: 6元高速机场：cczzuu.top, server: 35.86.81.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国, server: fastcup.net, port: 80, type: vmess, uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ae6e933b-8874-4bf4-a384-0de216ef2bf4}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: 0916af88-t064g0-t1l1nh-d6ar.77.iwskwai.com, port: 3686, type: vmess, uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇲🇩 _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 6元高速机场：cczzuu.top, server: 43.203.107.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港3|@stairnode, server: 103.224.80.29, port: 42203, type: vmess, uuid: 89e3bb59-bf63-4346-9864-cbc79cee58a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@stairnode, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@stairnode, server: 36.151.192.238, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@stairnode, server: 103.181.165.26, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507022251291-d01YttPsbj.download.microsoft.com}}
+  - {name: 🇭🇰 香港3|@stairnode, server: 38.147.188.250, port: 11745, type: vmess, uuid: aee65b36-ac1a-428b-8da3-dae88195e47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@stairnode, server: 36.151.192.243, port: 3221, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@stairnode, server: 36.151.192.243, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-JtmNFkb3wi.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@stairnode, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本3|@stairnode, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@stairnode, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本5|@stairnode, server: 47.79.94.25, port: 8080, type: vmess, uuid: b36d992c-786b-4136-96d6-c37641207d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 47.79.94.25}}}
-  - {name: 🇰🇷 韩国|@stairnode, server: 36.151.251.7, port: 16012, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@stairnode, server: 172.238.14.135, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@stairnode, server: 172.237.27.220, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本5|@stairnode, server: jp006.421421.xyz, port: 20230, type: trojan, password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367, sni: www.alibaba.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国|@stairnode, server: 36.151.195.111, port: 16003, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 36.151.195.111, port: 811, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 178.128.106.216, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@stairnode, server: sg.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: sg.mjt000.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@stairnode, server: jpiplc.deuen.com, port: 36529, type: ss, cipher: aes-256-gcm, password: vGCBLG1SUe7YdXI1fPhdsA==}
-  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507022251291-d01YttPsbj.download.microsoft.com}}
-  - {name: 🇺🇸 美国4|@stairnode, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国3|@stairnode, server: 36.151.251.7, port: 3596, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@stairnode, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-JtmNFkb3wi.download.microsoft.com}}
+  - {name: 🇺🇸 美国3|@stairnode, server: 36.151.195.111, port: 1582, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@stairnode, server: 174.138.85.53, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -141,21 +127,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -167,33 +151,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -205,8 +177,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -242,21 +214,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -268,33 +238,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -306,8 +264,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 📹 油管视频
     type: select
     proxies:
@@ -384,21 +342,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -410,33 +366,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -448,8 +392,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 📲 电报信息
     type: select
     proxies:
@@ -484,21 +428,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -510,33 +452,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -548,8 +478,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -592,21 +522,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -618,33 +546,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -656,8 +572,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -692,21 +608,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -718,33 +632,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -756,8 +658,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -793,21 +695,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -819,33 +719,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -857,8 +745,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -910,21 +798,19 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 亚太地区 V2CROSS.COM
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
-      - 🇨🇳 江苏省 移动
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -936,33 +822,21 @@ proxy-groups:
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - _CN_中国
-      - 未知
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇷 _IR_伊朗
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇰🇷 _KR_韩国
-      - 🇷🇺 _RU_俄罗斯 2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 未知 2
-      - 🇷🇺 _RU_俄罗斯 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇮🇷 _IR_伊朗 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇮🇷 _IR_伊朗 3
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇲🇩 _MD_摩尔多瓦
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -974,8 +848,8 @@ proxy-groups:
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🇭🇰 香港节点
     type: load-balance
     strategy: consistent-hashing
@@ -987,19 +861,16 @@ proxy-groups:
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
-      - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
-      - 🇭🇰 香港6|@stairnode
   - name: 🇺🇲 美国节点
     type: load-balance
     strategy: consistent-hashing
@@ -1017,19 +888,20 @@ proxy-groups:
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 _US_美国
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
-      - 🇺🇸 美国4|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
