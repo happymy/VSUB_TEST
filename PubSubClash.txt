@@ -5,27 +5,35 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: TR-185.123.101.241-4815, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: ⚡ b2n.ir/v2ray-configs | 526, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇳🇱 NL-193.29.139.217-0238, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇳🇱 NL-51.15.23.63-5366, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: IT_326, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: RU_397, server: 213.156.138.138, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: oVfvPkqJFCjOEbBsbmOtIiAuqgmEFOEf332F26C8lwEwQng9}
-  - {name: "🇬🇧 [By EbraSha] ss-GB 🔒", server: 89.185.84.172, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: PPDI4eTCSUzQ}
-  - {name: LT_331, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: LT_351, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国, server: pubg.ac, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub...", server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇫🇷 FR-45.158.171.70-5375, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇲🇩 摩尔多瓦 V2CROSS.COM, server: 185.193.29.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
+  - {name: US_400, server: 38.12.83.217, port: 30002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: "🇳🇱 [By EbraSha] ss-NL 🔒", server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 154.62.185.216, port: 20086, type: vmess, uuid: 20ed1673-8f9e-485b-9956-147768fce851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 GB-18.130.58.99-1793, server: 18.130.58.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.244.28.221, port: 20086, type: vmess, uuid: 37872214-0445-4cff-a1a8-670333c1d3c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: vall.codefyinc.com, port: 443, type: vmess, uuid: 606ece17-7279-4a43-b879-f8502103de8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: vall.codefyinc.com}}}
+  - {name: US_366, server: 38.58.60.127, port: 20086, type: vmess, uuid: 66d508ed-1ee6-412d-97a8-eedf849bad57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
   - {name: US_411, server: 15.204.234.200, port: 41100, type: vmess, uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇩🇪 _DE_德国, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: LT_334, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: LT_336, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: IN_320, server: 134.209.147.198, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇦 UA_411, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
-  - {name: 🇳🇱 NL-193.29.139.240-5367, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: IR_324, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: HK_112, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇩🇰 丹麦 V2CROSS.COM, server: 185.162.228.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
+  - {name: 🇮🇸 IS-37.235.49.168-5358, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.179.143.72, port: 20086, type: vmess, uuid: e4fb8324-6b6e-4c48-987c-04668271028d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 加州, server: 64.81.30.24, port: 20086, type: vmess, uuid: f53e0d42-afca-4b76-ae7f-806d6a1d36c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心, server: 173.208.51.193, port: 20086, type: vmess, uuid: b1726eb2-271b-4cb6-bae8-37647e78b776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国, server: pubg.ac, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 77.221.143.225, port: 20086, type: vmess, uuid: 149b4663-aece-486a-b92c-392c41727ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 137.175.124.167, port: 20086, type: vmess, uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 加州 2, server: 64.81.30.225, port: 20086, type: vmess, uuid: 7f499074-3408-4840-b55b-91142735d2cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 加州 3, server: 64.81.39.101, port: 20086, type: vmess, uuid: b29f7187-9707-47fe-85d2-65b1ba69df16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_65, server: awes35lesl.blhao0o.dpdns.org, port: 12012, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: IT_326, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _27, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: LT_323, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2, server: fastcup.net, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: "[By EbraSha] ss-AT 🔒", server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.149.233.188, port: 20086, type: vmess, uuid: 158ee47c-c5f6-4892-8662-8fc113fb3d6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司, server: 198.23.174.168, port: 20086, type: vmess, uuid: 2b36304b-4f88-4ff5-9033-f4d57dbb5490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 154.197.108.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
   - {name: 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}}
   - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H}
   - {name: 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
@@ -55,97 +63,82 @@ proxies:
   - {name: 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
   - {name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}}
-  - {name: 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心, server: 46.101.152.68, port: 20086, type: vmess, uuid: e3501cb6-af9a-44ab-bb4b-48aa5fca2ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇦 加拿大 Bell, server: 142.171.176.146, port: 20086, type: vmess, uuid: 3d2147ae-577c-4457-9c85-c7138f6b74bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 62.217.180.126, port: 20086, type: vmess, uuid: 47a4e900-818c-4271-9f81-b2d63a6e3d41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇲🇩 摩尔多瓦 V2CROSS.COM, server: 185.193.29.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
-  - {name: 🇨🇳 广东省广州市 移动, server: awes35lesl.blhao0o.dpdns.org, port: 12032, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.179.143.72, port: 20086, type: vmess, uuid: e4fb8324-6b6e-4c48-987c-04668271028d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 94.142.137.237, port: 20086, type: vmess, uuid: 25ff2ae6-9771-4b75-ae43-e84d8ce5b791, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 中国 阿里云, server: 8.220.219.122, port: 20086, type: vmess, uuid: de068d3d-4811-466f-81d8-4f326fdd8399, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 加州, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: 欧盟 V2CROSS.COM, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.244.18.220, port: 20086, type: vmess, uuid: 62eec023-043f-42b9-9abe-61cb1042401f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 70.39.193.62, port: 20086, type: vmess, uuid: f5d1fe20-6895-4489-aacc-4aa3aa8c9dc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心, server: 167.160.186.118, port: 20086, type: vmess, uuid: 8f8559ce-f3ce-40a4-940b-30f6d770adfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 加州 2, server: 64.81.39.212, port: 20086, type: vmess, uuid: a3efc510-c175-4b74-bc04-fe1d110a62bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 3, server: 77.221.143.225, port: 20086, type: vmess, uuid: 149b4663-aece-486a-b92c-392c41727ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.12.23.251, port: 20086, type: vmess, uuid: 8d574201-8b97-4527-86a1-9c6d097c9e18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 英国 社会保险安全部, server: 51.222.158.243, port: 8443, type: vmess, uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}}
-  - {name: 🇺🇸 美国 加州 3, server: 64.81.30.24, port: 20086, type: vmess, uuid: f53e0d42-afca-4b76-ae7f-806d6a1d36c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 惠普HP, server: 15.204.234.200, port: 41100, type: vmess, uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: awes35lesl.blhao0o.dpdns.org, port: 12028, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 192.238.141.81, port: 20086, type: vmess, uuid: 6ab7ad3e-2b1f-41b0-96fe-e16130e7205a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: ip.sb, port: 443, type: vmess, uuid: 28548ef7-983d-4ee8-8bd6-7d71d905b5a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /28548ef7-983d-4ee8-8bd6-7d71d905b5a2-vmess, headers: {Host: fr.atlen.dpdns.org}}}
-  - {name: 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心, server: 34.220.246.115, port: 20086, type: vmess, uuid: e47d845b-bc24-415d-b0eb-0682bf9b8005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.197.185.204, port: 20086, type: vmess, uuid: 91efa390-73a0-4367-a032-65cd7953b30b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司, server: 206.245.227.178, port: 20086, type: vmess, uuid: 69cb8460-005c-4657-8904-1847d7e29812, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 福建省厦门市 电信, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ae6e933b-8874-4bf4-a384-0de216ef2bf4}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络, server: 104.243.29.93, port: 20086, type: vmess, uuid: f5da6be9-7100-4e28-88b9-d9206812f7be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 江苏省 移动 2, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.link}}}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心, server: 156.236.76.186, port: 20086, type: vmess, uuid: f0323382-fad2-448e-85b9-1ccf98b9c927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 3, server: 38.22.232.77, port: 20086, type: vmess, uuid: f757bef6-53e5-4411-85e4-03924e08c68f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 欧盟 V2CROSS.COM 2, server: 45.85.118.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare), server: 185.194.148.224, port: 20086, type: vmess, uuid: 9388fe15-d316-4c8e-b6e9-5376849b22c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 4, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0}
-  - {name: 🇨🇳 中国 阿里云 2, server: 8.211.193.97, port: 20086, type: vmess, uuid: 3276eb8f-93cf-4180-b94d-9c5d528ad3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 江苏省 移动 3, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 🇨🇳 广东省广州市 移动 3, server: awes35lesl.blhao0o.dpdns.org, port: 12031, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 🇺🇸 美国 加州 4, server: 64.81.30.225, port: 20086, type: vmess, uuid: 7f499074-3408-4840-b55b-91142735d2cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD}
-  - {name: 🇺🇸 美国 V2CROSS.COM 4, server: 23.27.140.55, port: 20086, type: vmess, uuid: 6aa06608-792c-4caf-9469-adaffa04c4d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 V2CROSS.COM 5, server: 154.29.149.222, port: 20086, type: vmess, uuid: 718d0445-ef14-499b-b645-acb6cc721dcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 V2CROSS.COM 6, server: 192.3.107.252, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, skip-cert-verify: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 95.169.172.206, port: 20086, type: vmess, uuid: 56a2cae7-ea52-4762-bfc8-481543b68bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.29.132.9, port: 20086, type: vmess, uuid: b2c61f53-a359-429c-900e-255f02def6be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 加州 5, server: 64.81.30.91, port: 20086, type: vmess, uuid: 06b6fb20-9334-4d86-8f93-49faf833355d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国 V2CROSS.COM 2, server: 185.245.107.61, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 4, server: 38.59.241.39, port: 20086, type: vmess, uuid: e240e088-238f-4ee2-ba5c-d3da8aeabb2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FctdmgeIg3NII3ibrzzKXJGy3S1", headers: {Host: xXcdvFgt.191268.XYz}}}
+  - {name: 🇨🇳 广东省广州市 腾讯云, server: 139.199.194.86, port: 36009, type: trojan, password: 005fddef-e432-482f-a98c-2715563a2b25, skip-cert-verify: true}
+  - {name: 🇨🇳 江苏省 移动, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 美国 3COM公司企业网, server: 152.67.8.205, port: 80, type: vmess, uuid: 9db4c708-aef8-4359-821b-38e47990be0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.125, port: 447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.156.102.125, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.ithome.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-9VmVbE7FgF.download.microsoft.com}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.125, port: 447, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.156.102.125, port: 444, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.ithome.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-Ibej7QBdUa.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: okanc.iepl.cac.cab, port: 23008, type: trojan, password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.156.102.125, port: 461, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 36.156.102.125, port: 1601, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.125, port: 697, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 157.120.32.122, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: 36.156.102.125, port: 461, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本5|@ripaojiedian, server: okanc.iepl.cac.cab, port: 23007, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 139.199.194.86, port: 36009, type: trojan, password: 005fddef-e432-482f-a98c-2715563a2b25, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 165.22.55.206, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FctdmgeIg3NII3ibrzzKXJGy3S1", headers: {Host: xXcdvFgt.191268.XYz}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-9VmVbE7FgF.download.microsoft.com}}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.125, port: 329, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.156.102.125, port: 472, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-Ibej7QBdUa.download.microsoft.com}}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.156.102.125, port: 329, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.156.102.125, port: 472, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2, server: fastcup.net, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: 🇲🇩 _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇵🇹 _PT_葡萄牙, server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _CN_中国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 6元高速机场：cczzuu.top, server: 18.130.58.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3, server: fastcup.net, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇺🇸 _US_美国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4, server: pubg.ac, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇩🇪 _DE_德国, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
+  - {name: 6元高速机场：cczzuu.top, server: 13.55.202.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港4|@stairnode, server: 36.156.102.125, port: 447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@stairnode, server: 36.156.102.125, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.ithome.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-9VmVbE7FgF.download.microsoft.com}}
+  - {name: 🇭🇰 香港4|@stairnode, server: 36.156.102.125, port: 447, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@stairnode, server: 36.156.102.125, port: 444, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.ithome.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-Ibej7QBdUa.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@stairnode, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 🇯🇵 日本3|@stairnode, server: okanc.iepl.cac.cab, port: 23008, type: trojan, password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本4|@stairnode, server: 36.156.102.125, port: 461, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@stairnode, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 36.156.102.125, port: 1601, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 36.156.102.125, port: 697, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本3|@stairnode, server: 157.120.32.122, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4|@stairnode, server: 36.156.102.125, port: 461, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本5|@stairnode, server: okanc.iepl.cac.cab, port: 23007, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国|@stairnode, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国2|@stairnode, server: 139.199.194.86, port: 36009, type: trojan, password: 005fddef-e432-482f-a98c-2715563a2b25, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 165.22.55.206, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国|@stairnode, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-9VmVbE7FgF.download.microsoft.com}}
-  - {name: 🇺🇸 美国3|@stairnode, server: 36.156.102.125, port: 329, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国4|@stairnode, server: 36.156.102.125, port: 472, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3, server: pubg.ac, port: 80, type: vmess, uuid: 76414574-71e0-4706-89cc-c5b09c13445d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: 🇩🇪 _DE_德国 2, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
+  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-Ibej7QBdUa.download.microsoft.com}}
+  - {name: 🇺🇸 美国3|@stairnode, server: 36.156.102.125, port: 329, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@stairnode, server: 36.156.102.125, port: 472, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@stairnode, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇳🇱 _NL_荷兰, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: 142.171.224.111, port: 20086, type: vmess, uuid: 0908eadd-7337-49dd-8e9b-e325bca02910, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 142.171.224.111}}}
+  - {name: 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 77.105.166.12, port: 8594, type: ss, cipher: chacha20-ietf-poly1305, password: mSQiuT5jR17nyWgcXOPrTW}
+  - {name: 🇺🇸 _US_美国 2, server: 3.149.233.188, port: 20086, type: vmess, uuid: 158ee47c-c5f6-4892-8662-8fc113fb3d6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3.149.233.188}}}
+  - {name: 🇫🇷 _IN_印度->🇫🇷_FR_法国, server: 202.78.160.88, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: c0iCgBG1Jma4QGutmZC17k}
+  - {name: 🇺🇸 _US_美国 3, server: 38.106.3.14, port: 20086, type: vmess, uuid: 766c0871-1359-4ae9-8921-0f468ec02722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.106.3.14}}}
+  - {name: 🇺🇸 _US_美国 4, server: 64.81.30.24, port: 20086, type: vmess, uuid: f53e0d42-afca-4b76-ae7f-806d6a1d36c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64.81.30.24}}}
+  - {name: 🇩🇪 _DE_德国 2, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇺🇸 _US_美国 5, server: 15.204.234.200, port: 41100, type: vmess, uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇩🇪 _DE_德国 3, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 🇺🇸 _US_美国 6, server: 23.184.200.69, port: 20086, type: vmess, uuid: ed715e84-81a0-40c5-bb6a-4d8d341e5cfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.184.200.69}}}
+  - {name: 🇺🇸 _US_美国 7, server: 050910.xyz, port: 20086, type: vmess, uuid: 7e992138-4bae-44d7-893e-c33605c40d5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 050910.xyz}}}
+  - {name: 🇩🇪 _DE_德国 4, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 🇺🇸 _US_美国 8, server: 64.81.30.225, port: 20086, type: vmess, uuid: 7f499074-3408-4840-b55b-91142735d2cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64.81.30.225}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: awes35lesl.blhao0o.dpdns.org, port: 12017, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: 🇺🇸 _US_美国 9, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇦 _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: 🇸🇦 _SA_沙特阿拉伯, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe}
+  - {name: 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知, server: 77.221.143.225, port: 20086, type: vmess, uuid: 149b4663-aece-486a-b92c-392c41727ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 77.221.143.225}}}
+  - {name: 🇺🇸 _US_美国 10, server: 173.208.51.193, port: 20086, type: vmess, uuid: b1726eb2-271b-4cb6-bae8-37647e78b776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 173.208.51.193}}}
+  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国, server: 154.223.19.231, port: 20086, type: vmess, uuid: bfb323d3-239e-4e1b-bfa8-13f68385931e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 154.223.19.231}}}
+  - {name: 🇺🇸 _US_美国 11, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇩🇪 _DE_德国 5, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇷🇺 _RU_俄罗斯 2, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 185.193.29.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
+  - {name: 🇺🇸 _GB_英国->🇺🇸_US_美国, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: 154.197.108.88, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: TG.WangCai2.s2.cn-db.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -158,27 +151,35 @@ proxy-groups:
   - name: ☑️ 手动切换
     type: select
     proxies:
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -208,55 +209,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -265,20 +222,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -288,44 +247,79 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -355,55 +349,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -412,20 +362,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -435,17 +387,44 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 📹 油管视频
     type: select
     proxies:
@@ -487,34 +466,41 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇬🇧 英国 伦敦Virgin Media
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -544,55 +530,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -601,20 +543,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -624,43 +568,78 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -690,55 +669,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -747,20 +682,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -770,17 +707,44 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -794,27 +758,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -844,55 +816,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -901,20 +829,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -924,43 +854,78 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -990,55 +955,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -1047,20 +968,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -1070,44 +993,79 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -1137,55 +1095,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -1194,20 +1108,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -1217,17 +1133,44 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1250,27 +1193,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TR-185.123.101.241-4815
-      - ⚡ b2n.ir/v2ray-configs | 526
-      - 🇳🇱 NL-193.29.139.217-0238
-      - 🇳🇱 NL-51.15.23.63-5366
-      - IT_326
-      - RU_397
-      - 🇬🇧 [By EbraSha] ss-GB 🔒
-      - LT_331
-      - LT_351
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
-      - "[peasoft/NoMoreWalls]🌀其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..."
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇫🇷 FR-45.158.171.70-5375
+      - 🇲🇩 摩尔多瓦 V2CROSS.COM
+      - US_400
+      - 🇳🇱 [By EbraSha] ss-NL 🔒
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇬🇧 GB-18.130.58.99-1793
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
-      - 🇩🇪 _DE_德国
-      - LT_334
-      - LT_336
-      - IN_320
-      - 🇺🇦 UA_411
-      - 🇳🇱 NL-193.29.139.240-5367
-      - IR_324
+      - HK_112
+      - 🇩🇰 丹麦 V2CROSS.COM
+      - 🇮🇸 IS-37.235.49.168-5358
+      - 亚太地区 V2CROSS.COM
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - CN_65
+      - IT_326
+      - _27
+      - LT_323
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - "[By EbraSha] ss-AT 🔒"
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇿🇦 南非 V2CROSS.COM
       - 🇨🇦 VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-51.79.102.253:80
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇱🇹 SS-立陶宛>荷兰-NF解锁荷兰自制剧-ChatGPT-TikTok-YouTube-45.87.175.28:8080
@@ -1300,55 +1251,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇨🇦 加拿大 Bell
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇲🇩 摩尔多瓦 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 亚太地区 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇨🇳 中国 阿里云
-      - 🇺🇸 美国 加州
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM 3
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇳 江苏省 移动
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇨🇳 福建省厦门市 电信
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇨🇳 江苏省 移动 2
-      - 🇮🇷 伊朗 V2CROSS.COM
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 欧盟 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇷🇺 俄罗斯 V2CROSS.COM 4
-      - 🇨🇳 中国 阿里云 2
-      - 🇨🇳 江苏省 移动 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇺🇸 美国 加州 5
-      - 🇩🇪 德国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 3COM公司企业网
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -1357,20 +1264,22 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
+      - 🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国2|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇻🇳 越南|@ripaojiedian
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇷🇺 _RU_俄罗斯
-      - 🇵🇹 _PT_葡萄牙
-      - _CN_中国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -1380,17 +1289,44 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
+      - 🇯🇵 日本5|@stairnode
       - 🇰🇷 韩国|@stairnode
+      - 🇰🇷 韩国2|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇻🇳 越南|@stairnode
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇸🇰 _SK_斯洛伐克->🇨🇳_CN_中国
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国 2
+      - 🇫🇷 _IN_印度->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
       - 🇩🇪 _DE_德国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇩🇪 _DE_德国 3
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇩🇪 _DE_德国 4
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇦 _UA_乌克兰
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇩🇪 _DE_德国 5
+      - 🇷🇺 _RU_俄罗斯 2
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
   - name: 🇭🇰 香港节点
     type: load-balance
     strategy: consistent-hashing
@@ -1398,6 +1334,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK_112
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -1413,8 +1350,21 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - US_400
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - US_366
       - US_411
+      - 🇺🇸 美国 加州
+      - 🇺🇸 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国
+      - 🇺🇸 美国 V2CROSS.COM 3
+      - 🇺🇸 美国 加州 2
+      - 🇺🇸 美国 加州 3
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-204.136.10.115:1866
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-172.233.128.126:1866
       - 🇺🇸 VMESS-未知>美国-NF解锁德国地区非自制剧-ChatGPT-TikTok-YouTube-npmjs.com:8080
@@ -1423,45 +1373,38 @@ proxy-groups:
       - 🇺🇸 SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.151.182.253:8080
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-104.167.197.25:57456
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
-      - 🇺🇸 美国 加州
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州洛杉矶QuadraNet数据中心
-      - 🇺🇸 美国 加州 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
-      - 🇺🇸 美国 加州 3
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇺🇸 美国 马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司
-      - 🇺🇸 美国 加利福尼亚州洛杉矶IT7网络
-      - 🇺🇸 美国加利福尼亚州洛杉矶 MULTACOM数据中心
-      - 🇺🇸 美国 华盛顿Cogent通信公司 3
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CNServers数据中心(hostdare)
-      - 🇺🇸 美国 加州 4
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 V2CROSS.COM 4
-      - 🇺🇸 美国 V2CROSS.COM 5
-      - 🇺🇸 美国 V2CROSS.COM 6
-      - 🇺🇸 美国 加州 5
-      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 3COM公司企业网
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _DK_丹麦->🇺🇸_US_美国 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国 10
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
