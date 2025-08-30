@@ -66,6 +66,7 @@ jobs:
           done
 
           echo "以后仅支持V2rayN和Clash客户端!!!!!" >> sub_list.txt
+          echo "V2rayN用不带clash的txt，Clash用带Clash文件名的txt!!!!!" >> sub_list.txt
           echo "超级备胎:https://nodefree.me/" >> sub_list.txt
           
           echo "OUTPUT done"
