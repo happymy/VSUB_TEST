@@ -54,7 +54,7 @@ jobs:
 
       - name: Output List File
         run: |
-          echo "当前时间：$(TZ=Asia/Shanghai date +'%F %T %Z%:z')" > sub_list.txt
+          echo "脚本运行时间：$(TZ=Asia/Shanghai date +'%F %T %Z%:z')" > sub_list.txt
           for file in *.txt; do
            # 输出文件路径
            echo "$file"
