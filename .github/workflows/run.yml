@@ -60,6 +60,7 @@ jobs:
            echo "$file"
             # 将文件路径替换成 https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/ 后缀为文件名
            echo "https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/${file%.txt}.txt">> sub_list.txt
+           echo "以后仅支持V2rayN和Clash客户端！！！！！>> sub_list.txt
           done
           echo "OUTPUT done"
 
