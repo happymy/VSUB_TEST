@@ -1,0 +1,508 @@
+{
+    "mixed-port": 7890,
+    "ipv6": true,
+    "allow-lan": true,
+    "mode": "rule",
+    "log-level": "warning",
+    "disable-keep-alive": false,
+    "keep-alive-idle": 10,
+    "keep-alive-interval": 15,
+    "unified-delay": false,
+    "geo-auto-update": true,
+    "geo-update-interval": 168,
+    "external-controller": "127.0.0.1:9090",
+    "external-ui-url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+    "external-ui": "ui",
+    "external-controller-cors": {
+        "allow-origins": [
+            "*"
+        ],
+        "allow-private-network": true
+    },
+    "profile": {
+        "store-selected": true,
+        "store-fake-ip": true
+    },
+    "dns": {
+        "enable": true,
+        "listen": "0.0.0.0:1053",
+        "ipv6": true,
+        "respect-rules": true,
+        "use-system-hosts": false,
+        "nameserver": [
+            "https://8.8.8.8/dns-query#✅ Selector"
+        ],
+        "proxy-server-nameserver": [
+            "8.8.8.8#DIRECT"
+        ],
+        "nameserver-policy": {
+            "raw.githubusercontent.com": "8.8.8.8#DIRECT",
+            "time.apple.com": "8.8.8.8#DIRECT"
+        },
+        "hosts": {
+            "rule-set:malware": "127.0.0.1",
+            "rule-set:phishing": "127.0.0.1",
+            "rule-set:cryptominers": "127.0.0.1"
+        }
+    },
+    "tun": {
+        "enable": true,
+        "stack": "mixed",
+        "auto-route": true,
+        "strict-route": true,
+        "auto-detect-interface": true,
+        "dns-hijack": [
+            "any:53",
+            "tcp://any:53"
+        ],
+        "mtu": 9000
+    },
+    "sniffer": {
+        "enable": true,
+        "force-dns-mapping": true,
+        "parse-pure-ip": true,
+        "override-destination": false,
+        "sniff": {
+            "HTTP": {
+                "ports": [
+                    80,
+                    8080,
+                    8880,
+                    2052,
+                    2082,
+                    2086,
+                    2095
+                ]
+            },
+            "TLS": {
+                "ports": [
+                    443,
+                    8443,
+                    2053,
+                    2083,
+                    2087,
+                    2096
+                ]
+            }
+        }
+    },
+    "proxies": [
+        {
+            "name": "💦 1 - VLESS - Domain - 443",
+            "type": "vless",
+            "server": "bv-311.xzb2022.workers.dev",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/3ALklN3nISdWex2w/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "bV-311.xZB2022.wORKERS.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 2 - VLESS - Domain - 443",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/gPXwGpv5mt0EflhX/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "BV-311.xzB2022.WORKERs.DeV",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 3 - VLESS - IPv4 - 443",
+            "type": "vless",
+            "server": "104.21.73.212",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/0q1EHOzgbQWaFkUF/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "bV-311.xzB2022.WORkERS.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 4 - VLESS - IPv4 - 443",
+            "type": "vless",
+            "server": "172.67.166.120",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/j3z1xMlb9S1Xxh2G/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "BV-311.XZB2022.WORKERs.dEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 5 - VLESS - IPv6 - 443",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/RTtLAxGZX4N9I4Rk/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "bv-311.XZb2022.worKeRs.DEV",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 6 - VLESS - IPv6 - 443",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 443,
+            "uuid": "b49a6991-190e-4d19-b5e6-f2ab81246e67",
+            "packet-encoding": "packetaddr",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/bqG2xd4f2DnIj0qa/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "BV-311.XZb2022.WOrKERs.dEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 1 - Trojan - Domain - 443",
+            "type": "trojan",
+            "server": "bv-311.xzb2022.workers.dev",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/tr83xSx0Btlmx0kIhy/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "bv-311.XZB2022.worKers.dEV",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 2 - Trojan - Domain - 443",
+            "type": "trojan",
+            "server": "www.speedtest.net",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/tr9A5sCuYzZori8r4I/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "Bv-311.XZb2022.wOrkeRs.deV",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 3 - Trojan - IPv4 - 443",
+            "type": "trojan",
+            "server": "104.21.73.212",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/trNCjhUvEqWIUb7DQZ/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "bv-311.xzb2022.woRKerS.dEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 4 - Trojan - IPv4 - 443",
+            "type": "trojan",
+            "server": "172.67.166.120",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/trygZVAdgeVMfZXQdY/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "bV-311.XZB2022.WorKerS.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 5 - Trojan - IPv6 - 443",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/trUkDg4pvbM6BkdFSM/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "bV-311.xzb2022.wORkeRs.dev",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 6 - Trojan - IPv6 - 443",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "mptcp": true,
+            "ws-opts": {
+                "path": "/trd0JRBN83NR5L2B18/MjE3LjE0Mi4yMzYuOTM=",
+                "headers": {
+                    "Host": "bv-311.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "BV-311.Xzb2022.WOrKERS.Dev",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        }
+    ],
+    "proxy-groups": [
+        {
+            "name": "✅ Selector",
+            "type": "select",
+            "proxies": [
+                "💦 Best Ping 💥",
+                "💦 1 - VLESS - Domain - 443",
+                "💦 2 - VLESS - Domain - 443",
+                "💦 3 - VLESS - IPv4 - 443",
+                "💦 4 - VLESS - IPv4 - 443",
+                "💦 5 - VLESS - IPv6 - 443",
+                "💦 6 - VLESS - IPv6 - 443",
+                "💦 1 - Trojan - Domain - 443",
+                "💦 2 - Trojan - Domain - 443",
+                "💦 3 - Trojan - IPv4 - 443",
+                "💦 4 - Trojan - IPv4 - 443",
+                "💦 5 - Trojan - IPv6 - 443",
+                "💦 6 - Trojan - IPv6 - 443"
+            ]
+        },
+        {
+            "name": "💦 Best Ping 💥",
+            "type": "url-test",
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 30,
+            "tolerance": 50,
+            "proxies": [
+                "💦 1 - VLESS - Domain - 443",
+                "💦 2 - VLESS - Domain - 443",
+                "💦 3 - VLESS - IPv4 - 443",
+                "💦 4 - VLESS - IPv4 - 443",
+                "💦 5 - VLESS - IPv6 - 443",
+                "💦 6 - VLESS - IPv6 - 443",
+                "💦 1 - Trojan - Domain - 443",
+                "💦 2 - Trojan - Domain - 443",
+                "💦 3 - Trojan - IPv4 - 443",
+                "💦 4 - Trojan - IPv4 - 443",
+                "💦 5 - Trojan - IPv6 - 443",
+                "💦 6 - Trojan - IPv6 - 443"
+            ]
+        }
+    ],
+    "rule-providers": {
+        "malware": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt",
+            "path": "./ruleset/malware.txt",
+            "interval": 86400
+        },
+        "malware-cidr": {
+            "type": "http",
+            "format": "text",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt",
+            "path": "./ruleset/malware-cidr.txt",
+            "interval": 86400
+        },
+        "phishing": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt",
+            "path": "./ruleset/phishing.txt",
+            "interval": 86400
+        },
+        "phishing-cidr": {
+            "type": "http",
+            "format": "text",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt",
+            "path": "./ruleset/phishing-cidr.txt",
+            "interval": 86400
+        },
+        "cryptominers": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt",
+            "path": "./ruleset/cryptominers.txt",
+            "interval": 86400
+        }
+    },
+    "rules": [
+        "NETWORK,udp,REJECT",
+        "RULE-SET,malware,REJECT",
+        "RULE-SET,phishing,REJECT",
+        "RULE-SET,cryptominers,REJECT",
+        "RULE-SET,malware-cidr,REJECT",
+        "RULE-SET,phishing-cidr,REJECT",
+        "MATCH,✅ Selector"
+    ],
+    "ntp": {
+        "enable": true,
+        "server": "time.cloudflare.com",
+        "port": 123,
+        "interval": 30
+    }
+}
