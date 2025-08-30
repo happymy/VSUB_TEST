@@ -50,6 +50,19 @@ jobs:
           wget -O bv311Clash.txt https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/cl
           wget -O laochen.txt https://bv-311.xzb2022.workers.dev/sub/normal/U4xaqcT.!Vg%24%26DPG#%F0%9F%92%A6%20BPB%20Normal
           wget -O laochenClash.txt https://bv-311.xzb2022.workers.dev/sub/full-normal/U4xaqcT.!Vg%24%26DPG?app=clash#%F0%9F%92%A6%20BPB%20Full%20Normal
+          echo "clone done" 
+
+      - name: Output List File
+        run: |
+          for file in *.txt; do
+           # 输出文件路径
+           echo "$file"
+            # 将文件路径替换成 http://a.com/ 后缀为文件名
+           echo "https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/${file%.txt}">> sub_list.txt
+          done
+          echo "当前时间：$(date +'%F %T')" >> sub_list.txt
+          echo "OUTPUT done"
+
 
 
 # echo "当前时间：$(date +'%F %T')" >> PubSub.txt
