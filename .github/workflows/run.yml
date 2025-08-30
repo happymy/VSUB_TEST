@@ -56,28 +56,23 @@ jobs:
         run: |
           echo "脚本运行时间：$(TZ=Asia/Shanghai date +'%F %T %Z%:z')" > sub_list.txt
           for file in *.txt; do
-           # 输出文件路径
-           echo "$file"
-            # 将文件路径替换成 https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/ 后缀为文件名
-           echo "https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/${file%.txt}.txt"  >> sub_list.txt
-           done
-           echo "以后仅支持V2rayN和Clash客户端!!!!!" >> sub_list.txt
+            # 排除 sub_list.txt 文件
+            if [ "$file" != "sub_list.txt" ]; then
+              # 输出文件路径
+              echo "$file"
+              # 将文件路径替换成 https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/ 后缀为文件名
+              echo "https://gh-proxy.com/raw.githubusercontent.com/happymy/VSUB_TEST/refs/heads/main/${file%.txt}.txt"  >> sub_list.txt
+            fi
+          done
+          echo "以后仅支持V2rayN和Clash客户端!!!!!" >> sub_list.txt
           
           echo "OUTPUT done"
-
-
 
 # echo "当前时间：$(date +'%F %T')" >> PubSub.txt
 # echo "当前时间：$(date +'%F %T')" >> PubSubClash.txt
 # echo "当前时间：$(date +'%F %T')" >> BPBv3.txt
 # echo "当前时间：$(date +'%F %T')" >> BPBv3Clash.txt
 
-          
-
-
-
-    
-          
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -85,7 +80,3 @@ jobs:
           commit_message: ':arrow_up: 更新订阅文件'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: --force
-          #'--set-upstream'
-
-
-      
