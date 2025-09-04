@@ -38,18 +38,18 @@ jobs:
 
       - name: Clone Sub File
         run: |
-          wget -O PubSub.txt https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&b64
-          wget -O PubSubClash.txt https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&clash
-          wget -O bv311.txt https://aged-shape-cd8a.xzb2022.workers.dev/sub/7374c104-af41-4b29-ade5-e591a76a5eeb#BPB-Normal
-          wget -O bv311Clash.txt https://aged-shape-cd8a.xzb2022.workers.dev/sub/7374c104-af41-4b29-ade5-e591a76a5eeb?app=clash#BPB-Full-Normal
-          wget -O BPBv313.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal
-          wget -O BPBv313Clash.txt https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal
-          wget -O Edge.txt https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/ty
-          wget -O EdgeClash.txt https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/cl
-          wget -O EdgeFast.txt https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/ty
-          wget -O EdgeFastClash.txt https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/cl
-          wget -O laochen.txt https://b343.xzb2022.workers.dev/sub/normal/U4xaqcT.!Vg%24%26DPG#%F0%9F%92%A6%20BPB%20Normal
-          wget -O laochenClash.txt https://b343.xzb2022.workers.dev/sub/full-normal/U4xaqcT.!Vg%24%26DPG?app=clash#%F0%9F%92%A6%20BPB%20Full%20Normal
+          wget -O PubSub.txt "https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&b64"
+          wget -O PubSubClash.txt "https://cf-workers-sub-5ip.pages.dev/sub?token=2eba79ce6f5f05e1f20d202824369273&clash"
+          wget -O bv311.txt "https://aged-shape-cd8a.xzb2022.workers.dev/sub/7374c104-af41-4b29-ade5-e591a76a5eeb#BPB-Normal"
+          wget -O bv311Clash.txt "https://aged-shape-cd8a.xzb2022.workers.dev/sub/7374c104-af41-4b29-ade5-e591a76a5eeb?app=clash#BPB-Full-Normal"
+          wget -O BPBv313.txt "https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e#BPB-Normal"
+          wget -O BPBv313Clash.txt "https://bv3-test.pages.dev/sub/0aa47865-9097-4814-8a4b-1961310c296e?app=clash#BPB-Full-Normal"
+          wget -O Edge.txt "https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/ty"
+          wget -O EdgeClash.txt "https://rapid-brook.xzb2022.workers.dev/e737f226-deb4-484f-a795-ad2802e903b3/cl"
+          wget -O EdgeFast.txt "https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/ty"
+          wget -O EdgeFastClash.txt "https://rapid-brook-fast.xzb2022.workers.dev/f7edb999-18c7-49ec-9e2d-440c3828fe05/cl"
+          wget -O laochen.txt "https://b343.xzb2022.workers.dev/sub/normal/U4xaqcT.!Vg%24%26DPG#%F0%9F%92%A6%20BPB%20Normal"
+          wget -O laochenClash.txt "https://b343.xzb2022.workers.dev/sub/full-normal/U4xaqcT.!Vg%24%26DPG?app=clash#%F0%9F%92%A6%20BPB%20Full%20Normal"
           echo "clone done" 
 
       - name: Output List File
