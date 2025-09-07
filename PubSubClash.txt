@@ -54,87 +54,111 @@ proxies:
   - {name: 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665, server: 107.191.63.241, port: 30665, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, tfo: false}
   - {name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443, server: orvps2.horsenma.net, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80, server: time.is, port: 80, client-fingerprint: chrome, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 195.13.45.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 199.68.156.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.251.83.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 194.36.55.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 95.163.176.37, port: 8506, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, tfo: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 185.59.218.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 209.94.90.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇪🇸 西班牙 V2CROSS.COM 2, server: 185.251.82.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇱🇺 卢森堡 root.lu数据中心, server: 188.42.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 192.200.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇱🇺 卢森堡 root.lu数据中心 2, server: 188.42.145.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.156.19.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 199.68.156.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🇱🇹 立陶宛 V2CROSS.COM, server: 185.148.106.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
   - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 195.26.229.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇭🇰 香港 特别行政区, server: 103.104.247.47, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: 🇨🇳 江苏省 移动, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 188.164.248.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.251.82.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: true}}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.162.156.99, port: 441, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 219.77.97.194, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.247.134.80, port: 28677, client-fingerprint: chrome, type: vmess, uuid: f9575b63-7410-4c76-88db-91c24a429ea8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 18.162.147.157, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇹🇼 台湾|@ripaojiedian, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: e690cd6f-6c50-42e2-8b51-570e95a9be19, tfo: false}
-  - {name: 🇹🇼 台湾2|@ripaojiedian, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9, tfo: false}
-  - {name: 🇹🇼 台湾3|@ripaojiedian, server: 59.126.32.59, port: 10066, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d, tfo: false}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 219.77.97.194, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇹🇼 台湾|@ripaojiedian, server: 118.170.216.58, port: 10021, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a6b95ee6-1adf-47e5-8bd0-85b73584388e, tfo: false}
+  - {name: 🇹🇼 台湾2|@ripaojiedian, server: 118.170.202.98, port: 10030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8488005c-1793-4623-b429-0ab6721601fa, tfo: false}
+  - {name: 🇹🇼 台湾3|@ripaojiedian, server: 125.229.191.101, port: 10007, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6d8eb657-3d4e-49d9-ac16-2968c5e8d1a3, tfo: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-JFOtqRTqqb.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jpxw9v1.dashengjs.net, path: /wrdfiatyd, tls: true, mux: false, skip-cert-verify: true}}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: xingxing.jiasu123.org, port: 13345, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇯🇵 日本4|@ripaojiedian, server: xingxing.jiasu123.org, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: kr2.qiangdong.xyz, port: 1052, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: xingxing.jiasu123.org, port: 46943, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-JFOtqRTqqb.download.microsoft.com}}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: xingxing.jiasu123.org, port: 4801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@ripaojiedian, server: xingxing.jiasu123.org, port: 4317, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 45.144.174.211, port: 22105, client-fingerprint: chrome, type: vmess, uuid: 863e80cc-8825-4830-9c28-0039cde1b933, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.174.211}}}
-  - {name: 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: v35.heduian.link, port: 30835, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}}
-  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2, server: 45.144.174.211, port: 23168, client-fingerprint: chrome, type: vmess, uuid: 43510de6-129d-4cff-a78e-f4ecdba0524e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.174.211}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇭🇰 HK香港(mibei77.com 米贝节点分享), server: tuntro002.instconn.com, port: 20253, client-fingerprint: chrome, type: trojan, password: 79462058-8af8-4f78-9f72-252035389b87, sni: bing.3668989.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2, server: entrance03.qqa678.cc, port: 47083, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e0c4345e-f943-4a45-977b-514fdec6ffe9, tfo: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: v24.heduian.link, port: 30824, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 HK香港(mibei77.com 米贝节点分享), server: entrance03.qqa678.cc, port: 47083, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e0c4345e-f943-4a45-977b-514fdec6ffe9, tfo: false}
   - {name: 🇯🇵 JP日本(mibei77.com 米贝节点分享), server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, tfo: false}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享), server: tuntro012.instconn.com, port: 443, client-fingerprint: chrome, type: trojan, password: 79462058-8af8-4f78-9f72-252035389b87, sni: dibai.686911.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 2, server: awes35lesl.blhao0o.dpdns.org, port: 12030, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 3, server: awes35lesl.blhao0o.dpdns.org, port: 12026, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 4, server: tuntro010.instconn.com, port: 443, client-fingerprint: chrome, type: trojan, password: 79462058-8af8-4f78-9f72-252035389b87, sni: frankfurtrm2.686911.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 5, server: test3.flha.ru, port: 80, client-fingerprint: chrome, type: vmess, uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess, headers: {Host: test3.flha.ru}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 6, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 7, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, tfo: false}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 8, server: 103.181.165.246, port: 12030, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
-  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享), server: 185.176.26.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2, server: 185.174.138.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3, server: 185.221.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 9, server: 185.148.105.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 10, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 11, server: 199.68.156.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 12, server: 216.24.57.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 13, server: 209.94.90.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 14, server: hackney-latest-strike.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
-  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享), server: 185.238.228.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2, server: 185.18.250.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 15, server: 45.144.174.211, port: 23168, client-fingerprint: chrome, type: vmess, uuid: 43510de6-129d-4cff-a78e-f4ecdba0524e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享), server: 185.174.138.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2, server: 185.221.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3, server: 185.176.26.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享), server: awes35lesl.blhao0o.dpdns.org, port: 12031, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 2, server: 185.148.105.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 3, server: 209.94.90.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 4, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 5, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 6, server: awes35lesl.blhao0o.dpdns.org, port: 12030, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 7, server: 103.181.165.246, port: 12030, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, tfo: false}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 8, server: 199.68.156.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 9, server: 216.24.57.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 10, server: hackney-latest-strike.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, tfo: false}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 11, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, tfo: false}
+  - {name: 🇦🇹 奥地利(mibei77.com 米贝节点分享), server: 212.183.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇩🇪 DE德国(mibei77.com 米贝节点分享), server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4, server: 193.9.49.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5, server: 195.13.55.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6, server: 185.176.24.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7, server: 193.124.224.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8, server: 195.13.44.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9, server: 195.13.54.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10, server: 194.76.18.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇫🇷 FR法国(mibei77.com 米贝节点分享), server: 185.7.240.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇳🇱 NL荷兰(mibei77.com 米贝节点分享), server: 188.164.248.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇱🇺 卢森堡(mibei77.com 米贝节点分享), server: 188.42.145.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2, server: 188.42.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 12, server: 192.0.63.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 13, server: 185.148.106.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 14, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 15, server: 192.200.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 16, server: 199.34.229.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 17, server: 192.0.54.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 18, server: 199.34.230.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享), server: 185.251.82.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2, server: 185.251.81.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3, server: 185.251.83.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 GB英国(mibei77.com 米贝节点分享), server: 188.244.122.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2, server: 185.156.19.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4, server: 185.238.228.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5, server: 185.18.250.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
   - {name: 6元高速机场：cczzuu.top, server: 18.195.55.29, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: true}}
   - {name: 🇭🇰 香港3|@stairnode, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 香港4|@stairnode, server: 18.162.156.99, port: 441, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@stairnode, server: 219.77.97.194, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@stairnode, server: 43.247.134.80, port: 28677, client-fingerprint: chrome, type: vmess, uuid: f9575b63-7410-4c76-88db-91c24a429ea8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@stairnode, server: 18.162.147.157, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇹🇼 台湾|@stairnode, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: e690cd6f-6c50-42e2-8b51-570e95a9be19, tfo: false}
-  - {name: 🇹🇼 台湾2|@stairnode, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9, tfo: false}
-  - {name: 🇹🇼 台湾3|@stairnode, server: 59.126.32.59, port: 10066, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d, tfo: false}
-  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}}
+  - {name: 🇭🇰 香港6|@stairnode, server: 219.77.97.194, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
+  - {name: 🇹🇼 台湾|@stairnode, server: 118.170.216.58, port: 10021, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a6b95ee6-1adf-47e5-8bd0-85b73584388e, tfo: false}
+  - {name: 🇹🇼 台湾2|@stairnode, server: 118.170.202.98, port: 10030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8488005c-1793-4623-b429-0ab6721601fa, tfo: false}
+  - {name: 🇹🇼 台湾3|@stairnode, server: 125.229.191.101, port: 10007, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6d8eb657-3d4e-49d9-ac16-2968c5e8d1a3, tfo: false}
+  - {name: 🇯🇵 日本|@stairnode, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-JFOtqRTqqb.download.microsoft.com}}
   - {name: 🇯🇵 日本2|@stairnode, server: 137.220.142.150, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jpxw9v1.dashengjs.net, path: /wrdfiatyd, tls: true, mux: false, skip-cert-verify: true}}
   - {name: 🇯🇵 日本3|@stairnode, server: xingxing.jiasu123.org, port: 13345, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇯🇵 日本4|@stairnode, server: xingxing.jiasu123.org, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国|@stairnode, server: kr2.qiangdong.xyz, port: 1052, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}}
   - {name: 🇸🇬 新加坡|@stairnode, server: xingxing.jiasu123.org, port: 46943, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡2|@stairnode, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡3|@stairnode, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}}
+  - {name: 🇺🇸 美国2|@stairnode, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-JFOtqRTqqb.download.microsoft.com}}
   - {name: 🇺🇸 美国3|@stairnode, server: xingxing.jiasu123.org, port: 4801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@stairnode, server: xingxing.jiasu123.org, port: 4317, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: v24.heduian.link, port: 30824, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 45.144.174.211, port: 25150, client-fingerprint: chrome, type: vmess, uuid: 61f90f6b-c471-43d6-9e18-6cb4b4a46a86, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.174.211}}}
+  - {name: 🇺🇸 _US_美国, server: 38.54.57.90, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 95.163.176.37, port: 8506, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, tfo: false}
+  - {name: 🇸🇦 _SA_沙特阿拉伯, server: 77.110.110.117, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, tfo: false}
+  - {name: 🇲🇩 _MD_摩尔多瓦, server: 91.132.94.200, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇸🇪 _SE_瑞典, server: 192.71.166.100, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇫🇷 _GB_英国->🇫🇷_FR_法国, server: 51.15.23.63, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -186,17 +210,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -210,21 +235,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -233,18 +257,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -259,14 +301,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -312,17 +360,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -336,21 +385,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -359,18 +407,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -385,14 +451,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 📹 油管视频
     type: select
     proxies:
@@ -479,17 +551,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -503,21 +576,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -526,18 +598,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -552,14 +642,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -604,17 +700,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -628,21 +725,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -651,18 +747,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -677,14 +791,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -737,17 +857,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -761,21 +882,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -784,18 +904,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -810,14 +948,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -862,17 +1006,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -886,21 +1031,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -909,18 +1053,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -935,14 +1097,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -988,17 +1156,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -1012,21 +1181,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -1035,18 +1203,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -1061,14 +1247,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1130,17 +1322,18 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
-      - 🇩🇪 德国 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇱🇺 卢森堡 root.lu数据中心 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇪🇸 西班牙 V2CROSS.COM 2
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇱🇹 立陶宛 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇭🇰 香港 特别行政区
+      - 🇨🇳 江苏省 移动
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -1154,21 +1347,20 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本4|@ripaojiedian
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇲🇩 _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇯🇵 JP日本(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -1177,18 +1369,36 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 6
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 7
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 2
-      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 3
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 9
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 10
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 11
+      - 🇦🇹 奥地利(mibei77.com 米贝节点分享)
+      - 🇩🇪 DE德国(mibei77.com 米贝节点分享)
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 4
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 5
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 6
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 7
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 8
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 9
+      - 🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享) 10
+      - 🇫🇷 FR法国(mibei77.com 米贝节点分享)
+      - 🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享)
+      - 🇱🇺 卢森堡(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 12
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享)
       - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 2
-      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 3
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享)
+      - 🇬🇧 GB英国(mibei77.com 米贝节点分享) 2
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 4
+      - 🇪🇸 西班牙(mibei77.com 米贝节点分享) 5
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
@@ -1203,14 +1413,20 @@ proxy-groups:
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
       - 🇯🇵 日本4|@stairnode
-      - 🇰🇷 韩国|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
+      - 🇲🇩 _MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯
+      - 🇷🇺 _RU_俄罗斯
+      - 🇸🇦 _SA_沙特阿拉伯
+      - 🇲🇩 _MD_摩尔多瓦
+      - 🇸🇪 _SE_瑞典
+      - 🇫🇷 _GB_英国->🇫🇷_FR_法国
   - name: 🇭🇰 香港节点
     type: load-balance
     strategy: consistent-hashing
@@ -1218,7 +1434,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -1226,7 +1442,6 @@ proxy-groups:
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 HK香港(mibei77.com 米贝节点分享)
-      - 🇭🇰 HK香港(mibei77.com 米贝节点分享) 2
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -1255,10 +1470,9 @@ proxy-groups:
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
       - 🇺🇸 US美国(mibei77.com 米贝节点分享)
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 3
@@ -1274,10 +1488,14 @@ proxy-groups:
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 13
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 14
       - 🇺🇸 US美国(mibei77.com 米贝节点分享) 15
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 16
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 17
+      - 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
@@ -5779,6 +5997,15 @@ rules:
   - DOMAIN,96a5qjpwuo.adobestats.io,🍃 应用净化
   - DOMAIN,1sfpg9ja0vj7.vf1av.adobestats.io,🍃 应用净化
   - DOMAIN,8xmy93tbvq.h2uqz.adobestats.io,🍃 应用净化
+  - DOMAIN,taom4aa63g37.lqn0m.adobestats.io,🍃 应用净化
+  - DOMAIN,uhqfj8ij6vds.jyqfm.adobestats.io,🍃 应用净化
+  - DOMAIN,lx3onylgy.lqn0m.adobestats.io,🍃 应用净化
+  - DOMAIN,yzfdfmy02i.adobestats.io,🍃 应用净化
+  - DOMAIN,8rcqbx0os.vf1av.adobestats.io,🍃 应用净化
+  - DOMAIN,dsijth3vq.jyqfm.adobestats.io,🍃 应用净化
+  - DOMAIN,d273zzimm51a.vf1av.adobestats.io,🍃 应用净化
+  - DOMAIN,9440y2t85gi6.hzm8t.adobestats.io,🍃 应用净化
+  - DOMAIN,hsah57jsuuy0.hzm8t.adobestats.io,🍃 应用净化
   - DOMAIN-SUFFIX,tonec.com,🍃 应用净化
   - DOMAIN-SUFFIX,registeridm.com,🍃 应用净化
   - DOMAIN-SUFFIX,internetdownloadmanager.com,🍃 应用净化
