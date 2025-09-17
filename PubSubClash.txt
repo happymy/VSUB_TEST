@@ -45,11 +45,11 @@ proxies:
   - {name: 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c}
   - {name: 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}}
+  - {name: 🇺🇸 美国 惠普公司, server: jamekk.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}}
   - {name: 🇨🇳 广东省汕头市 移动, server: 183.240.180.47, port: 52512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 202.79.161.192, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: path/170733132233}}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: 57.129.28.213, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 192.3.107.252, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 惠普公司 2, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}}
+  - {name: 🇬🇧 英国 社会保险安全部, server: ov-canada3.09vpn.com, port: 8443, type: vmess, uuid: 1a06fe60-0933-4b66-b927-937a5e015c50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: ov-canada3.09vpn.com}}}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: true}}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 149.104.15.178, port: 21201, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
@@ -70,8 +70,6 @@ proxies:
   - {name: 🇺🇸 美国|@ripaojiedian, server: 193.124.24.247, port: 6506, type: vmess, uuid: c53d41d1-7d56-43ce-9994-408780c6476a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@ripaojiedian, server: xingxing.jiasu123.org, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true}
   - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: 🇫🇷 _FR_法国, server: 15.237.179.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: true}}
   - {name: 🇭🇰 香港3|@stairnode, server: 149.104.15.178, port: 21201, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
@@ -144,11 +142,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -169,8 +167,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -237,11 +233,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -262,8 +258,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -371,11 +365,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -396,8 +390,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -463,11 +455,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -488,8 +480,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -563,11 +553,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -588,8 +578,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -655,11 +643,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -680,8 +668,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -748,11 +734,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -773,8 +759,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -857,11 +841,11 @@ proxy-groups:
       - 🇫🇷 SS-法国-NF解锁法国地区非自制剧-ChatGPT-TikTok-YouTube-107.191.63.241:30665
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
       - 🇰🇷 VMESS-未知>韩国-NF解锁韩国地区非自制剧-ChatGPT-TikTok-YouTube-time.is:80
+      - 🇺🇸 美国 惠普公司
       - 🇨🇳 广东省汕头市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇦🇺 澳大利亚 V2CROSS.COM
-      - 🇨🇳 江苏省 移动
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
+      - 🇬🇧 英国 社会保险安全部
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -882,8 +866,6 @@ proxy-groups:
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
       - 🇭🇰 香港3|@stairnode
@@ -911,7 +893,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
@@ -950,11 +931,13 @@ proxy-groups:
       - 🇺🇸 SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-107.151.182.253:8080
       - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-104.167.197.25:57456
       - 🇺🇸 VMESS-未知>美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-orvps2.horsenma.net:8443
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 惠普公司 2
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国|@stairnode
