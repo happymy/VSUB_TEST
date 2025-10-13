@@ -100,14 +100,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoid3V6YWtIZFRiS08iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoic2VvTGpRTXRKIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-teSt.XZB2022.woRKERS.dev",
+            "sni": "B3-Test.xzB2022.WorkERs.DEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -126,14 +126,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiZ2VBRlN6Ymp6WEx2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiZHFQSjRvSHZIenJRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-tEST.XZB2022.WOrkERs.DEv",
+            "sni": "b3-TEst.xZB2022.WoRKERS.deV",
             "alpn": [
                 "http/1.1"
             ],
@@ -142,32 +142,6 @@
         },
         {
             "name": "💦 3 - Trojan - IPv4 - 443",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 443,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiU3QwVTF2RGR6biIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "b3-test.xZB2022.woRkErs.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 4 - Trojan - IPv4 - 443",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 443,
@@ -178,14 +152,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiNHZIbDNmNXREVzNTWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiZFQ0YVhzSjJERiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-teSt.xZb2022.wOrKerS.dEv",
+            "sni": "b3-Test.XZB2022.worKERS.Dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -193,9 +167,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 5 - Trojan - IPv6 - 443",
+            "name": "💦 4 - Trojan - IPv4 - 443",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 443,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -204,14 +178,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiZm9lM25nRzB4ekciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoiczlCRDI0c2hKckNsNWhOMCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-test.XZb2022.wORkERS.DEV",
+            "sni": "b3-teSt.XZb2022.woRkerS.DeV",
             "alpn": [
                 "http/1.1"
             ],
@@ -219,7 +193,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 6 - Trojan - IPv6 - 443",
+            "name": "💦 5 - Trojan - IPv6 - 443",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 443,
@@ -230,14 +204,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiZXpscjNYTVZMZ2twdG0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoiYlVWV1BZT3BHV1ZpIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TeSt.xzb2022.WORkerS.DEv",
+            "sni": "B3-TesT.xzb2022.WOrKERS.DEV",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 6 - Trojan - IPv6 - 443",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 443,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoiMkxFMXhMVExHWURVajM1SiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "B3-tEsT.xZb2022.wOrKERS.dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -256,14 +256,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiQ0l2dnM2dlQ5a1k3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiNWpqRkJaa0xpIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-tESt.xZB2022.WORkers.dev",
+            "sni": "B3-TeSt.XzB2022.wORkERs.DeV",
             "alpn": [
                 "http/1.1"
             ],
@@ -282,14 +282,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiN3pWZ2hxY1YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoid1N2Z2pBRWhINiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-tEST.xZB2022.WorKers.dev",
+            "sni": "B3-tESt.Xzb2022.WOrkERs.DEv",
             "alpn": [
                 "http/1.1"
             ],
@@ -298,32 +298,6 @@
         },
         {
             "name": "💦 9 - Trojan - IPv4 - 8443",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 8443,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiN3BYUnBZS0Q2V25VUjYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "b3-tEst.XZB2022.workERS.deV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 10 - Trojan - IPv4 - 8443",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 8443,
@@ -334,14 +308,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiRDd2UVY2Vmc2RyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiSEVCZlhEaHoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-tEst.xzb2022.wORkERs.DEV",
+            "sni": "B3-teSt.XzB2022.wOrkerS.dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -349,9 +323,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 11 - Trojan - IPv6 - 8443",
+            "name": "💦 10 - Trojan - IPv4 - 8443",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 8443,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -360,14 +334,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiZ0V4S3dadUV2V3p0WiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiWnd4dXl5dUJHR3ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TESt.xZB2022.wOrkeRs.dEV",
+            "sni": "b3-TEsT.Xzb2022.WOrKERs.deV",
             "alpn": [
                 "http/1.1"
             ],
@@ -375,7 +349,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 12 - Trojan - IPv6 - 8443",
+            "name": "💦 11 - Trojan - IPv6 - 8443",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 8443,
@@ -386,14 +360,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiZWt1N21TYkJpMkl3VzlmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoicHBLU21SY0lUIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-tEST.XZB2022.wOrKers.Dev",
+            "sni": "b3-TEST.xZB2022.WorKers.dEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 12 - Trojan - IPv6 - 8443",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 8443,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoiZVRqU0NJaTgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "b3-TesT.xzb2022.worKErS.deV",
             "alpn": [
                 "http/1.1"
             ],
@@ -412,14 +412,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiYnhMTFV2dWREeTAzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiNjkwN1FBT3VLUkRpNXgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TEST.XZb2022.woRkers.DEv",
+            "sni": "B3-TEsT.xZB2022.woRkERS.DeV",
             "alpn": [
                 "http/1.1"
             ],
@@ -438,14 +438,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiN1l1a0ZIcmdrM3BORzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoiWEwyQmVLSHUzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-tESt.XZb2022.WORkErs.DEv",
+            "sni": "B3-TEST.xzb2022.WoRKers.DEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -454,32 +454,6 @@
         },
         {
             "name": "💦 15 - Trojan - IPv4 - 2053",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 2053,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiTHlONThncHZjTUJDbG50MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "b3-TEST.xzB2022.WorkErS.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 16 - Trojan - IPv4 - 2053",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 2053,
@@ -490,14 +464,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoic0NQcDVBWWxJWnZ1TyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiUlJqaW1lM0VQY2JydzciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TESt.xZb2022.wORKErS.dev",
+            "sni": "B3-TEst.XzB2022.WoRKErs.dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -505,9 +479,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 17 - Trojan - IPv6 - 2053",
+            "name": "💦 16 - Trojan - IPv4 - 2053",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 2053,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -516,14 +490,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiTTBDb1poTWNoIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiOElLaElYc2JocHJtIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TeSt.XZB2022.WOrKers.deV",
+            "sni": "B3-TESt.xzb2022.WoRKErS.DEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -531,7 +505,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 18 - Trojan - IPv6 - 2053",
+            "name": "💦 17 - Trojan - IPv6 - 2053",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 2053,
@@ -542,14 +516,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoidHNnN29vMzhsSlJjS1pDIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoidkI3VkNDRVpkdk1lOW9GIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-TEsT.XZB2022.WOrkErs.dev",
+            "sni": "B3-TEsT.xZB2022.woRkErs.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 18 - Trojan - IPv6 - 2053",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2053,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoia2ZJVmhlOW1tIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "B3-tESt.xZB2022.wORKERS.Dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -568,14 +568,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiYjU1ZWxUbkJBbHhTNyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiMkxwV3p3MnhiSlMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-test.XZb2022.wOrkErS.DeV",
+            "sni": "b3-TEsT.Xzb2022.wOrKErS.dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -594,14 +594,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiRnBtVTJQSHJIRWpSciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiRzlTelFZclczbFN1eHlkUyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-tESt.XZb2022.worKErs.dEv",
+            "sni": "B3-tEst.xzB2022.WoRkeRs.dEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -610,32 +610,6 @@
         },
         {
             "name": "💦 21 - Trojan - IPv4 - 2083",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 2083,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiTTJBeXNTT05aMHYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "b3-TeST.Xzb2022.wORKers.dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 22 - Trojan - IPv4 - 2083",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 2083,
@@ -646,14 +620,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiSjV5THFEUG5GamdCTDQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoibWdiMmVXTzdkIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-TEst.Xzb2022.wOrKERS.DEv",
+            "sni": "B3-tESt.XzB2022.wORKErs.dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -661,9 +635,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 23 - Trojan - IPv6 - 2083",
+            "name": "💦 22 - Trojan - IPv4 - 2083",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 2083,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -672,14 +646,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoia013ZHo0dnFZZkxBIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoianZlWDFHdnozaGoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-TesT.XZb2022.woRKERs.dev",
+            "sni": "B3-TEsT.XZB2022.WORKERS.Dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -687,7 +661,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 24 - Trojan - IPv6 - 2083",
+            "name": "💦 23 - Trojan - IPv6 - 2083",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 2083,
@@ -698,14 +672,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiMUxUQmZTQzJTZUhUYkVlIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiNUZUOXh5Q1UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-teST.XZB2022.wOrkeRs.dEv",
+            "sni": "b3-Test.XzB2022.wOrKerS.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 24 - Trojan - IPv6 - 2083",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2083,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoicEJ2bU9ZbWROIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "B3-TesT.xzB2022.wOrkErS.Dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -724,14 +724,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiVDN6RWEweXQ4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiZTFaa3pudjRQcXF1OWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-test.XZb2022.WORkERs.DeV",
+            "sni": "B3-tesT.Xzb2022.wORKErs.DEv",
             "alpn": [
                 "http/1.1"
             ],
@@ -750,14 +750,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoib01QdzJhWkVBQm05TVQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoiQUdVc21EWHhROCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-tesT.xZB2022.WoRKERs.dev",
+            "sni": "B3-TeSt.Xzb2022.WOrkerS.DEv",
             "alpn": [
                 "http/1.1"
             ],
@@ -766,32 +766,6 @@
         },
         {
             "name": "💦 27 - Trojan - IPv4 - 2087",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 2087,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiMU1GZmVyTk8yUjdMZmMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "B3-TeSt.xZB2022.WoRKeRS.DEv",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 28 - Trojan - IPv4 - 2087",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 2087,
@@ -802,14 +776,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiVUthSVlIbTc0UFJWRkd1biIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoiWXhsNXNRVzNWR2ZKSm1jViIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-Test.XzB2022.WOrKeRs.dEV",
+            "sni": "b3-tesT.XZb2022.WoRKErs.dEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -817,9 +791,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 29 - Trojan - IPv6 - 2087",
+            "name": "💦 28 - Trojan - IPv4 - 2087",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 2087,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -828,14 +802,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoienNJclVYQ2JYIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiV0FySnprUnp6ciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-test.XZB2022.wOrkeRS.Dev",
+            "sni": "b3-TEST.XzB2022.woRKERS.dEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -843,7 +817,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 30 - Trojan - IPv6 - 2087",
+            "name": "💦 29 - Trojan - IPv6 - 2087",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 2087,
@@ -854,14 +828,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoic3U5NlhsV0dCUVlmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoib01yOXB1bXIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-TeSt.XZb2022.WorkErS.DEV",
+            "sni": "b3-TESt.XZb2022.WoRkeRS.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 30 - Trojan - IPv6 - 2087",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2087,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoiMVJ1SVBZVmJRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "b3-TeST.XzB2022.worKers.deV",
             "alpn": [
                 "http/1.1"
             ],
@@ -880,14 +880,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiT0tlQmxNcEpvaEYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTcuMTQyLjIzNi45MyJdfQ==",
+                "path": "/eyJqdW5rIjoiQllPbDJjZzlPTlNpQ0cyVCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-tEst.XzB2022.woRkeRS.deV",
+            "sni": "B3-tEst.Xzb2022.WOrkeRS.Dev",
             "alpn": [
                 "http/1.1"
             ],
@@ -906,14 +906,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoib2Nma1pVbktSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoieUh3STJlT2k3djRlcUV1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-tEST.xZb2022.woRKeRS.Dev",
+            "sni": "b3-TEsT.xZB2022.worKErs.dEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -922,32 +922,6 @@
         },
         {
             "name": "💦 33 - Trojan - IPv4 - 2096",
-            "type": "trojan",
-            "server": "104.21.73.212",
-            "port": 2096,
-            "password": "IoGH3<B(Ei>e",
-            "udp": false,
-            "ip-version": "dual",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "ws-opts": {
-                "path": "/eyJqdW5rIjoiWGlDZWNydG9ldyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
-                "headers": {
-                    "Host": "b3-test.xzb2022.workers.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "B3-tEst.xzb2022.WoRKErs.dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "💦 34 - Trojan - IPv4 - 2096",
             "type": "trojan",
             "server": "172.67.166.120",
             "port": 2096,
@@ -958,14 +932,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoib29rSEltbUdpIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiVld3OUxHb21CaiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "B3-test.xzb2022.wORKErs.dEV",
+            "sni": "B3-tEsT.Xzb2022.wOrkERs.dEV",
             "alpn": [
                 "http/1.1"
             ],
@@ -973,9 +947,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 35 - Trojan - IPv6 - 2096",
+            "name": "💦 34 - Trojan - IPv4 - 2096",
             "type": "trojan",
-            "server": "2606:4700:3033::6815:49d4",
+            "server": "104.21.73.212",
             "port": 2096,
             "password": "IoGH3<B(Ei>e",
             "udp": false,
@@ -984,14 +958,14 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoibGlrcjJRRmpzdCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
+                "path": "/eyJqdW5rIjoidkRqMEh3NnJNaFVkb1pwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-TEsT.xzb2022.WOrkErs.dev",
+            "sni": "B3-teST.XzB2022.WORkERs.deV",
             "alpn": [
                 "http/1.1"
             ],
@@ -999,7 +973,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 36 - Trojan - IPv6 - 2096",
+            "name": "💦 35 - Trojan - IPv6 - 2096",
             "type": "trojan",
             "server": "2606:4700:3033::ac43:a678",
             "port": 2096,
@@ -1010,14 +984,40 @@
             "network": "ws",
             "tfo": true,
             "ws-opts": {
-                "path": "/eyJqdW5rIjoiSDFYRXRzTjNoNDJ5c3o0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "path": "/eyJqdW5rIjoiVmFsRW1LeDlycSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjIxNy4xNDIuMjM2LjkzIl19",
                 "headers": {
                     "Host": "b3-test.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "b3-teSt.xzb2022.workERS.DEV",
+            "sni": "B3-TEsT.XZB2022.WORkeRs.DEv",
+            "alpn": [
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 36 - Trojan - IPv6 - 2096",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2096,
+            "password": "IoGH3<B(Ei>e",
+            "udp": false,
+            "ip-version": "dual",
+            "tls": true,
+            "network": "ws",
+            "tfo": true,
+            "ws-opts": {
+                "path": "/eyJqdW5rIjoiWDh6VG5hdTNKSlY3ZkdnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=",
+                "headers": {
+                    "Host": "b3-test.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "b3-tESt.Xzb2022.WORkeRS.Dev",
             "alpn": [
                 "http/1.1"
             ],
