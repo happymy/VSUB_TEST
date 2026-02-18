@@ -75,11 +75,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiVk1ZSFdxejRTcCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaTNJRDYzd2giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeSt.xZB2022.wORKERs.dEV",
+                        "serverName": "B3-tEsT.xzb2022.WOrkErs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -280,11 +280,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiRmdKVTZ6TGhSWEJaZDUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiOTY1ekdMV3k0ano3VzBtSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TESt.XZB2022.WORkErS.dEV",
+                        "serverName": "b3-TeST.xzb2022.workERs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -468,7 +468,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -478,11 +478,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiM3dQbnJuZzlUSDJCIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoibEhmZjVCTXIzWW9BeUkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeST.XzB2022.WORKerS.dEv",
+                        "serverName": "b3-tEST.XZb2022.worKERs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -608,7 +608,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 4 - Trojan - IPv4 : 443",
+        "remarks": "💦 4 - Trojan - IPv6 : 443",
         "version": {
             "min": "25.10.15"
         },
@@ -666,7 +666,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -676,11 +676,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQ1JUVDluOHhiYSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiZllBMnR0WkR3Tzd5SmgxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TEsT.XzB2022.wOrkERS.DEV",
+                        "serverName": "B3-TEsT.XzB2022.WORkeRS.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -806,403 +806,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 5 - Trojan - IPv6 : 443",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 443,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS1AwcjFTV3VMaU50Z3MiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-tesT.xZb2022.WorKERs.DEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 6 - Trojan - IPv6 : 443",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 443,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiWlZ1ZzYwVlpZd0VHaG4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tESt.xzb2022.wOrKErs.DEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 7 - Trojan - Domain : 8443",
+        "remarks": "💦 5 - Trojan - Domain : 8443",
         "version": {
             "min": "25.10.15"
         },
@@ -1277,11 +881,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoic01NOWo2Wm1xQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiNUREYUpFSWJhOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TeST.XZb2022.WORKERS.DeV",
+                        "serverName": "B3-TESt.xZb2022.WOrkERs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -1407,7 +1011,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 8 - Trojan - Domain : 8443",
+        "remarks": "💦 6 - Trojan - Domain : 8443",
         "version": {
             "min": "25.10.15"
         },
@@ -1482,11 +1086,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibzg4T2h2Z0pmTW00V0hJMiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiS1R5bnJxMEZTZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.XZB2022.workeRs.dev",
+                        "serverName": "B3-tESt.XzB2022.WoRkErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -1612,7 +1216,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 9 - Trojan - IPv4 : 8443",
+        "remarks": "💦 7 - Trojan - IPv4 : 8443",
         "version": {
             "min": "25.10.15"
         },
@@ -1670,7 +1274,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -1680,11 +1284,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS1NuRE85VkFlQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiTzkycEYzeWt1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.xzB2022.wORKers.dEV",
+                        "serverName": "B3-teST.xzb2022.WORKeRs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -1810,7 +1414,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 10 - Trojan - IPv4 : 8443",
+        "remarks": "💦 8 - Trojan - IPv6 : 8443",
         "version": {
             "min": "25.10.15"
         },
@@ -1868,7 +1472,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -1878,11 +1482,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiMzRwYmFmWVJvclpaSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiOFFWNXM3OGQzOTVlIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.Xzb2022.wOrkERs.dEV",
+                        "serverName": "b3-teSt.xZB2022.WoRKerS.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -2008,403 +1612,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 11 - Trojan - IPv6 : 8443",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 8443,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQVY2WWc3VTBmaFJpT3giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-TesT.Xzb2022.WOrkErS.dEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 12 - Trojan - IPv6 : 8443",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 8443,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZW5QclE5T2wyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TEST.xZB2022.worKeRS.Dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 13 - Trojan - Domain : 2053",
+        "remarks": "💦 9 - Trojan - Domain : 2053",
         "version": {
             "min": "25.10.15"
         },
@@ -2479,11 +1687,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoic1lhTkdJMGZQWEVxSmpSbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiSVRKVVIwaGZsaHh1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEST.XZb2022.woRkERs.deV",
+                        "serverName": "B3-teSt.Xzb2022.WOrKErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -2609,7 +1817,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 14 - Trojan - Domain : 2053",
+        "remarks": "💦 10 - Trojan - Domain : 2053",
         "version": {
             "min": "25.10.15"
         },
@@ -2684,11 +1892,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiYVFOY3YwSFVQVE8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiY1luTnhzSDYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TESt.Xzb2022.workERS.DeV",
+                        "serverName": "B3-teSt.xzb2022.woRkERs.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -2814,7 +2022,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 15 - Trojan - IPv4 : 2053",
+        "remarks": "💦 11 - Trojan - IPv4 : 2053",
         "version": {
             "min": "25.10.15"
         },
@@ -2872,7 +2080,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -2882,11 +2090,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicFVKaVpCbDN0YklGciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiWnBjejdra2t3anFGV2giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TesT.Xzb2022.WorKerS.DeV",
+                        "serverName": "b3-TeSt.xZb2022.workers.Dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -3012,7 +2220,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 16 - Trojan - IPv4 : 2053",
+        "remarks": "💦 12 - Trojan - IPv6 : 2053",
         "version": {
             "min": "25.10.15"
         },
@@ -3070,7 +2278,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -3080,11 +2288,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiSWxoS1RUMnhlSHhheExLMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoibWdOTUc2Q2N2TjYzekoyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-Test.Xzb2022.WORKErS.dEV",
+                        "serverName": "b3-TEST.Xzb2022.WoRkeRs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -3210,403 +2418,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 17 - Trojan - IPv6 : 2053",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2053,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicHZUS3BxajM4THdTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TeST.xzb2022.wOrkERS.DEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 18 - Trojan - IPv6 : 2053",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2053,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiOUI2Q3lyZ0VpYnBtdFNEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-TeSt.XZb2022.workeRs.dEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 19 - Trojan - Domain : 2083",
+        "remarks": "💦 13 - Trojan - Domain : 2083",
         "version": {
             "min": "25.10.15"
         },
@@ -3681,11 +2493,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibHRwTE5LUzV2cEk1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiUVdiakdnQ1RDdkt0cyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TesT.xZB2022.wOrkERs.dEV",
+                        "serverName": "B3-TEsT.XzB2022.worKErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -3811,7 +2623,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 20 - Trojan - Domain : 2083",
+        "remarks": "💦 14 - Trojan - Domain : 2083",
         "version": {
             "min": "25.10.15"
         },
@@ -3886,11 +2698,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZnZ4NDFvOG9Yd2lVMGs1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiUG1GOVFmcnRkWEtQR2YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-tEsT.xZB2022.wORKERs.deV",
+                        "serverName": "b3-tEst.xzb2022.workeRs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -4016,7 +2828,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 21 - Trojan - IPv4 : 2083",
+        "remarks": "💦 15 - Trojan - IPv4 : 2083",
         "version": {
             "min": "25.10.15"
         },
@@ -4074,7 +2886,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -4084,11 +2896,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoidDlvZ3c4S252MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiYkRQT0swSjllMUtTak4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TEst.xzB2022.WoRKeRs.DeV",
+                        "serverName": "b3-tEst.Xzb2022.workers.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -4214,7 +3026,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 22 - Trojan - IPv4 : 2083",
+        "remarks": "💦 16 - Trojan - IPv6 : 2083",
         "version": {
             "min": "25.10.15"
         },
@@ -4272,7 +3084,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -4282,11 +3094,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQWVacFJuallnRXVGSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiZ2dRTVBHd2lPRSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEst.xzB2022.wORKERs.Dev",
+                        "serverName": "b3-tESt.xzb2022.woRkERS.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -4412,403 +3224,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 23 - Trojan - IPv6 : 2083",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2083,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiVTJlaGdkYjgzZEg2OWsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-test.xzB2022.WorkERs.Dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 24 - Trojan - IPv6 : 2083",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2083,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQ0kxQUpQOFRTazZnTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TesT.XZB2022.WoRKErS.dEv",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 25 - Trojan - Domain : 2087",
+        "remarks": "💦 17 - Trojan - Domain : 2087",
         "version": {
             "min": "25.10.15"
         },
@@ -4883,11 +3299,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibVlYN2o5aHRBUGIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiY1J5WUI3SmVaeVQwVE9ZQyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TeSt.xzb2022.wORkerS.deV",
+                        "serverName": "b3-Test.XzB2022.woRKers.DEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -5013,7 +3429,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 26 - Trojan - Domain : 2087",
+        "remarks": "💦 18 - Trojan - Domain : 2087",
         "version": {
             "min": "25.10.15"
         },
@@ -5088,11 +3504,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiOVlyREx4V2R3YnJzQUU5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoicXJHa3ZuY2UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-tesT.xZB2022.WORKers.Dev",
+                        "serverName": "b3-tESt.XZB2022.wORkERs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -5218,7 +3634,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 27 - Trojan - IPv4 : 2087",
+        "remarks": "💦 19 - Trojan - IPv4 : 2087",
         "version": {
             "min": "25.10.15"
         },
@@ -5276,7 +3692,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -5286,11 +3702,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicnVQVm1jdTRnZTd6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiZDlERk8wUUJ3cUVEdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tEsT.xZB2022.wOrKERS.dev",
+                        "serverName": "b3-TesT.xZB2022.wOrkeRS.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -5416,7 +3832,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 28 - Trojan - IPv4 : 2087",
+        "remarks": "💦 20 - Trojan - IPv6 : 2087",
         "version": {
             "min": "25.10.15"
         },
@@ -5474,7 +3890,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -5484,11 +3900,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiV0dkQXA2RGJGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiQ3ByRkJrdThRMFdoSVB1aSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEST.XzB2022.WORKErs.DEv",
+                        "serverName": "b3-TeST.xZB2022.WoRkers.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -5614,403 +4030,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 29 - Trojan - IPv6 : 2087",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiM1IybldIRmFXIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tEST.XZB2022.wOrkERs.dEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 30 - Trojan - IPv6 : 2087",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiSm5XZERiQlp4amZSd3kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tEST.xzB2022.woRKERs.Dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 31 - Trojan - Domain : 2096",
+        "remarks": "💦 21 - Trojan - Domain : 2096",
         "version": {
             "min": "25.10.15"
         },
@@ -6085,11 +4105,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiUFhFRVZBMlVMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiSzdDQWx1WldyY1EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEST.xZB2022.WorkERS.deV",
+                        "serverName": "b3-teSt.XZb2022.workERs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -6215,7 +4235,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 32 - Trojan - Domain : 2096",
+        "remarks": "💦 22 - Trojan - Domain : 2096",
         "version": {
             "min": "25.10.15"
         },
@@ -6290,11 +4310,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZXNQTGlWdDRrQ0RvYUs4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiaGhYUFNiNWNoUUV1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEsT.xzB2022.wOrKeRs.deV",
+                        "serverName": "B3-TESt.xZb2022.woRKERs.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -6420,7 +4440,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 33 - Trojan - IPv4 : 2096",
+        "remarks": "💦 23 - Trojan - IPv4 : 2096",
         "version": {
             "min": "25.10.15"
         },
@@ -6478,7 +4498,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -6488,11 +4508,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiRmJwajJHcnFNa2c3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiUHlrTTlWZ3QiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeSt.Xzb2022.WoRkeRS.dEV",
+                        "serverName": "B3-TEst.Xzb2022.wORKErs.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -6618,7 +4638,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 34 - Trojan - IPv4 : 2096",
+        "remarks": "💦 24 - Trojan - IPv6 : 2096",
         "version": {
             "min": "25.10.15"
         },
@@ -6676,7 +4696,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -6686,407 +4706,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoidU9aSXNLQkFwV2Z5ZDVxYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiRHhoTFZWV29lenMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-tesT.XzB2022.WOrKERs.dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 35 - Trojan - IPv6 : 2096",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS2Zrd29wY3RQZkh3ak5wIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TesT.xzB2022.WorkeRS.DEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "nonIPQuery": "reject"
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
-                }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 36 - Trojan - IPv6 : 2096",
-        "version": {
-            "min": "25.10.15"
-        },
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {
-                "geosite:category-ads-all": "#3",
-                "geosite:category-ads-ir": "#3"
-            },
-            "servers": [
-                {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                }
-            ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "127.0.0.1",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZWM1a1ZoZDFsdDdWIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TeST.XZb2022.worKers.dev",
+                        "serverName": "b3-TEST.xZb2022.workERs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7288,11 +4912,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiVk1ZSFdxejRTcCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaTNJRDYzd2giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeSt.xZB2022.wORKERs.dEV",
+                        "serverName": "B3-tEsT.xzb2022.WOrkErs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7326,11 +4950,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiRmdKVTZ6TGhSWEJaZDUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiOTY1ekdMV3k0ano3VzBtSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TESt.XZB2022.WORkErS.dEV",
+                        "serverName": "b3-TeST.xzb2022.workERs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7354,7 +4978,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
+                            "address": "172.64.80.1",
                             "port": 443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -7364,11 +4988,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiM3dQbnJuZzlUSDJCIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoibEhmZjVCTXIzWW9BeUkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeST.XzB2022.WORKerS.dEv",
+                        "serverName": "b3-tEST.XZb2022.worKERs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7392,7 +5016,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -7402,11 +5026,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQ1JUVDluOHhiYSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiZllBMnR0WkR3Tzd5SmgxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TEsT.XzB2022.wOrkERS.DEV",
+                        "serverName": "B3-TEsT.XzB2022.WORkeRS.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7430,8 +5054,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 443,
+                            "address": "b3-test.xzb2022.workers.dev",
+                            "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7440,11 +5064,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS1AwcjFTV3VMaU50Z3MiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiNUREYUpFSWJhOCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-tesT.xZb2022.WorKERs.DEV",
+                        "serverName": "B3-TESt.xZb2022.WOrkERs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7468,8 +5092,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 443,
+                            "address": "www.speedtest.net",
+                            "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7478,11 +5102,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiWlZ1ZzYwVlpZd0VHaG4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiS1R5bnJxMEZTZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.xzb2022.wOrKErs.DEV",
+                        "serverName": "B3-tESt.XzB2022.WoRkErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7506,7 +5130,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "b3-test.xzb2022.workers.dev",
+                            "address": "172.64.80.1",
                             "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -7516,11 +5140,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoic01NOWo2Wm1xQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiTzkycEYzeWt1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TeST.XZb2022.WORKERS.DeV",
+                        "serverName": "B3-teST.xzb2022.WORKeRs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7544,7 +5168,7 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "www.speedtest.net",
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
                             "port": 8443,
                             "password": "IoGH3<B(Ei>e"
                         }
@@ -7554,11 +5178,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibzg4T2h2Z0pmTW00V0hJMiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiOFFWNXM3OGQzOTVlIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.XZB2022.workeRs.dev",
+                        "serverName": "b3-teSt.xZB2022.WoRKerS.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7582,8 +5206,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
-                            "port": 8443,
+                            "address": "b3-test.xzb2022.workers.dev",
+                            "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7592,11 +5216,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS1NuRE85VkFlQSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiSVRKVVIwaGZsaHh1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.xzB2022.wORKers.dEV",
+                        "serverName": "B3-teSt.Xzb2022.WOrKErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7620,8 +5244,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
-                            "port": 8443,
+                            "address": "www.speedtest.net",
+                            "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7630,11 +5254,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiMzRwYmFmWVJvclpaSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiY1luTnhzSDYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-tESt.Xzb2022.wOrkERs.dEV",
+                        "serverName": "B3-teSt.xzb2022.woRkERs.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7658,8 +5282,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 8443,
+                            "address": "172.64.80.1",
+                            "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7668,11 +5292,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQVY2WWc3VTBmaFJpT3giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiWnBjejdra2t3anFGV2giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TesT.Xzb2022.WOrkErS.dEV",
+                        "serverName": "b3-TeSt.xZb2022.workers.Dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7696,8 +5320,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 8443,
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
+                            "port": 2053,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7706,11 +5330,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZW5QclE5T2wyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoibWdOTUc2Q2N2TjYzekoyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEST.xZB2022.worKeRS.Dev",
+                        "serverName": "b3-TEST.Xzb2022.WoRkeRs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7735,7 +5359,7 @@
                     "servers": [
                         {
                             "address": "b3-test.xzb2022.workers.dev",
-                            "port": 2053,
+                            "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7744,11 +5368,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoic1lhTkdJMGZQWEVxSmpSbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiUVdiakdnQ1RDdkt0cyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEST.XZb2022.woRkERs.deV",
+                        "serverName": "B3-TEsT.XzB2022.worKErs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7773,7 +5397,7 @@
                     "servers": [
                         {
                             "address": "www.speedtest.net",
-                            "port": 2053,
+                            "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7782,11 +5406,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiYVFOY3YwSFVQVE8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiUG1GOVFmcnRkWEtQR2YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TESt.Xzb2022.workERS.DeV",
+                        "serverName": "b3-tEst.xzb2022.workeRs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7810,8 +5434,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
-                            "port": 2053,
+                            "address": "172.64.80.1",
+                            "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7820,11 +5444,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicFVKaVpCbDN0YklGciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiYkRQT0swSjllMUtTak4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TesT.Xzb2022.WorKerS.DeV",
+                        "serverName": "b3-tEst.Xzb2022.workers.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7848,8 +5472,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
-                            "port": 2053,
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
+                            "port": 2083,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7858,11 +5482,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiSWxoS1RUMnhlSHhheExLMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiZ2dRTVBHd2lPRSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-Test.Xzb2022.WORKErS.dEV",
+                        "serverName": "b3-tESt.xzb2022.woRkERS.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7886,8 +5510,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2053,
+                            "address": "b3-test.xzb2022.workers.dev",
+                            "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7896,11 +5520,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicHZUS3BxajM4THdTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiY1J5WUI3SmVaeVQwVE9ZQyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TeST.xzb2022.wOrkERS.DEV",
+                        "serverName": "b3-Test.XzB2022.woRKers.DEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7924,8 +5548,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2053,
+                            "address": "www.speedtest.net",
+                            "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7934,11 +5558,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiOUI2Q3lyZ0VpYnBtdFNEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoicXJHa3ZuY2UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TeSt.XZb2022.workeRs.dEV",
+                        "serverName": "b3-tESt.XZB2022.wORkERs.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -7962,8 +5586,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "b3-test.xzb2022.workers.dev",
-                            "port": 2083,
+                            "address": "172.64.80.1",
+                            "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -7972,11 +5596,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibHRwTE5LUzV2cEk1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiZDlERk8wUUJ3cUVEdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TesT.xZB2022.wOrkERs.dEV",
+                        "serverName": "b3-TesT.xZB2022.wOrkeRS.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8000,8 +5624,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "www.speedtest.net",
-                            "port": 2083,
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
+                            "port": 2087,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -8010,11 +5634,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZnZ4NDFvOG9Yd2lVMGs1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiQ3ByRkJrdThRMFdoSVB1aSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-tEsT.xZB2022.wORKERs.deV",
+                        "serverName": "b3-TeST.xZB2022.WoRkers.dev",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8038,8 +5662,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "104.21.73.212",
-                            "port": 2083,
+                            "address": "b3-test.xzb2022.workers.dev",
+                            "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -8048,11 +5672,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoidDlvZ3c4S252MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiSzdDQWx1WldyY1EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-TEst.xzB2022.WoRKeRs.DeV",
+                        "serverName": "b3-teSt.XZb2022.workERs.dEV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8076,8 +5700,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.67.166.120",
-                            "port": 2083,
+                            "address": "www.speedtest.net",
+                            "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -8086,11 +5710,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQWVacFJuallnRXVGSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaGhYUFNiNWNoUUV1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TEst.xzB2022.wORKERs.Dev",
+                        "serverName": "B3-TESt.xZb2022.woRKERs.DEv",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8114,8 +5738,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2083,
+                            "address": "172.64.80.1",
+                            "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -8124,11 +5748,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiVTJlaGdkYjgzZEg2OWsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiUHlrTTlWZ3QiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "B3-test.xzB2022.WorkERs.Dev",
+                        "serverName": "B3-TEst.Xzb2022.wORKErs.DeV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8152,8 +5776,8 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2083,
+                            "address": "[2606:4700:130:436c:6f75:6466:6c61:7265]",
+                            "port": 2096,
                             "password": "IoGH3<B(Ei>e"
                         }
                     ]
@@ -8162,11 +5786,11 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiQ0kxQUpQOFRTazZnTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiRHhoTFZWV29lenMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "b3-TesT.XZB2022.WoRKErS.dEv",
+                        "serverName": "b3-TEST.xZb2022.workERs.deV",
                         "fingerprint": "randomized",
                         "alpn": [
                             "http/1.1"
@@ -8184,462 +5808,6 @@
                     }
                 },
                 "tag": "proxy-24"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "b3-test.xzb2022.workers.dev",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoibVlYN2o5aHRBUGIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TeSt.xzb2022.wORkerS.deV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-25"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "www.speedtest.net",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiOVlyREx4V2R3YnJzQUU5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-tesT.xZB2022.WORKers.Dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-26"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "104.21.73.212",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoicnVQVm1jdTRnZTd6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tEsT.xZB2022.wOrKERS.dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-27"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "172.67.166.120",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiV0dkQXA2RGJGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TEST.XzB2022.WORKErs.DEv",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-28"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiM1IybldIRmFXIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tEST.XZB2022.wOrkERs.dEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-29"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2087,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiSm5XZERiQlp4amZSd3kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuMTA1LjE5Mi4yNTQiXX0=?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-tEST.xzB2022.woRKERs.Dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-30"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "b3-test.xzb2022.workers.dev",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiUFhFRVZBMlVMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TEST.xZB2022.WorkERS.deV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-31"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "www.speedtest.net",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZXNQTGlWdDRrQ0RvYUs4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TEsT.xzB2022.wOrKeRs.deV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-32"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "104.21.73.212",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiRmJwajJHcnFNa2c3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-TeSt.Xzb2022.WoRkeRS.dEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-33"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "172.67.166.120",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoidU9aSXNLQkFwV2Z5ZDVxYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi4xMDUuMTkyLjI1NCJdfQ==?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "B3-tesT.XzB2022.WOrKERs.dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-34"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::6815:49d4]",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiS2Zrd29wY3RQZkh3ak5wIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TesT.xzB2022.WorkeRS.DEV",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-35"
-            },
-            {
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "[2606:4700:3033::ac43:a678]",
-                            "port": 2096,
-                            "password": "IoGH3<B(Ei>e"
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "b3-test.xzb2022.workers.dev",
-                        "path": "/eyJqdW5rIjoiZWM1a1ZoZDFsdDdWIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjEwNS4xOTIuMjU0Il19?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "b3-TeST.XZb2022.worKers.dev",
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "allowInsecure": false
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-36"
             },
             {
                 "protocol": "dns",
