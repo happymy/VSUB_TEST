@@ -93,14 +93,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/fqO28UY767M87ZDz/dHMuaHBjLnR3",
+                "path": "/E1qXnNwuwg5KbzxB/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AgED-sHApE-cd8A.XzB2022.worKeRs.DeV",
+            "servername": "aGEd-shApE-Cd8A.xzB2022.woRKErs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -119,14 +119,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/2SjIdfKycC9DCWeF/dHMuaHBjLnR3",
+                "path": "/AAAhwArkkpHlmfOX/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "Aged-SHAPe-CD8a.XZB2022.woRKErS.dev",
+            "servername": "aGeD-SHAPe-CD8A.XZb2022.wORKErs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -137,7 +137,7 @@
         {
             "name": "💦 3 - VLESS - IPv4 - 443",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 443,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -145,14 +145,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/ZpEKvJg8xg5abypR/dHMuaHBjLnR3",
+                "path": "/5Jq1V9kum5nt2WF5/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGed-shApE-Cd8a.XZB2022.WorKeRs.deV",
+            "servername": "aGed-sHapE-CD8a.xZb2022.WorkERS.dEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -161,9 +161,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 4 - VLESS - IPv6 - 443",
+            "name": "💦 4 - VLESS - IPv4 - 443",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 443,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -171,14 +171,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/mAfeJ9gAlfZkS78d/dHMuaHBjLnR3",
+                "path": "/jORCIEanaq6MTCQS/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aged-sHAPE-Cd8a.xZb2022.wORkErS.dEv",
+            "servername": "AGeD-shape-cD8a.xZB2022.woRKeRs.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -187,7 +187,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 5 - VLESS - Domain - 8443",
+            "name": "💦 5 - VLESS - IPv6 - 443",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 443,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/sflZ318Wk1ExcLhx/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "agEd-sHaPE-cD8a.xZB2022.worKERs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 6 - VLESS - IPv6 - 443",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 443,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/RTc2gsvqnShHsCqB/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "aGed-SHAPE-Cd8A.XzB2022.WOrKERs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 7 - VLESS - Domain - 8443",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 8443,
@@ -197,14 +249,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/MaziXVVYQwvZe6Uq/dHMuaHBjLnR3",
+                "path": "/VCCImKgfI2OybB6Y/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "ageD-ShapE-CD8A.xzb2022.WorKerS.dEV",
+            "servername": "AgED-SHApE-cd8a.XzB2022.WorkERS.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -213,7 +265,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 6 - VLESS - Domain - 8443",
+            "name": "💦 8 - VLESS - Domain - 8443",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 8443,
@@ -223,14 +275,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Wg9QlgkLsrGt49yq/dHMuaHBjLnR3",
+                "path": "/ucKizRFMLS4Er3xO/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AGed-shApE-CD8A.xzB2022.WorkERs.Dev",
+            "servername": "AGED-ShApe-CD8a.xzB2022.wOrkErs.dEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -239,9 +291,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 7 - VLESS - IPv4 - 8443",
+            "name": "💦 9 - VLESS - IPv4 - 8443",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 8443,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -249,14 +301,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/GdJjJF3i6B0xMcWG/dHMuaHBjLnR3",
+                "path": "/qL2nGBSZuy8e2zVx/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "Aged-ShApe-cd8A.xzB2022.WORkERS.dEv",
+            "servername": "ageD-SHApE-cD8A.XzB2022.woRKErs.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -265,9 +317,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 8 - VLESS - IPv6 - 8443",
+            "name": "💦 10 - VLESS - IPv4 - 8443",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 8443,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -275,14 +327,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/xZpvnvfrLrwez7Vu/dHMuaHBjLnR3",
+                "path": "/kHeGK2DV9ioJ97aQ/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGEd-sHApe-Cd8A.Xzb2022.woRkeRs.DEv",
+            "servername": "AGED-ShaPe-cD8a.Xzb2022.WoRKERS.dEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -291,7 +343,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 9 - VLESS - Domain - 2053",
+            "name": "💦 11 - VLESS - IPv6 - 8443",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 8443,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/J8JzMcv55cFDTWQS/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "AGeD-ShapE-cd8a.XZB2022.WorKERs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 12 - VLESS - IPv6 - 8443",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 8443,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/yzX2Uxh7kr9LsmvM/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "aged-ShApe-Cd8A.XzB2022.WORKeRs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 13 - VLESS - Domain - 2053",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2053,
@@ -301,14 +405,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Ah60WfUA1ABUckGy/dHMuaHBjLnR3",
+                "path": "/VIaHz23WpSs4px3t/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGED-shaPE-cD8A.XZB2022.WoRkERS.DeV",
+            "servername": "AgED-shape-Cd8A.xzB2022.WoRKErs.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -317,7 +421,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 10 - VLESS - Domain - 2053",
+            "name": "💦 14 - VLESS - Domain - 2053",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2053,
@@ -327,14 +431,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/gpjMQZLeOyB6ITgk/dHMuaHBjLnR3",
+                "path": "/7Wt00oJ5tFFxj4QV/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGEd-shaPe-cd8a.XZb2022.wORKERs.DeV",
+            "servername": "AgED-sHaPE-Cd8A.XZb2022.WorkErS.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -343,9 +447,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 11 - VLESS - IPv4 - 2053",
+            "name": "💦 15 - VLESS - IPv4 - 2053",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2053,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -353,14 +457,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/jrCmnMYdXqFhBv5Q/dHMuaHBjLnR3",
+                "path": "/Un8e2mnTf1JVIMSv/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "agEd-SHAPE-CD8a.Xzb2022.WORKERS.deV",
+            "servername": "aGed-sHaPE-Cd8A.Xzb2022.WorKeRS.dEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -369,9 +473,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 12 - VLESS - IPv6 - 2053",
+            "name": "💦 16 - VLESS - IPv4 - 2053",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2053,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -379,14 +483,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/pI66eeYGtMg4MB1w/dHMuaHBjLnR3",
+                "path": "/wICd3wZkieLbKeN3/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGeD-Shape-cd8A.xZb2022.wOrkerS.DeV",
+            "servername": "aGed-shAPe-CD8A.xZb2022.wOrkErs.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -395,7 +499,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 13 - VLESS - Domain - 2083",
+            "name": "💦 17 - VLESS - IPv6 - 2053",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2053,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/hOy54wxyeLB10zmh/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "AGEd-sHAPe-cD8A.XzB2022.WoRkerS.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 18 - VLESS - IPv6 - 2053",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2053,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/WDpUy9EMCYUQZaGJ/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "agEd-ShaPE-cD8A.XZB2022.WOrkErS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 19 - VLESS - Domain - 2083",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2083,
@@ -405,14 +561,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Xeqakau3UZWYTPYZ/dHMuaHBjLnR3",
+                "path": "/rUrPAaDat020Qnk6/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AgEd-sHApE-CD8a.xZB2022.wOrKers.Dev",
+            "servername": "aGED-SHAPe-cD8a.XzB2022.WORkeRs.dEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -421,7 +577,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 14 - VLESS - Domain - 2083",
+            "name": "💦 20 - VLESS - Domain - 2083",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2083,
@@ -431,14 +587,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/vrE2xIDPAocxjaAw/dHMuaHBjLnR3",
+                "path": "/om1ebgMpMsksFBNb/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aged-ShApE-Cd8A.xzb2022.WorKErs.DEv",
+            "servername": "AgeD-ShApe-CD8a.xzb2022.WORkErs.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -447,9 +603,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 15 - VLESS - IPv4 - 2083",
+            "name": "💦 21 - VLESS - IPv4 - 2083",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2083,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -457,14 +613,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/baIDEbEqDo6mqkyj/dHMuaHBjLnR3",
+                "path": "/rvsflSOT6oUNR2Dv/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGED-shAPe-CD8A.xZb2022.wORKeRS.dEv",
+            "servername": "AgEd-shape-cd8A.Xzb2022.WOrKErs.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -473,9 +629,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 16 - VLESS - IPv6 - 2083",
+            "name": "💦 22 - VLESS - IPv4 - 2083",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2083,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -483,14 +639,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/AjAM0OMzfIrqcuFE/dHMuaHBjLnR3",
+                "path": "/sKk3X1o5Gzm4aNgB/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AGed-ShAPE-Cd8A.Xzb2022.wORKers.dEv",
+            "servername": "AGEd-SHAPe-CD8a.xZb2022.WoRKErs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -499,7 +655,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 17 - VLESS - Domain - 2087",
+            "name": "💦 23 - VLESS - IPv6 - 2083",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2083,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/oFiJPOjDm3seMkbx/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "AgEd-ShAPE-CD8a.xzb2022.WorkErS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 24 - VLESS - IPv6 - 2083",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2083,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/4Cjt8VRf7LKYFebu/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "agEd-shApe-cD8A.XZB2022.WOrKERs.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 25 - VLESS - Domain - 2087",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2087,
@@ -509,14 +717,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/xRf5dJaZeweM2BwT/dHMuaHBjLnR3",
+                "path": "/8CLj08CBtSOvaQhP/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AgeD-sHaPE-Cd8a.Xzb2022.WoRKers.DEv",
+            "servername": "aGEd-sHApe-cd8A.xZB2022.WORKers.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -525,7 +733,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 18 - VLESS - Domain - 2087",
+            "name": "💦 26 - VLESS - Domain - 2087",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2087,
@@ -535,14 +743,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/VNZCHc5xrMzhFU39/dHMuaHBjLnR3",
+                "path": "/X9TxLyF7nQjz78TK/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AgED-SHAPe-cD8a.Xzb2022.WorKers.dEv",
+            "servername": "aged-SHape-cD8A.Xzb2022.wORKErS.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -551,9 +759,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 19 - VLESS - IPv4 - 2087",
+            "name": "💦 27 - VLESS - IPv4 - 2087",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2087,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -561,14 +769,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/fqcuTNIdf8t0Xfqm/dHMuaHBjLnR3",
+                "path": "/VN1CHPAfKsTFyQCO/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGED-shAPe-cd8a.xzB2022.WorKers.deV",
+            "servername": "AGeD-ShAPE-CD8a.XZb2022.WorKers.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -577,9 +785,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 20 - VLESS - IPv6 - 2087",
+            "name": "💦 28 - VLESS - IPv4 - 2087",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2087,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -587,14 +795,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/bDZ0dQw1iCgjVRut/dHMuaHBjLnR3",
+                "path": "/oLvorZKUb8G3MKr8/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aged-shApE-CD8a.xzB2022.WoRKeRS.dEv",
+            "servername": "aged-sHapE-cd8a.xZB2022.woRkErs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -603,7 +811,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 21 - VLESS - Domain - 2096",
+            "name": "💦 29 - VLESS - IPv6 - 2087",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2087,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/Gu3kV81Of3OSAsOs/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "aGEd-sHapE-cD8A.XZB2022.wORKerS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 30 - VLESS - IPv6 - 2087",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2087,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/tSu48RfWiOieiIye/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "AgeD-sHAPE-cd8A.xZb2022.wOrKeRs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 31 - VLESS - Domain - 2096",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2096,
@@ -613,14 +873,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/lqvDnJNVWamox3dL/dHMuaHBjLnR3",
+                "path": "/3I0c5CkkAbCmPrro/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "ageD-SHAPe-cd8A.XzB2022.wORkERs.DeV",
+            "servername": "AGED-sHape-cd8A.XZB2022.WoRkers.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -629,7 +889,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 22 - VLESS - Domain - 2096",
+            "name": "💦 32 - VLESS - Domain - 2096",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2096,
@@ -639,14 +899,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Mk75SK4Xll3v4OSY/dHMuaHBjLnR3",
+                "path": "/xaKmcv95IluTwXRe/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGeD-SHaPe-CD8A.XzB2022.WORkeRS.dEv",
+            "servername": "AGeD-ShApE-CD8A.xzB2022.WoRkErS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -655,9 +915,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 23 - VLESS - IPv4 - 2096",
+            "name": "💦 33 - VLESS - IPv4 - 2096",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2096,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -665,14 +925,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/veSlRcEZVWMEYr7P/dHMuaHBjLnR3",
+                "path": "/1c95N9A4SepIz7Yo/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "AGeD-sHaPe-Cd8a.xzb2022.WOrKERs.deV",
+            "servername": "ageD-shAPe-cD8a.Xzb2022.WORkErs.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -681,9 +941,9 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 24 - VLESS - IPv6 - 2096",
+            "name": "💦 34 - VLESS - IPv4 - 2096",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2096,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -691,14 +951,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/qz6xU9TlLjb2fSdQ/dHMuaHBjLnR3",
+                "path": "/SWEHWwNP6Zr86YAx/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "servername": "aGEd-SHape-Cd8A.XZb2022.woRKerS.dEV",
+            "servername": "AGeD-Shape-Cd8A.XZB2022.WOrKErS.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -707,7 +967,59 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 25 - VLESS - Domain - 80",
+            "name": "💦 35 - VLESS - IPv6 - 2096",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2096,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/Yv6uFiFqeKbvJraD/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "agED-SHAPE-cD8A.xZB2022.WoRkErS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 36 - VLESS - IPv6 - 2096",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2096,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": true,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/yRTnpOy15Ol2yQOp/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "AgeD-shApe-cd8a.Xzb2022.WorKeRS.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 37 - VLESS - Domain - 80",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 80,
@@ -717,7 +1029,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/JiotjsMQIkB4OiY1/dHMuaHBjLnR3",
+                "path": "/kSQyc0mIpCO7OpWf/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -726,7 +1038,7 @@
             }
         },
         {
-            "name": "💦 26 - VLESS - Domain - 80",
+            "name": "💦 38 - VLESS - Domain - 80",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 80,
@@ -736,7 +1048,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/80M72EvsuXcPCET3/dHMuaHBjLnR3",
+                "path": "/7HwflltICJ3qsRi1/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -745,9 +1057,9 @@
             }
         },
         {
-            "name": "💦 27 - VLESS - IPv4 - 80",
+            "name": "💦 39 - VLESS - IPv4 - 80",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 80,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -755,7 +1067,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/lWeFUecNJX1Pt5YK/dHMuaHBjLnR3",
+                "path": "/6F8Stu1Jb83cYY2g/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -764,9 +1076,9 @@
             }
         },
         {
-            "name": "💦 28 - VLESS - IPv6 - 80",
+            "name": "💦 40 - VLESS - IPv4 - 80",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 80,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -774,7 +1086,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/X2D8NSVs1Zf5qxMG/dHMuaHBjLnR3",
+                "path": "/nYQcrdDkffgVdLAf/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -783,7 +1095,45 @@
             }
         },
         {
-            "name": "💦 29 - VLESS - Domain - 8080",
+            "name": "💦 41 - VLESS - IPv6 - 80",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 80,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/dqVXPzLlpdymYvJo/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 42 - VLESS - IPv6 - 80",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 80,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/Y8SFdH31slWzdXKm/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 43 - VLESS - Domain - 8080",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 8080,
@@ -793,7 +1143,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/7sqFrCzOjooRaJre/dHMuaHBjLnR3",
+                "path": "/H9Chs4ew5iH6Wb5t/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -802,7 +1152,7 @@
             }
         },
         {
-            "name": "💦 30 - VLESS - Domain - 8080",
+            "name": "💦 44 - VLESS - Domain - 8080",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 8080,
@@ -812,7 +1162,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/UudkOofKjQMHRa0C/dHMuaHBjLnR3",
+                "path": "/ZrsbeRZKN8bU5OMf/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -821,9 +1171,9 @@
             }
         },
         {
-            "name": "💦 31 - VLESS - IPv4 - 8080",
+            "name": "💦 45 - VLESS - IPv4 - 8080",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 8080,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -831,7 +1181,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/0iwknGXfCoeasEVG/dHMuaHBjLnR3",
+                "path": "/yEC6gtoQqPEuluUJ/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -840,9 +1190,9 @@
             }
         },
         {
-            "name": "💦 32 - VLESS - IPv6 - 8080",
+            "name": "💦 46 - VLESS - IPv4 - 8080",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 8080,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -850,7 +1200,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/qKvmURpbRkbgPUpU/dHMuaHBjLnR3",
+                "path": "/QTpUseT7PlAb83Nm/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -859,7 +1209,45 @@
             }
         },
         {
-            "name": "💦 33 - VLESS - Domain - 2052",
+            "name": "💦 47 - VLESS - IPv6 - 8080",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 8080,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/gWd7xicCbIKjFuxM/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 48 - VLESS - IPv6 - 8080",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 8080,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/LSABoUA3rzio9w8h/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 49 - VLESS - Domain - 2052",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2052,
@@ -869,7 +1257,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/YBSbz9dVEj1TeXSD/dHMuaHBjLnR3",
+                "path": "/Ow7TvozqyD5pfhlv/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -878,7 +1266,7 @@
             }
         },
         {
-            "name": "💦 34 - VLESS - Domain - 2052",
+            "name": "💦 50 - VLESS - Domain - 2052",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2052,
@@ -888,7 +1276,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/2y6GytFzNCqLYfJM/dHMuaHBjLnR3",
+                "path": "/fZUQpkKgnr6omDCa/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -897,9 +1285,9 @@
             }
         },
         {
-            "name": "💦 35 - VLESS - IPv4 - 2052",
+            "name": "💦 51 - VLESS - IPv4 - 2052",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2052,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -907,7 +1295,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/D92lAvIwDWBiwf14/dHMuaHBjLnR3",
+                "path": "/dOCIjNYUDR5mAX93/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -916,9 +1304,9 @@
             }
         },
         {
-            "name": "💦 36 - VLESS - IPv6 - 2052",
+            "name": "💦 52 - VLESS - IPv4 - 2052",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2052,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -926,7 +1314,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/r59HSAP7rplnb4LC/dHMuaHBjLnR3",
+                "path": "/x5AAu4klGk91HKxP/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -935,7 +1323,45 @@
             }
         },
         {
-            "name": "💦 37 - VLESS - Domain - 2082",
+            "name": "💦 53 - VLESS - IPv6 - 2052",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2052,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/jJZ8KWLCQ4oZydMI/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 54 - VLESS - IPv6 - 2052",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2052,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/fOuGn3H3LAeaOOhB/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 55 - VLESS - Domain - 2082",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2082,
@@ -945,7 +1371,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/RD2bbIaNUXVj30tT/dHMuaHBjLnR3",
+                "path": "/d8qQAfMkOXpvYYZd/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -954,7 +1380,7 @@
             }
         },
         {
-            "name": "💦 38 - VLESS - Domain - 2082",
+            "name": "💦 56 - VLESS - Domain - 2082",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2082,
@@ -964,7 +1390,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/gw79d7jcXRNirdyO/dHMuaHBjLnR3",
+                "path": "/qw5vKNRns8eRUfaI/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -973,9 +1399,9 @@
             }
         },
         {
-            "name": "💦 39 - VLESS - IPv4 - 2082",
+            "name": "💦 57 - VLESS - IPv4 - 2082",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2082,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -983,7 +1409,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/beUFrTR1KWUWX8ow/dHMuaHBjLnR3",
+                "path": "/s5phyBrfMWNSIbmY/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -992,9 +1418,9 @@
             }
         },
         {
-            "name": "💦 40 - VLESS - IPv6 - 2082",
+            "name": "💦 58 - VLESS - IPv4 - 2082",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2082,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1002,7 +1428,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/BpTh6KnbJH269g8O/dHMuaHBjLnR3",
+                "path": "/qEM5IaVlrEmQJ8A2/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1011,7 +1437,45 @@
             }
         },
         {
-            "name": "💦 41 - VLESS - Domain - 2086",
+            "name": "💦 59 - VLESS - IPv6 - 2082",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2082,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/ZglhCP1iMNZqjxw6/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 60 - VLESS - IPv6 - 2082",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2082,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/mZSx6zdrqYFuVGrs/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 61 - VLESS - Domain - 2086",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2086,
@@ -1021,7 +1485,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/PDKxAKe7M6papMKQ/dHMuaHBjLnR3",
+                "path": "/jaAXrWoau7vHLYrG/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1030,7 +1494,7 @@
             }
         },
         {
-            "name": "💦 42 - VLESS - Domain - 2086",
+            "name": "💦 62 - VLESS - Domain - 2086",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2086,
@@ -1040,7 +1504,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/V7AxMchIywTvjf7z/dHMuaHBjLnR3",
+                "path": "/FchvDZGe2B7DEIBP/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1049,9 +1513,9 @@
             }
         },
         {
-            "name": "💦 43 - VLESS - IPv4 - 2086",
+            "name": "💦 63 - VLESS - IPv4 - 2086",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2086,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1059,7 +1523,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/m8ffKe0hZVGGI9q0/dHMuaHBjLnR3",
+                "path": "/BD58HZb6DJMayVyg/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1068,9 +1532,9 @@
             }
         },
         {
-            "name": "💦 44 - VLESS - IPv6 - 2086",
+            "name": "💦 64 - VLESS - IPv4 - 2086",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2086,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1078,7 +1542,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/OHMfLQOVmcBk8tqV/dHMuaHBjLnR3",
+                "path": "/lX2KyjdM4rQVNlch/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1087,7 +1551,45 @@
             }
         },
         {
-            "name": "💦 45 - VLESS - Domain - 2095",
+            "name": "💦 65 - VLESS - IPv6 - 2086",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2086,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/7ILBBGb9NdEl9fIW/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 66 - VLESS - IPv6 - 2086",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2086,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/7ZjqAPQmxqOAMAcF/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 67 - VLESS - Domain - 2095",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2095,
@@ -1097,7 +1599,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/9eKlv32XXSN4VcAX/dHMuaHBjLnR3",
+                "path": "/H0WB6TdZBqGU2RpP/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1106,7 +1608,7 @@
             }
         },
         {
-            "name": "💦 46 - VLESS - Domain - 2095",
+            "name": "💦 68 - VLESS - Domain - 2095",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 2095,
@@ -1116,7 +1618,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/856DvoRv6c7KhBc1/dHMuaHBjLnR3",
+                "path": "/DPssT6Jzidpy0GGs/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1125,9 +1627,9 @@
             }
         },
         {
-            "name": "💦 47 - VLESS - IPv4 - 2095",
+            "name": "💦 69 - VLESS - IPv4 - 2095",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2095,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1135,7 +1637,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/07sOINR4IVLC9JtB/dHMuaHBjLnR3",
+                "path": "/MD8ZFddAfUDqN9hS/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1144,9 +1646,9 @@
             }
         },
         {
-            "name": "💦 48 - VLESS - IPv6 - 2095",
+            "name": "💦 70 - VLESS - IPv4 - 2095",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2095,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1154,7 +1656,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/c9pT0pRSAoMhTvgf/dHMuaHBjLnR3",
+                "path": "/HioMqBcCdwHFxeC0/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1163,7 +1665,45 @@
             }
         },
         {
-            "name": "💦 49 - VLESS - Domain - 8880",
+            "name": "💦 71 - VLESS - IPv6 - 2095",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2095,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/9tUOMrh9bKHZR1ex/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 72 - VLESS - IPv6 - 2095",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2095,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/wVYuYpblhjTjpYGy/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 73 - VLESS - Domain - 8880",
             "type": "vless",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 8880,
@@ -1173,7 +1713,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/84mm1nWjKqgbs0AS/dHMuaHBjLnR3",
+                "path": "/Efymec9kydgG0lpY/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1182,7 +1722,7 @@
             }
         },
         {
-            "name": "💦 50 - VLESS - Domain - 8880",
+            "name": "💦 74 - VLESS - Domain - 8880",
             "type": "vless",
             "server": "www.speedtest.net",
             "port": 8880,
@@ -1192,7 +1732,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/Q64SX6saboUYPxQ4/dHMuaHBjLnR3",
+                "path": "/aEj36KXgZ4Nr5sMx/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1201,9 +1741,9 @@
             }
         },
         {
-            "name": "💦 51 - VLESS - IPv4 - 8880",
+            "name": "💦 75 - VLESS - IPv4 - 8880",
             "type": "vless",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 8880,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1211,7 +1751,7 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/WOPcBt9XQgW6IcJr/dHMuaHBjLnR3",
+                "path": "/kPOIHbOceXy09ULk/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1220,9 +1760,9 @@
             }
         },
         {
-            "name": "💦 52 - VLESS - IPv6 - 8880",
+            "name": "💦 76 - VLESS - IPv4 - 8880",
             "type": "vless",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 8880,
             "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
             "packet-encoding": "",
@@ -1230,7 +1770,45 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/PNCxLfbru21p9dV6/dHMuaHBjLnR3",
+                "path": "/Y7hheZgBYAO5bpfj/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 77 - VLESS - IPv6 - 8880",
+            "type": "vless",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 8880,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/QG7sPvPgQSalKMsm/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "name": "💦 78 - VLESS - IPv6 - 8880",
+            "type": "vless",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 8880,
+            "uuid": "7374c104-af41-4b29-ade5-e591a76a5eeb",
+            "packet-encoding": "",
+            "tls": false,
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/pAUWCTM9eiukRov9/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
@@ -1247,14 +1825,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trYTvAjSIrOnNVSvq1/dHMuaHBjLnR3",
+                "path": "/trwsYeTVqfpLMzwYAW/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aGED-Shape-cd8A.XZb2022.wOrKErs.dEV",
+            "sni": "AGED-SHAPE-cD8a.xZb2022.wOrkERS.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1271,14 +1849,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr8IKcKHhcIp8huZbZ/dHMuaHBjLnR3",
+                "path": "/trv9xIsMBXtiuZwcfO/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "agEd-SHaPE-CD8a.xzB2022.WORKeRS.DEv",
+            "sni": "agED-SHapE-CD8A.xzb2022.WorKERs.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1289,20 +1867,20 @@
         {
             "name": "💦 3 - Trojan - IPv4 - 443",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 443,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr26pqkRU5N9DILjOZ/dHMuaHBjLnR3",
+                "path": "/tr3VWYzMCwz20i5Cbz/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aged-sHaPe-CD8A.xZB2022.wOrkERS.deV",
+            "sni": "agED-shAPE-Cd8a.Xzb2022.WOrKERs.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1311,22 +1889,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 4 - Trojan - IPv6 - 443",
+            "name": "💦 4 - Trojan - IPv4 - 443",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 443,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trR8zjy8ozzDRZ7SkV/dHMuaHBjLnR3",
+                "path": "/tr1UFsivDaTmZQsZd9/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aGED-shape-cD8a.XzB2022.woRKERs.dev",
+            "sni": "aGED-shapE-cd8a.xZb2022.WOrKerS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1335,7 +1913,55 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 5 - Trojan - Domain - 8443",
+            "name": "💦 5 - Trojan - IPv6 - 443",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 443,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trK0B89YRkeab8dW5c/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "AGed-ShaPE-CD8A.XZB2022.WORKeRs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 6 - Trojan - IPv6 - 443",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 443,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trOv4Mp8ERlJViojmB/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "aGEd-ShApe-cD8a.Xzb2022.WORkErs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 7 - Trojan - Domain - 8443",
             "type": "trojan",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 8443,
@@ -1343,14 +1969,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr7y1fALqVcgRw2KU3/dHMuaHBjLnR3",
+                "path": "/trUVCW0uwFmWpndRLT/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aged-SHApe-cD8a.XzB2022.workeRs.DEV",
+            "sni": "aGed-ShaPE-cd8A.xzb2022.WOrKERS.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1359,7 +1985,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 6 - Trojan - Domain - 8443",
+            "name": "💦 8 - Trojan - Domain - 8443",
             "type": "trojan",
             "server": "www.speedtest.net",
             "port": 8443,
@@ -1367,14 +1993,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trJSXAEfWCmPNN3LfJ/dHMuaHBjLnR3",
+                "path": "/trWqmuCrnPGkb6GWOK/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aged-SHaPe-cd8a.Xzb2022.wORkErS.dEV",
+            "sni": "aGEd-sHaPe-Cd8A.XZB2022.WORKERs.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1383,22 +2009,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 7 - Trojan - IPv4 - 8443",
+            "name": "💦 9 - Trojan - IPv4 - 8443",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 8443,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr9mYIwy9fp27e9GNk/dHMuaHBjLnR3",
+                "path": "/trRBvVbLaisNsvP7Zq/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aGed-SHapE-CD8A.XZb2022.WOrkers.dEv",
+            "sni": "agEd-ShapE-cD8a.Xzb2022.WoRKeRs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1407,22 +2033,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 8 - Trojan - IPv6 - 8443",
+            "name": "💦 10 - Trojan - IPv4 - 8443",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 8443,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trV3qtrtgoHi7jnSA6/dHMuaHBjLnR3",
+                "path": "/trGAobubMETuq7IJiB/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGED-Shape-Cd8a.xzB2022.WORKeRS.deV",
+            "sni": "agED-shapE-Cd8A.Xzb2022.wOrKERS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1431,7 +2057,55 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 9 - Trojan - Domain - 2053",
+            "name": "💦 11 - Trojan - IPv6 - 8443",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 8443,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trHV3LYqfP2LkI44k2/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "aged-SHape-Cd8a.XZb2022.wOrkERs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 12 - Trojan - IPv6 - 8443",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 8443,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trVXc1GKOJOxqeWH25/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "AGEd-shApE-cd8A.XzB2022.WORkeRS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 13 - Trojan - Domain - 2053",
             "type": "trojan",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2053,
@@ -1439,14 +2113,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trwGCtNyZckBWViEWt/dHMuaHBjLnR3",
+                "path": "/trFnGvR1iphBVFxvkE/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGED-ShAPE-CD8a.xzB2022.worKeRs.DEv",
+            "sni": "AgeD-SHape-cD8a.XzB2022.woRkERs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1455,7 +2129,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 10 - Trojan - Domain - 2053",
+            "name": "💦 14 - Trojan - Domain - 2053",
             "type": "trojan",
             "server": "www.speedtest.net",
             "port": 2053,
@@ -1463,14 +2137,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trtdsk90Ix4zcxS0EH/dHMuaHBjLnR3",
+                "path": "/trVOQaS4Oy2evp74KY/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGed-shAPe-Cd8a.XZB2022.WOrKers.DEv",
+            "sni": "AgED-shApe-cd8A.xZb2022.WOrkERS.DEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1479,22 +2153,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 11 - Trojan - IPv4 - 2053",
+            "name": "💦 15 - Trojan - IPv4 - 2053",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2053,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trM5WBucTd3kGO89t8/dHMuaHBjLnR3",
+                "path": "/tryOgDDAwwyDA5vMOm/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "agEd-SHAPE-Cd8A.XZb2022.wOrKeRs.Dev",
+            "sni": "ageD-shaPe-Cd8A.Xzb2022.WorkErS.Dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1503,22 +2177,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 12 - Trojan - IPv6 - 2053",
+            "name": "💦 16 - Trojan - IPv4 - 2053",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2053,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trGSE58kdMYpxVi5RZ/dHMuaHBjLnR3",
+                "path": "/trBmxz3PTQOYocE24b/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "Aged-shapE-cD8a.XzB2022.WOrkERs.dEv",
+            "sni": "agEd-sHaPE-cD8a.xZb2022.WoRKers.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1527,7 +2201,55 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 13 - Trojan - Domain - 2083",
+            "name": "💦 17 - Trojan - IPv6 - 2053",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2053,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/tr0Thq1V1ly4VYWaYo/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "agEd-shaPE-CD8a.xZB2022.wOrkerS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 18 - Trojan - IPv6 - 2053",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2053,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trKxvfkvdt9x0IlrPb/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "AGed-ShAPe-cD8A.xzB2022.wORkeRS.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 19 - Trojan - Domain - 2083",
             "type": "trojan",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2083,
@@ -1535,14 +2257,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trsDJrJ8v60IAhCwmh/dHMuaHBjLnR3",
+                "path": "/tryeLZDLfQuDgeNfbX/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "Aged-shaPE-CD8A.xzb2022.WORKErS.DEv",
+            "sni": "agED-sHaPE-cd8A.xzB2022.wORKERS.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1551,7 +2273,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 14 - Trojan - Domain - 2083",
+            "name": "💦 20 - Trojan - Domain - 2083",
             "type": "trojan",
             "server": "www.speedtest.net",
             "port": 2083,
@@ -1559,14 +2281,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/triGBqtuXA7FR94AZX/dHMuaHBjLnR3",
+                "path": "/trtgL7EDZ053X7oeAC/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGED-shape-cd8A.XZb2022.wOrkeRS.DEV",
+            "sni": "AgEd-ShaPe-cD8a.XZb2022.WOrKerS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1575,22 +2297,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 15 - Trojan - IPv4 - 2083",
+            "name": "💦 21 - Trojan - IPv4 - 2083",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2083,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trxPi9Grwjh3X1z3DG/dHMuaHBjLnR3",
+                "path": "/tr5WZ2cefiTL9QN4pn/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "ageD-sHaPE-Cd8a.xzB2022.WoRKErS.Dev",
+            "sni": "agEd-shApe-CD8A.xzB2022.wOrkeRs.DEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1599,22 +2321,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 16 - Trojan - IPv6 - 2083",
+            "name": "💦 22 - Trojan - IPv4 - 2083",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2083,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trVXLjvFCQdhPIjxcb/dHMuaHBjLnR3",
+                "path": "/trb49MLQy15uRpmC3z/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aged-ShapE-cd8A.XzB2022.wOrKeRs.DEv",
+            "sni": "AgeD-sHaPe-Cd8a.XZB2022.wORKErs.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1623,7 +2345,55 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 17 - Trojan - Domain - 2087",
+            "name": "💦 23 - Trojan - IPv6 - 2083",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2083,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trGlI3uENrmLh0CtPZ/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "AGEd-ShaPE-cd8A.Xzb2022.WoRKeRs.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 24 - Trojan - IPv6 - 2083",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2083,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/tr1nPZfyHMbPjdoeSg/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "aGEd-shaPE-cD8A.xZb2022.WORKerS.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 25 - Trojan - Domain - 2087",
             "type": "trojan",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2087,
@@ -1631,14 +2401,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr0wCJAwouXRt2uLKE/dHMuaHBjLnR3",
+                "path": "/tr4BgDLxG9IYJuaNpC/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AgEd-shApE-cd8a.Xzb2022.WORkERs.DeV",
+            "sni": "Aged-ShAPe-cd8a.xZb2022.wOrkerS.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1647,7 +2417,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 18 - Trojan - Domain - 2087",
+            "name": "💦 26 - Trojan - Domain - 2087",
             "type": "trojan",
             "server": "www.speedtest.net",
             "port": 2087,
@@ -1655,14 +2425,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/tr2gjnfYvt3XEZ4I9E/dHMuaHBjLnR3",
+                "path": "/triyJ76mAPb2A6q0br/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGEd-sHaPE-cD8a.Xzb2022.WOrKeRs.Dev",
+            "sni": "AGED-SHAPe-cD8A.xzB2022.WorKERs.dev",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1671,22 +2441,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 19 - Trojan - IPv4 - 2087",
+            "name": "💦 27 - Trojan - IPv4 - 2087",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2087,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trWC1BEnU8gJFpigBz/dHMuaHBjLnR3",
+                "path": "/trvRlhOIrOizfe9BZA/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGed-shape-cD8a.xZB2022.WORkeRs.Dev",
+            "sni": "aGEd-shapE-cD8a.xZB2022.WoRkerS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1695,22 +2465,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 20 - Trojan - IPv6 - 2087",
+            "name": "💦 28 - Trojan - IPv4 - 2087",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2087,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trezAx2YmkaX4Lc6ZR/dHMuaHBjLnR3",
+                "path": "/trEsxCODQK2nkUqRKB/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGEd-sHApe-cD8A.xzb2022.WoRkeRS.DEV",
+            "sni": "AgeD-sHaPE-CD8a.xzB2022.woRKERS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1719,7 +2489,55 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 21 - Trojan - Domain - 2096",
+            "name": "💦 29 - Trojan - IPv6 - 2087",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2087,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/tr7CbLvQ4XM2MomlYb/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "Aged-shapE-cD8a.XZb2022.WOrKERs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 30 - Trojan - IPv6 - 2087",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2087,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/tr5cQaajT3e6Rp9Urd/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "aGeD-ShaPe-Cd8a.xzB2022.wORkerS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 31 - Trojan - Domain - 2096",
             "type": "trojan",
             "server": "aged-shape-cd8a.xzb2022.workers.dev",
             "port": 2096,
@@ -1727,14 +2545,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trUdUo4ASNA3Lc4Pa1/dHMuaHBjLnR3",
+                "path": "/trbyBoUVoQ1jrSykhH/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AGed-ShApe-Cd8A.Xzb2022.woRKerS.Dev",
+            "sni": "AgEd-shAPe-Cd8A.XzB2022.woRkErS.dEV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1743,7 +2561,7 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 22 - Trojan - Domain - 2096",
+            "name": "💦 32 - Trojan - Domain - 2096",
             "type": "trojan",
             "server": "www.speedtest.net",
             "port": 2096,
@@ -1751,14 +2569,14 @@
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trcXsxnfQd95MEKuZt/dHMuaHBjLnR3",
+                "path": "/trBXZKoKm4NVUIHJ6c/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "agED-SHape-CD8a.XzB2022.WOrKeRs.DEV",
+            "sni": "agED-sHaPe-cd8a.Xzb2022.workErS.dEv",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1767,22 +2585,22 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 23 - Trojan - IPv4 - 2096",
+            "name": "💦 33 - Trojan - IPv4 - 2096",
             "type": "trojan",
-            "server": "172.64.80.1",
+            "server": "104.21.73.212",
             "port": 2096,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trXSIGauaaSuDVJQ0F/dHMuaHBjLnR3",
+                "path": "/tr9eRLAGA1X7ARbcZF/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "AgeD-shapE-Cd8A.XzB2022.WoRKeRS.DEV",
+            "sni": "AGEd-Shape-cd8A.XZB2022.woRKerS.deV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1791,22 +2609,70 @@
             "skip-cert-verify": false
         },
         {
-            "name": "💦 24 - Trojan - IPv6 - 2096",
+            "name": "💦 34 - Trojan - IPv4 - 2096",
             "type": "trojan",
-            "server": "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "server": "172.67.166.120",
             "port": 2096,
             "password": "9hjYy*zibM1_Cegp",
             "network": "ws",
             "udp": true,
             "ws-opts": {
-                "path": "/trtn5D8c7317VxoIur/dHMuaHBjLnR3",
+                "path": "/trFENJAenulWnh4NBJ/dHMuaHBjLnR3",
                 "headers": {
                     "host": "aged-shape-cd8a.xzb2022.workers.dev"
                 },
                 "max-early-data": 2560,
                 "early-data-header-name": "Sec-WebSocket-Protocol"
             },
-            "sni": "aGEd-sHaPe-cD8A.XzB2022.worKErS.dev",
+            "sni": "AgED-ShaPe-cd8A.Xzb2022.WoRkerS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 35 - Trojan - IPv6 - 2096",
+            "type": "trojan",
+            "server": "2606:4700:3033::ac43:a678",
+            "port": 2096,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trURv7yTAudnNseFYm/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "aGEd-SHape-cD8a.xZb2022.WoRKeRs.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random",
+            "skip-cert-verify": false
+        },
+        {
+            "name": "💦 36 - Trojan - IPv6 - 2096",
+            "type": "trojan",
+            "server": "2606:4700:3033::6815:49d4",
+            "port": 2096,
+            "password": "9hjYy*zibM1_Cegp",
+            "network": "ws",
+            "udp": true,
+            "ws-opts": {
+                "path": "/trBSwiz1cuUchFxxSN/dHMuaHBjLnR3",
+                "headers": {
+                    "host": "aged-shape-cd8a.xzb2022.workers.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "AGeD-shAPE-cD8A.XZB2022.workers.DeV",
             "alpn": [
                 "h2",
                 "http/1.1"
@@ -1824,79 +2690,117 @@
                 "💦 1 - VLESS - Domain - 443",
                 "💦 2 - VLESS - Domain - 443",
                 "💦 3 - VLESS - IPv4 - 443",
-                "💦 4 - VLESS - IPv6 - 443",
-                "💦 5 - VLESS - Domain - 8443",
-                "💦 6 - VLESS - Domain - 8443",
-                "💦 7 - VLESS - IPv4 - 8443",
-                "💦 8 - VLESS - IPv6 - 8443",
-                "💦 9 - VLESS - Domain - 2053",
-                "💦 10 - VLESS - Domain - 2053",
-                "💦 11 - VLESS - IPv4 - 2053",
-                "💦 12 - VLESS - IPv6 - 2053",
-                "💦 13 - VLESS - Domain - 2083",
-                "💦 14 - VLESS - Domain - 2083",
-                "💦 15 - VLESS - IPv4 - 2083",
-                "💦 16 - VLESS - IPv6 - 2083",
-                "💦 17 - VLESS - Domain - 2087",
-                "💦 18 - VLESS - Domain - 2087",
-                "💦 19 - VLESS - IPv4 - 2087",
-                "💦 20 - VLESS - IPv6 - 2087",
-                "💦 21 - VLESS - Domain - 2096",
-                "💦 22 - VLESS - Domain - 2096",
-                "💦 23 - VLESS - IPv4 - 2096",
-                "💦 24 - VLESS - IPv6 - 2096",
-                "💦 25 - VLESS - Domain - 80",
-                "💦 26 - VLESS - Domain - 80",
-                "💦 27 - VLESS - IPv4 - 80",
-                "💦 28 - VLESS - IPv6 - 80",
-                "💦 29 - VLESS - Domain - 8080",
-                "💦 30 - VLESS - Domain - 8080",
-                "💦 31 - VLESS - IPv4 - 8080",
-                "💦 32 - VLESS - IPv6 - 8080",
-                "💦 33 - VLESS - Domain - 2052",
-                "💦 34 - VLESS - Domain - 2052",
-                "💦 35 - VLESS - IPv4 - 2052",
-                "💦 36 - VLESS - IPv6 - 2052",
-                "💦 37 - VLESS - Domain - 2082",
-                "💦 38 - VLESS - Domain - 2082",
-                "💦 39 - VLESS - IPv4 - 2082",
-                "💦 40 - VLESS - IPv6 - 2082",
-                "💦 41 - VLESS - Domain - 2086",
-                "💦 42 - VLESS - Domain - 2086",
-                "💦 43 - VLESS - IPv4 - 2086",
-                "💦 44 - VLESS - IPv6 - 2086",
-                "💦 45 - VLESS - Domain - 2095",
-                "💦 46 - VLESS - Domain - 2095",
-                "💦 47 - VLESS - IPv4 - 2095",
-                "💦 48 - VLESS - IPv6 - 2095",
-                "💦 49 - VLESS - Domain - 8880",
-                "💦 50 - VLESS - Domain - 8880",
-                "💦 51 - VLESS - IPv4 - 8880",
-                "💦 52 - VLESS - IPv6 - 8880",
+                "💦 4 - VLESS - IPv4 - 443",
+                "💦 5 - VLESS - IPv6 - 443",
+                "💦 6 - VLESS - IPv6 - 443",
+                "💦 7 - VLESS - Domain - 8443",
+                "💦 8 - VLESS - Domain - 8443",
+                "💦 9 - VLESS - IPv4 - 8443",
+                "💦 10 - VLESS - IPv4 - 8443",
+                "💦 11 - VLESS - IPv6 - 8443",
+                "💦 12 - VLESS - IPv6 - 8443",
+                "💦 13 - VLESS - Domain - 2053",
+                "💦 14 - VLESS - Domain - 2053",
+                "💦 15 - VLESS - IPv4 - 2053",
+                "💦 16 - VLESS - IPv4 - 2053",
+                "💦 17 - VLESS - IPv6 - 2053",
+                "💦 18 - VLESS - IPv6 - 2053",
+                "💦 19 - VLESS - Domain - 2083",
+                "💦 20 - VLESS - Domain - 2083",
+                "💦 21 - VLESS - IPv4 - 2083",
+                "💦 22 - VLESS - IPv4 - 2083",
+                "💦 23 - VLESS - IPv6 - 2083",
+                "💦 24 - VLESS - IPv6 - 2083",
+                "💦 25 - VLESS - Domain - 2087",
+                "💦 26 - VLESS - Domain - 2087",
+                "💦 27 - VLESS - IPv4 - 2087",
+                "💦 28 - VLESS - IPv4 - 2087",
+                "💦 29 - VLESS - IPv6 - 2087",
+                "💦 30 - VLESS - IPv6 - 2087",
+                "💦 31 - VLESS - Domain - 2096",
+                "💦 32 - VLESS - Domain - 2096",
+                "💦 33 - VLESS - IPv4 - 2096",
+                "💦 34 - VLESS - IPv4 - 2096",
+                "💦 35 - VLESS - IPv6 - 2096",
+                "💦 36 - VLESS - IPv6 - 2096",
+                "💦 37 - VLESS - Domain - 80",
+                "💦 38 - VLESS - Domain - 80",
+                "💦 39 - VLESS - IPv4 - 80",
+                "💦 40 - VLESS - IPv4 - 80",
+                "💦 41 - VLESS - IPv6 - 80",
+                "💦 42 - VLESS - IPv6 - 80",
+                "💦 43 - VLESS - Domain - 8080",
+                "💦 44 - VLESS - Domain - 8080",
+                "💦 45 - VLESS - IPv4 - 8080",
+                "💦 46 - VLESS - IPv4 - 8080",
+                "💦 47 - VLESS - IPv6 - 8080",
+                "💦 48 - VLESS - IPv6 - 8080",
+                "💦 49 - VLESS - Domain - 2052",
+                "💦 50 - VLESS - Domain - 2052",
+                "💦 51 - VLESS - IPv4 - 2052",
+                "💦 52 - VLESS - IPv4 - 2052",
+                "💦 53 - VLESS - IPv6 - 2052",
+                "💦 54 - VLESS - IPv6 - 2052",
+                "💦 55 - VLESS - Domain - 2082",
+                "💦 56 - VLESS - Domain - 2082",
+                "💦 57 - VLESS - IPv4 - 2082",
+                "💦 58 - VLESS - IPv4 - 2082",
+                "💦 59 - VLESS - IPv6 - 2082",
+                "💦 60 - VLESS - IPv6 - 2082",
+                "💦 61 - VLESS - Domain - 2086",
+                "💦 62 - VLESS - Domain - 2086",
+                "💦 63 - VLESS - IPv4 - 2086",
+                "💦 64 - VLESS - IPv4 - 2086",
+                "💦 65 - VLESS - IPv6 - 2086",
+                "💦 66 - VLESS - IPv6 - 2086",
+                "💦 67 - VLESS - Domain - 2095",
+                "💦 68 - VLESS - Domain - 2095",
+                "💦 69 - VLESS - IPv4 - 2095",
+                "💦 70 - VLESS - IPv4 - 2095",
+                "💦 71 - VLESS - IPv6 - 2095",
+                "💦 72 - VLESS - IPv6 - 2095",
+                "💦 73 - VLESS - Domain - 8880",
+                "💦 74 - VLESS - Domain - 8880",
+                "💦 75 - VLESS - IPv4 - 8880",
+                "💦 76 - VLESS - IPv4 - 8880",
+                "💦 77 - VLESS - IPv6 - 8880",
+                "💦 78 - VLESS - IPv6 - 8880",
                 "💦 1 - Trojan - Domain - 443",
                 "💦 2 - Trojan - Domain - 443",
                 "💦 3 - Trojan - IPv4 - 443",
-                "💦 4 - Trojan - IPv6 - 443",
-                "💦 5 - Trojan - Domain - 8443",
-                "💦 6 - Trojan - Domain - 8443",
-                "💦 7 - Trojan - IPv4 - 8443",
-                "💦 8 - Trojan - IPv6 - 8443",
-                "💦 9 - Trojan - Domain - 2053",
-                "💦 10 - Trojan - Domain - 2053",
-                "💦 11 - Trojan - IPv4 - 2053",
-                "💦 12 - Trojan - IPv6 - 2053",
-                "💦 13 - Trojan - Domain - 2083",
-                "💦 14 - Trojan - Domain - 2083",
-                "💦 15 - Trojan - IPv4 - 2083",
-                "💦 16 - Trojan - IPv6 - 2083",
-                "💦 17 - Trojan - Domain - 2087",
-                "💦 18 - Trojan - Domain - 2087",
-                "💦 19 - Trojan - IPv4 - 2087",
-                "💦 20 - Trojan - IPv6 - 2087",
-                "💦 21 - Trojan - Domain - 2096",
-                "💦 22 - Trojan - Domain - 2096",
-                "💦 23 - Trojan - IPv4 - 2096",
-                "💦 24 - Trojan - IPv6 - 2096"
+                "💦 4 - Trojan - IPv4 - 443",
+                "💦 5 - Trojan - IPv6 - 443",
+                "💦 6 - Trojan - IPv6 - 443",
+                "💦 7 - Trojan - Domain - 8443",
+                "💦 8 - Trojan - Domain - 8443",
+                "💦 9 - Trojan - IPv4 - 8443",
+                "💦 10 - Trojan - IPv4 - 8443",
+                "💦 11 - Trojan - IPv6 - 8443",
+                "💦 12 - Trojan - IPv6 - 8443",
+                "💦 13 - Trojan - Domain - 2053",
+                "💦 14 - Trojan - Domain - 2053",
+                "💦 15 - Trojan - IPv4 - 2053",
+                "💦 16 - Trojan - IPv4 - 2053",
+                "💦 17 - Trojan - IPv6 - 2053",
+                "💦 18 - Trojan - IPv6 - 2053",
+                "💦 19 - Trojan - Domain - 2083",
+                "💦 20 - Trojan - Domain - 2083",
+                "💦 21 - Trojan - IPv4 - 2083",
+                "💦 22 - Trojan - IPv4 - 2083",
+                "💦 23 - Trojan - IPv6 - 2083",
+                "💦 24 - Trojan - IPv6 - 2083",
+                "💦 25 - Trojan - Domain - 2087",
+                "💦 26 - Trojan - Domain - 2087",
+                "💦 27 - Trojan - IPv4 - 2087",
+                "💦 28 - Trojan - IPv4 - 2087",
+                "💦 29 - Trojan - IPv6 - 2087",
+                "💦 30 - Trojan - IPv6 - 2087",
+                "💦 31 - Trojan - Domain - 2096",
+                "💦 32 - Trojan - Domain - 2096",
+                "💦 33 - Trojan - IPv4 - 2096",
+                "💦 34 - Trojan - IPv4 - 2096",
+                "💦 35 - Trojan - IPv6 - 2096",
+                "💦 36 - Trojan - IPv6 - 2096"
             ]
         },
         {
@@ -1909,79 +2813,117 @@
                 "💦 1 - VLESS - Domain - 443",
                 "💦 2 - VLESS - Domain - 443",
                 "💦 3 - VLESS - IPv4 - 443",
-                "💦 4 - VLESS - IPv6 - 443",
-                "💦 5 - VLESS - Domain - 8443",
-                "💦 6 - VLESS - Domain - 8443",
-                "💦 7 - VLESS - IPv4 - 8443",
-                "💦 8 - VLESS - IPv6 - 8443",
-                "💦 9 - VLESS - Domain - 2053",
-                "💦 10 - VLESS - Domain - 2053",
-                "💦 11 - VLESS - IPv4 - 2053",
-                "💦 12 - VLESS - IPv6 - 2053",
-                "💦 13 - VLESS - Domain - 2083",
-                "💦 14 - VLESS - Domain - 2083",
-                "💦 15 - VLESS - IPv4 - 2083",
-                "💦 16 - VLESS - IPv6 - 2083",
-                "💦 17 - VLESS - Domain - 2087",
-                "💦 18 - VLESS - Domain - 2087",
-                "💦 19 - VLESS - IPv4 - 2087",
-                "💦 20 - VLESS - IPv6 - 2087",
-                "💦 21 - VLESS - Domain - 2096",
-                "💦 22 - VLESS - Domain - 2096",
-                "💦 23 - VLESS - IPv4 - 2096",
-                "💦 24 - VLESS - IPv6 - 2096",
-                "💦 25 - VLESS - Domain - 80",
-                "💦 26 - VLESS - Domain - 80",
-                "💦 27 - VLESS - IPv4 - 80",
-                "💦 28 - VLESS - IPv6 - 80",
-                "💦 29 - VLESS - Domain - 8080",
-                "💦 30 - VLESS - Domain - 8080",
-                "💦 31 - VLESS - IPv4 - 8080",
-                "💦 32 - VLESS - IPv6 - 8080",
-                "💦 33 - VLESS - Domain - 2052",
-                "💦 34 - VLESS - Domain - 2052",
-                "💦 35 - VLESS - IPv4 - 2052",
-                "💦 36 - VLESS - IPv6 - 2052",
-                "💦 37 - VLESS - Domain - 2082",
-                "💦 38 - VLESS - Domain - 2082",
-                "💦 39 - VLESS - IPv4 - 2082",
-                "💦 40 - VLESS - IPv6 - 2082",
-                "💦 41 - VLESS - Domain - 2086",
-                "💦 42 - VLESS - Domain - 2086",
-                "💦 43 - VLESS - IPv4 - 2086",
-                "💦 44 - VLESS - IPv6 - 2086",
-                "💦 45 - VLESS - Domain - 2095",
-                "💦 46 - VLESS - Domain - 2095",
-                "💦 47 - VLESS - IPv4 - 2095",
-                "💦 48 - VLESS - IPv6 - 2095",
-                "💦 49 - VLESS - Domain - 8880",
-                "💦 50 - VLESS - Domain - 8880",
-                "💦 51 - VLESS - IPv4 - 8880",
-                "💦 52 - VLESS - IPv6 - 8880",
+                "💦 4 - VLESS - IPv4 - 443",
+                "💦 5 - VLESS - IPv6 - 443",
+                "💦 6 - VLESS - IPv6 - 443",
+                "💦 7 - VLESS - Domain - 8443",
+                "💦 8 - VLESS - Domain - 8443",
+                "💦 9 - VLESS - IPv4 - 8443",
+                "💦 10 - VLESS - IPv4 - 8443",
+                "💦 11 - VLESS - IPv6 - 8443",
+                "💦 12 - VLESS - IPv6 - 8443",
+                "💦 13 - VLESS - Domain - 2053",
+                "💦 14 - VLESS - Domain - 2053",
+                "💦 15 - VLESS - IPv4 - 2053",
+                "💦 16 - VLESS - IPv4 - 2053",
+                "💦 17 - VLESS - IPv6 - 2053",
+                "💦 18 - VLESS - IPv6 - 2053",
+                "💦 19 - VLESS - Domain - 2083",
+                "💦 20 - VLESS - Domain - 2083",
+                "💦 21 - VLESS - IPv4 - 2083",
+                "💦 22 - VLESS - IPv4 - 2083",
+                "💦 23 - VLESS - IPv6 - 2083",
+                "💦 24 - VLESS - IPv6 - 2083",
+                "💦 25 - VLESS - Domain - 2087",
+                "💦 26 - VLESS - Domain - 2087",
+                "💦 27 - VLESS - IPv4 - 2087",
+                "💦 28 - VLESS - IPv4 - 2087",
+                "💦 29 - VLESS - IPv6 - 2087",
+                "💦 30 - VLESS - IPv6 - 2087",
+                "💦 31 - VLESS - Domain - 2096",
+                "💦 32 - VLESS - Domain - 2096",
+                "💦 33 - VLESS - IPv4 - 2096",
+                "💦 34 - VLESS - IPv4 - 2096",
+                "💦 35 - VLESS - IPv6 - 2096",
+                "💦 36 - VLESS - IPv6 - 2096",
+                "💦 37 - VLESS - Domain - 80",
+                "💦 38 - VLESS - Domain - 80",
+                "💦 39 - VLESS - IPv4 - 80",
+                "💦 40 - VLESS - IPv4 - 80",
+                "💦 41 - VLESS - IPv6 - 80",
+                "💦 42 - VLESS - IPv6 - 80",
+                "💦 43 - VLESS - Domain - 8080",
+                "💦 44 - VLESS - Domain - 8080",
+                "💦 45 - VLESS - IPv4 - 8080",
+                "💦 46 - VLESS - IPv4 - 8080",
+                "💦 47 - VLESS - IPv6 - 8080",
+                "💦 48 - VLESS - IPv6 - 8080",
+                "💦 49 - VLESS - Domain - 2052",
+                "💦 50 - VLESS - Domain - 2052",
+                "💦 51 - VLESS - IPv4 - 2052",
+                "💦 52 - VLESS - IPv4 - 2052",
+                "💦 53 - VLESS - IPv6 - 2052",
+                "💦 54 - VLESS - IPv6 - 2052",
+                "💦 55 - VLESS - Domain - 2082",
+                "💦 56 - VLESS - Domain - 2082",
+                "💦 57 - VLESS - IPv4 - 2082",
+                "💦 58 - VLESS - IPv4 - 2082",
+                "💦 59 - VLESS - IPv6 - 2082",
+                "💦 60 - VLESS - IPv6 - 2082",
+                "💦 61 - VLESS - Domain - 2086",
+                "💦 62 - VLESS - Domain - 2086",
+                "💦 63 - VLESS - IPv4 - 2086",
+                "💦 64 - VLESS - IPv4 - 2086",
+                "💦 65 - VLESS - IPv6 - 2086",
+                "💦 66 - VLESS - IPv6 - 2086",
+                "💦 67 - VLESS - Domain - 2095",
+                "💦 68 - VLESS - Domain - 2095",
+                "💦 69 - VLESS - IPv4 - 2095",
+                "💦 70 - VLESS - IPv4 - 2095",
+                "💦 71 - VLESS - IPv6 - 2095",
+                "💦 72 - VLESS - IPv6 - 2095",
+                "💦 73 - VLESS - Domain - 8880",
+                "💦 74 - VLESS - Domain - 8880",
+                "💦 75 - VLESS - IPv4 - 8880",
+                "💦 76 - VLESS - IPv4 - 8880",
+                "💦 77 - VLESS - IPv6 - 8880",
+                "💦 78 - VLESS - IPv6 - 8880",
                 "💦 1 - Trojan - Domain - 443",
                 "💦 2 - Trojan - Domain - 443",
                 "💦 3 - Trojan - IPv4 - 443",
-                "💦 4 - Trojan - IPv6 - 443",
-                "💦 5 - Trojan - Domain - 8443",
-                "💦 6 - Trojan - Domain - 8443",
-                "💦 7 - Trojan - IPv4 - 8443",
-                "💦 8 - Trojan - IPv6 - 8443",
-                "💦 9 - Trojan - Domain - 2053",
-                "💦 10 - Trojan - Domain - 2053",
-                "💦 11 - Trojan - IPv4 - 2053",
-                "💦 12 - Trojan - IPv6 - 2053",
-                "💦 13 - Trojan - Domain - 2083",
-                "💦 14 - Trojan - Domain - 2083",
-                "💦 15 - Trojan - IPv4 - 2083",
-                "💦 16 - Trojan - IPv6 - 2083",
-                "💦 17 - Trojan - Domain - 2087",
-                "💦 18 - Trojan - Domain - 2087",
-                "💦 19 - Trojan - IPv4 - 2087",
-                "💦 20 - Trojan - IPv6 - 2087",
-                "💦 21 - Trojan - Domain - 2096",
-                "💦 22 - Trojan - Domain - 2096",
-                "💦 23 - Trojan - IPv4 - 2096",
-                "💦 24 - Trojan - IPv6 - 2096"
+                "💦 4 - Trojan - IPv4 - 443",
+                "💦 5 - Trojan - IPv6 - 443",
+                "💦 6 - Trojan - IPv6 - 443",
+                "💦 7 - Trojan - Domain - 8443",
+                "💦 8 - Trojan - Domain - 8443",
+                "💦 9 - Trojan - IPv4 - 8443",
+                "💦 10 - Trojan - IPv4 - 8443",
+                "💦 11 - Trojan - IPv6 - 8443",
+                "💦 12 - Trojan - IPv6 - 8443",
+                "💦 13 - Trojan - Domain - 2053",
+                "💦 14 - Trojan - Domain - 2053",
+                "💦 15 - Trojan - IPv4 - 2053",
+                "💦 16 - Trojan - IPv4 - 2053",
+                "💦 17 - Trojan - IPv6 - 2053",
+                "💦 18 - Trojan - IPv6 - 2053",
+                "💦 19 - Trojan - Domain - 2083",
+                "💦 20 - Trojan - Domain - 2083",
+                "💦 21 - Trojan - IPv4 - 2083",
+                "💦 22 - Trojan - IPv4 - 2083",
+                "💦 23 - Trojan - IPv6 - 2083",
+                "💦 24 - Trojan - IPv6 - 2083",
+                "💦 25 - Trojan - Domain - 2087",
+                "💦 26 - Trojan - Domain - 2087",
+                "💦 27 - Trojan - IPv4 - 2087",
+                "💦 28 - Trojan - IPv4 - 2087",
+                "💦 29 - Trojan - IPv6 - 2087",
+                "💦 30 - Trojan - IPv6 - 2087",
+                "💦 31 - Trojan - Domain - 2096",
+                "💦 32 - Trojan - Domain - 2096",
+                "💦 33 - Trojan - IPv4 - 2096",
+                "💦 34 - Trojan - IPv4 - 2096",
+                "💦 35 - Trojan - IPv6 - 2096",
+                "💦 36 - Trojan - IPv6 - 2096"
             ]
         }
     ],
